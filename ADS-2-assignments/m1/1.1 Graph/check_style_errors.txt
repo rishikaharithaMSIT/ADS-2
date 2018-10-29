@@ -90,6 +90,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:56:29: Parameter v should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:56:36: Parameter w should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:57: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:70:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:70:38: Parameter v should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:73:9: Missing a Javadoc comment. [JavadocMethod]
@@ -154,4 +155,4 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:283:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:286: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 119 errors.
+Checkstyle ends with 120 errors.

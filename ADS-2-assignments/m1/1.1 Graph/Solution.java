@@ -57,7 +57,7 @@ class List implements Graph {
 		if (v == w || hasEdge(v, w)) return;
 		if (table.contains(v)) {
 			table.get(v).add(w);
-			System.out.println(table.get(v) + " contains");
+			System.out.println(table.get(v) + " contains " + table.get(v).size());
 		} else {
 			table.put(v, new Bag<Integer>());
 			table.get(v).add(w);

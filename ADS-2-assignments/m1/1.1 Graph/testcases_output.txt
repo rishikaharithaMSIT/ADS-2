@@ -18,17 +18,17 @@ Haryana: Gujarat Delhi
 Your Output: 
 Bag@2f7c7260
 Bag@2d209079
-Bag@2f7c7260 contains
-Bag@67b64c45
-Bag@4411d970
-Bag@6442b0a6
-Bag@2f7c7260 contains
-Bag@60f82f98
-Bag@67b64c45 contains
-Bag@2f7c7260 contains
-Bag@35f983a6
-Bag@67b64c45 contains
-Bag@6442b0a6 contains
+Bag@2f7c7260 contains 2
+Bag@6108b2d7
+Bag@1554909b
+Bag@6bf256fa
+Bag@2f7c7260 contains 3
+Bag@6cd8737
+Bag@6108b2d7 contains 2
+Bag@2f7c7260 contains 4
+Bag@22f71333
+Bag@6108b2d7 contains 3
+Bag@6bf256fa contains 2
 13 vertices, 13 edges
 Bihar: Assam 
 Andaman and Nicobar: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
@@ -116,76 +116,76 @@ West Bengal: Uttar Pradesh Bihar
 Your Output: 
 Bag@2f7c7260
 Bag@2d209079
-Bag@2f7c7260 contains
-Bag@67b64c45
-Bag@4411d970
-Bag@6442b0a6
-Bag@2f7c7260 contains
-Bag@60f82f98
-Bag@67b64c45 contains
-Bag@2f7c7260 contains
-Bag@35f983a6
-Bag@67b64c45 contains
-Bag@6442b0a6 contains
-Bag@7f690630
-Bag@edf4efb
-Bag@7f690630 contains
-Bag@2f7a2457
-Bag@566776ad
+Bag@2f7c7260 contains 2
 Bag@6108b2d7
-Bag@7f690630 contains
 Bag@1554909b
-Bag@2f7a2457 contains
-Bag@7f690630 contains
 Bag@6bf256fa
-Bag@2f7a2457 contains
-Bag@6108b2d7 contains
-Bag@2f7c7260 contains
-Bag@2d209079 contains
-Bag@2f7c7260 contains
-Bag@67b64c45 contains
-Bag@4411d970 contains
-Bag@6442b0a6 contains
-Bag@2f7c7260 contains
-Bag@60f82f98 contains
-Bag@67b64c45 contains
-Bag@2f7c7260 contains
-Bag@35f983a6 contains
-Bag@67b64c45 contains
-Bag@6442b0a6 contains
+Bag@2f7c7260 contains 3
 Bag@6cd8737
+Bag@6108b2d7 contains 2
+Bag@2f7c7260 contains 4
 Bag@22f71333
-Bag@6cd8737 contains
+Bag@6108b2d7 contains 3
+Bag@6bf256fa contains 2
 Bag@13969fbe
 Bag@6aaa5eb0
+Bag@13969fbe contains 2
 Bag@3498ed
-Bag@6cd8737 contains
 Bag@1a407d53
-Bag@13969fbe contains
-Bag@6cd8737 contains
 Bag@3d8c7aca
-Bag@13969fbe contains
-Bag@3498ed contains
-Bag@2f7c7260 contains
-Bag@2d209079 contains
-Bag@2f7c7260 contains
-Bag@67b64c45 contains
-Bag@4411d970 contains
-Bag@6442b0a6 contains
-Bag@2f7c7260 contains
-Bag@60f82f98 contains
-Bag@67b64c45 contains
-Bag@2f7c7260 contains
-Bag@35f983a6 contains
-Bag@67b64c45 contains
-Bag@6442b0a6 contains
+Bag@13969fbe contains 3
 Bag@5ebec15
+Bag@3498ed contains 2
+Bag@13969fbe contains 4
 Bag@21bcffb5
-Bag@5ebec15 contains
+Bag@3498ed contains 3
+Bag@3d8c7aca contains 2
+Bag@2f7c7260 contains 5
+Bag@2d209079 contains 2
+Bag@2f7c7260 contains 6
+Bag@6108b2d7 contains 4
+Bag@1554909b contains 2
+Bag@6bf256fa contains 3
+Bag@2f7c7260 contains 7
+Bag@6cd8737 contains 2
+Bag@6108b2d7 contains 5
+Bag@2f7c7260 contains 8
+Bag@22f71333 contains 2
+Bag@6108b2d7 contains 6
+Bag@6bf256fa contains 4
 Bag@380fb434
-Bag@5ebec15 contains
-Bag@5ebec15 contains
-Bag@380fb434 contains
+Bag@668bc3d5
+Bag@380fb434 contains 2
+Bag@3cda1055
+Bag@7a5d012c
+Bag@3fb6a447
+Bag@380fb434 contains 3
+Bag@79b4d0f
+Bag@3cda1055 contains 2
+Bag@380fb434 contains 4
+Bag@6b2fad11
+Bag@3cda1055 contains 3
+Bag@3fb6a447 contains 2
+Bag@2f7c7260 contains 9
+Bag@2d209079 contains 3
+Bag@2f7c7260 contains 10
+Bag@6108b2d7 contains 7
+Bag@1554909b contains 3
+Bag@6bf256fa contains 5
+Bag@2f7c7260 contains 11
+Bag@6cd8737 contains 3
+Bag@6108b2d7 contains 8
+Bag@2f7c7260 contains 12
+Bag@22f71333 contains 3
+Bag@6108b2d7 contains 9
+Bag@6bf256fa contains 6
+Bag@79698539
+Bag@73f792cf
+Bag@79698539 contains 2
+Bag@2ed94a8b
+Bag@79698539 contains 3
+Bag@79698539 contains 4
+Bag@2ed94a8b contains 2
 36 vertices, 72 edges
 Nagaland: Assam 
 Maharashtra: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
