@@ -68,6 +68,7 @@ class List implements Graph {
 		return table.keys();
 	}
 	public boolean hasEdge(int v, int w) {
+		if(table.contains(v) == false) return false;
 		Bag<Integer> b = table.get(v);
 		for (Integer each : b) {
 			if (each == w) return true;

@@ -16,10 +16,8 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at List.hasEdge(Solution.java:72)
-	at List.addEdge(Solution.java:57)
-	at Solution.main(Solution.java:90)
+13 vertices, 0 edges
+No edges
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -97,10 +95,8 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at List.hasEdge(Solution.java:72)
-	at List.addEdge(Solution.java:57)
-	at Solution.main(Solution.java:90)
+36 vertices, 0 edges
+No edges
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
