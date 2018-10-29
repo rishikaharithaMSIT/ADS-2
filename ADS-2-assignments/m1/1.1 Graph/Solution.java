@@ -185,7 +185,9 @@ class List implements Graph {
      */
     public void addEdge(final int v, final int w) {
         edges++;
-        if (v == w || hasEdge(v, w)) edges--;
+        if (v == w || hasEdge(v, w)) {
+            edges--;
+        }
         if (table.contains(v)) {
             table.get(v).add(w);
 
@@ -222,10 +224,14 @@ class List implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(final int v, final int w) {
-        if (table.contains(v) == false) return false;
+        if (table.contains(v) == false) {
+            return false;
+        }
         Bag<Integer> b = table.get(v);
         for (Integer each : b) {
-            if (each == w) return true;
+            if (each == w) {
+                return true;
+            }
         }
         return false;
     }
