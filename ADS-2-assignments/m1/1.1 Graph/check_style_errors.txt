@@ -107,6 +107,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:91:33: Parameter args should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:102: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:104: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:115:39: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:131: Line is longer than 80 characters (found 101). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:133: Line is longer than 80 characters (found 102). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:140: Line is longer than 80 characters (found 81). [LineLength]
@@ -156,4 +157,4 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:291:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:294: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 121 errors.
+Checkstyle ends with 122 errors.
