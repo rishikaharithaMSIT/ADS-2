@@ -30,13 +30,13 @@ Bag@22f71333
 Bag@6108b2d7 contains 3
 Bag@6bf256fa contains 2
 13 vertices, 13 edges
-Bihar: Assam 
-Andaman and Nicobar: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
-Chandigarh: Assam Bihar 
-Delhi: Gujarat Goa Haryana 
-Chhattisgarh: Bihar 
-Dadra and Nagar Haveli: Daman and Diu 
-Gujarat: Haryana
+4: 3 
+0: 6 2 1 5 
+5: 3 4 
+9: 11 10 12 
+6: 4 
+7: 8 
+11: 12
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -187,30 +187,30 @@ Bag@79698539 contains 3
 Bag@79698539 contains 4
 Bag@2ed94a8b contains 2
 36 vertices, 72 edges
-Nagaland: Assam 
-Maharashtra: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
-Karnataka: Bihar 
-Bihar: Mizoram Himachal Pradesh Assam 
-Andaman and Nicobar: Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
-Odisha: Assam Bihar 
-Sikkim: Gujarat Goa Haryana 
-Kerala: Daman and Diu 
-Manipur: Haryana 
-Chandigarh: Mizoram Nagaland Himachal Pradesh Jammu and Kashmir Assam Bihar 
-Delhi: Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana 
-Uttarakhand: Assam 
-Tamil Nadu: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
-Puducherry: Bihar 
-Jammu and Kashmir: Assam 
-Goa: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
-Chhattisgarh: Nagaland Jammu and Kashmir Bihar 
-West Bengal: Uttar Pradesh Bihar 
-Punjab: Daman and Diu 
-Telangana: Haryana 
-Jharkhand: Assam Bihar 
-Madhya Pradesh: Gujarat Goa Haryana 
-Dadra and Nagar Haveli: Rajasthan Lakshadweep Daman and Diu 
-Gujarat: Tripura Meghalaya Haryana
+24: 3 
+20: 6 2 1 5 
+16: 4 
+4: 23 13 3 
+0: 26 22 21 25 16 12 11 15 6 2 1 5 
+25: 3 4 
+29: 11 10 12 
+17: 8 
+21: 12 
+5: 23 24 13 14 3 4 
+9: 31 30 32 21 20 22 11 10 12 
+34: 3 
+30: 6 2 1 5 
+26: 4 
+14: 3 
+10: 6 2 1 5 
+6: 24 14 4 
+35: 33 4 
+27: 8 
+31: 12 
+15: 3 4 
+19: 11 10 12 
+7: 28 18 8 
+11: 32 22 12
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
