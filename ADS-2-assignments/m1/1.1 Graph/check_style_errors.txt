@@ -98,7 +98,8 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:70:39: Parameter w should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:72:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:72:38: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:72:38: Must have at least one statement. [EmptyBlock]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:73: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:73:27: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:78: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:78:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:79:9: Missing a Javadoc comment. [JavadocMethod]
@@ -154,4 +155,4 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:269:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:272: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 119 errors.
+Checkstyle ends with 120 errors.

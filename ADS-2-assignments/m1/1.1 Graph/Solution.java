@@ -70,7 +70,7 @@ class List implements Graph {
 	public boolean hasEdge(int v, int w) {
 		Bag<Integer> b = table.get(v);
 		for(Integer each : b){
-
+			if(each == w) return true;
 		}
 		return false;
 	}
