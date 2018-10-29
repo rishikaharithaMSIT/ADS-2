@@ -16,8 +16,14 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-13 vertices, 0 edges
-No edges
+13 vertices, 13 edges
+Bihar: Assam 
+Andaman and Nicobar: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
+Chandigarh: Assam Bihar 
+Delhi: Gujarat Goa Haryana 
+Chhattisgarh: Bihar 
+Dadra and Nagar Haveli: Daman and Diu 
+Gujarat: Haryana
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -95,8 +101,31 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-36 vertices, 0 edges
-No edges
+36 vertices, 72 edges
+Nagaland: Assam 
+Maharashtra: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
+Karnataka: Bihar 
+Bihar: Mizoram Himachal Pradesh Assam 
+Andaman and Nicobar: Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
+Odisha: Assam Bihar 
+Sikkim: Gujarat Goa Haryana 
+Kerala: Daman and Diu 
+Manipur: Haryana 
+Chandigarh: Mizoram Nagaland Himachal Pradesh Jammu and Kashmir Assam Bihar 
+Delhi: Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana 
+Uttarakhand: Assam 
+Tamil Nadu: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
+Puducherry: Bihar 
+Jammu and Kashmir: Assam 
+Goa: Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh 
+Chhattisgarh: Nagaland Jammu and Kashmir Bihar 
+West Bengal: Uttar Pradesh Bihar 
+Punjab: Daman and Diu 
+Telangana: Haryana 
+Jharkhand: Assam Bihar 
+Madhya Pradesh: Gujarat Goa Haryana 
+Dadra and Nagar Haveli: Rajasthan Lakshadweep Daman and Diu 
+Gujarat: Tripura Meghalaya Haryana
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
