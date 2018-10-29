@@ -16,27 +16,20 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-Bag@2f7c7260
-Bag@2d209079
-Bag@2f7c7260 contains 2
-Bag@6108b2d7
-Bag@1554909b
-Bag@6bf256fa
-Bag@2f7c7260 contains 3
-Bag@6cd8737
-Bag@6108b2d7 contains 2
-Bag@2f7c7260 contains 4
-Bag@22f71333
-Bag@6108b2d7 contains 3
-Bag@6bf256fa contains 2
 13 vertices, 13 edges
-4: 3 
+8: 7 
+12: 11 9 
+4: 5 6 3 
 0: 6 2 1 5 
-5: 3 4 
 9: 11 10 12 
-6: 4 
+1: 0 
+5: 3 4 0 
+10: 9 
+2: 0 
+6: 0 4 
 7: 8 
-11: 12
+11: 9 12 
+3: 5 4
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -114,103 +107,43 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-Bag@2f7c7260
-Bag@2d209079
-Bag@2f7c7260 contains 2
-Bag@6108b2d7
-Bag@1554909b
-Bag@6bf256fa
-Bag@2f7c7260 contains 3
-Bag@6cd8737
-Bag@6108b2d7 contains 2
-Bag@2f7c7260 contains 4
-Bag@22f71333
-Bag@6108b2d7 contains 3
-Bag@6bf256fa contains 2
-Bag@13969fbe
-Bag@6aaa5eb0
-Bag@13969fbe contains 2
-Bag@3498ed
-Bag@1a407d53
-Bag@3d8c7aca
-Bag@13969fbe contains 3
-Bag@5ebec15
-Bag@3498ed contains 2
-Bag@13969fbe contains 4
-Bag@21bcffb5
-Bag@3498ed contains 3
-Bag@3d8c7aca contains 2
-Bag@2f7c7260 contains 5
-Bag@2d209079 contains 2
-Bag@2f7c7260 contains 6
-Bag@6108b2d7 contains 4
-Bag@1554909b contains 2
-Bag@6bf256fa contains 3
-Bag@2f7c7260 contains 7
-Bag@6cd8737 contains 2
-Bag@6108b2d7 contains 5
-Bag@2f7c7260 contains 8
-Bag@22f71333 contains 2
-Bag@6108b2d7 contains 6
-Bag@6bf256fa contains 4
-Bag@380fb434
-Bag@668bc3d5
-Bag@380fb434 contains 2
-Bag@3cda1055
-Bag@7a5d012c
-Bag@3fb6a447
-Bag@380fb434 contains 3
-Bag@79b4d0f
-Bag@3cda1055 contains 2
-Bag@380fb434 contains 4
-Bag@6b2fad11
-Bag@3cda1055 contains 3
-Bag@3fb6a447 contains 2
-Bag@2f7c7260 contains 9
-Bag@2d209079 contains 3
-Bag@2f7c7260 contains 10
-Bag@6108b2d7 contains 7
-Bag@1554909b contains 3
-Bag@6bf256fa contains 5
-Bag@2f7c7260 contains 11
-Bag@6cd8737 contains 3
-Bag@6108b2d7 contains 8
-Bag@2f7c7260 contains 12
-Bag@22f71333 contains 3
-Bag@6108b2d7 contains 9
-Bag@6bf256fa contains 6
-Bag@79698539
-Bag@73f792cf
-Bag@79698539 contains 2
-Bag@2ed94a8b
-Bag@79698539 contains 3
-Bag@79698539 contains 4
-Bag@2ed94a8b contains 2
 36 vertices, 72 edges
-24: 3 
-20: 6 2 1 5 
-16: 4 
-4: 23 13 3 
+28: 7 
+32: 11 9 
+24: 5 6 3 
+20: 6 2 1 5 9 
+16: 0 4 
+8: 27 17 7 
+12: 31 29 0 21 19 11 9 
+4: 35 23 25 26 13 15 16 5 6 3 
 0: 26 22 21 25 16 12 11 15 6 2 1 5 
-25: 3 4 
+33: 35 
+25: 0 3 4 
 29: 11 10 12 
+13: 5 4 
 17: 8 
-21: 12 
-5: 23 24 13 14 3 4 
+21: 0 9 12 
 9: 31 30 32 21 20 22 11 10 12 
+1: 30 20 10 0 
+5: 30 23 24 20 13 14 10 3 4 0 
 34: 3 
-30: 6 2 1 5 
-26: 4 
-14: 3 
-10: 6 2 1 5 
-6: 24 14 4 
+30: 6 2 1 5 9 
+26: 0 4 
+18: 7 
+22: 0 11 9 
+14: 5 6 3 
+10: 29 6 19 2 1 5 9 
+2: 30 20 10 0 
+6: 30 24 20 14 10 0 4 
 35: 33 4 
+23: 5 4 
 27: 8 
-31: 12 
-15: 3 4 
+31: 9 12 
+15: 0 3 4 
 19: 11 10 12 
 7: 28 18 8 
-11: 32 22 12
+11: 32 29 22 0 19 9 12 
+3: 34 25 24 15 14 5 4
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
