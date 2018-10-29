@@ -54,7 +54,7 @@ class List implements Graph {
 		return edges;
 	}
 	public void addEdge(int v, int w) {
-		if (v == w || !hasEdge(v,w)) return;
+		if (v == w || !hasEdge(v, w)) return;
 		if (table.contains(v)) {
 			table.get(v).add(w);
 		} else {
@@ -69,8 +69,8 @@ class List implements Graph {
 	}
 	public boolean hasEdge(int v, int w) {
 		Bag<Integer> b = table.get(v);
-		for(Integer each : b){
-			if(each == w) return true;
+		for (Integer each : b) {
+			if (each == w) return true;
 		}
 		return false;
 	}
@@ -100,6 +100,13 @@ public class Solution {
 			// 	}
 			// 	System.out.println();
 			// }
+			for (Integer ele : list.table.keys()) {
+				Bag<Integer> b = list.table.get(ele);
+				for (Integer each : b) {
+					//if (each == w) return true;
+				}
+			}
+
 			break;
 		case "Matrix" :
 			Matrix matrix = new Matrix(vertices, edges);
