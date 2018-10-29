@@ -16,19 +16,19 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-null 1 1 null null 1 1 null null null null null null 
-1 null null null null null null null null null null null null 
-1 null null null null null null null null null null null null 
-null null null null 1 1 null null null null null null null 
-null null null 1 null 1 1 null null null null null null 
-1 null null 1 1 null null null null null null null null 
-1 null null null 1 null null null null null null null null 
-null null null null null null null null 1 null null null null 
-null null null null null null null 1 null null null null null 
-null null null null null null null null null null 1 1 1 
-null null null null null null null null null 1 null null null 
-null null null null null null null null null 1 null null 1 
-null null null null null null null null null 1 null 1 null
+0 1 1 0 0 1 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 1 0
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -49,19 +49,19 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-null 1 1 null null 1 1 null null null null null null 
-1 null null null null null null null null null null null null 
-1 null null null null null null null null null null null null 
-null null null null 1 1 null null null null null null null 
-null null null 1 null 1 1 null null null null null null 
-1 null null 1 1 null null null null null null null null 
-1 null null null 1 null null null null null null null null 
-null null null null null null null null 1 null null null null 
-null null null null null null null 1 null null null null null 
-null null null null null null null null null null 1 1 1 
-null null null null null null null null null 1 null null null 
-null null null null null null null null null 1 null null 1 
-null null null null null null null null null 1 null 1 null
+0 1 1 0 0 1 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 1 0
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -105,42 +105,42 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-null 1 1 null null 1 1 null null null null 1 1 null null 1 1 null null null null 1 1 null null 1 1 null null null null null null null null null 
-1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null 
-1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null 
-null null null null 1 1 null null null null null null null null 1 1 null null null null null null null null 1 1 null null null null null null null null 1 null 
-null null null 1 null 1 1 null null null null null null 1 null 1 1 null null null null null null 1 null 1 1 null null null null null null null null 1 
-1 null null 1 1 null null null null null 1 null null 1 1 null null null null null 1 null null 1 1 null null null null null 1 null null null null null 
-1 null null null 1 null null null null null 1 null null null 1 null null null null null 1 null null null 1 null null null null null 1 null null null null null 
-null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null 
-null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null 1 1 1 null null null null null null null 1 1 1 null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null 
-1 null null null null null null null null 1 null null 1 null null null null null null 1 null null 1 null null null null null null 1 null null 1 null null null 
-1 null null null null null null null null 1 null 1 null null null null null null null 1 null 1 null null null null null null null 1 null 1 null null null null 
-null null null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null 1 null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null null null null null null 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null null null null null null 1 null 1 null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null 1 null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null 1 null 1 null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 1 
-null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 1 null null
+0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 
+1 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -184,42 +184,42 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-null 1 1 null null 1 1 null null null null 1 1 null null 1 1 null null null null 1 1 null null 1 1 null null null null null null null null null 
-1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null 
-1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null 
-null null null null 1 1 null null null null null null null null 1 1 null null null null null null null null 1 1 null null null null null null null null 1 null 
-null null null 1 null 1 1 null null null null null null 1 null 1 1 null null null null null null 1 null 1 1 null null null null null null null null 1 
-1 null null 1 1 null null null null null 1 null null 1 1 null null null null null 1 null null 1 1 null null null null null 1 null null null null null 
-1 null null null 1 null null null null null 1 null null null 1 null null null null null 1 null null null 1 null null null null null 1 null null null null null 
-null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null 
-null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null 1 1 1 null null null null null null null 1 1 1 null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null 1 null null null null null null null null null 1 null null null null null null 
-1 null null null null null null null null 1 null null 1 null null null null null null 1 null null 1 null null null null null null 1 null null 1 null null null 
-1 null null null null null null null null 1 null 1 null null null null null null null 1 null 1 null null null null null null null 1 null 1 null null null null 
-null null null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null 1 null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null null null null null null 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null null null null null null 1 null 1 null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null 1 null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null 1 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-1 null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null 1 1 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null 1 1 null null 1 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null 1 null null 1 null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null 1 null 1 null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 1 
-null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null null 
-null null null null 1 null null null null null null null null null null null null null null null null null null null null null null null null null null null null 1 null null
+0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 
+1 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########

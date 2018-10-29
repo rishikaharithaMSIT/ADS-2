@@ -10,11 +10,11 @@ interface Graph {
 class Matrix implements Graph {
 	int vertices;
 	int edges;
-	Integer[][] matrix;
+	int[][] matrix;
 	Matrix(int v, int e) {
 		this.vertices = v;
 		this.edges = e;
-		matrix = new Integer[v][v];
+		matrix = new int[v][v];
 	}
 	public int V() {
 		return vertices;
