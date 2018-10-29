@@ -61,17 +61,19 @@ public class Solution {
 		String Adjacency = scan.nextLine();
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
-		System.out.println(vertices+ " vertices, "+ edges +" edges");
-		if(vertices <= 1 || edges <= 1) {
-			System.out.println("No edges");
-			return;
-		}
+		
+		
 
 		Matrix matrix = new Matrix(vertices, edges);
 		String[] elements = scan.nextLine().split(",");
 		while (scan.hasNext()) {
 			String[] edge = scan.nextLine().split(" ");
 			matrix.addEdge(Integer.parseInt(edge[0]), Integer.parseInt(edge[1]));
+		}
+		System.out.println(matrix.vertices+ " vertices, "+ matrix.edges +" edges");
+		if(matrix.vertices <= 1 || matrix.edges <= 1) {
+			System.out.println("No edges");
+			return;
 		}
 		for (int i = 0; i < vertices; i++) {
 			for (int j = 0; j < vertices; j++) {
