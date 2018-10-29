@@ -57,9 +57,11 @@ class List implements Graph {
 		if (v == w || hasEdge(v, w)) return;
 		if (table.contains(v)) {
 			table.get(v).add(w);
+			System.out.println(table.get(v));
 		} else {
 			table.put(v, new Bag<Integer>());
 			table.get(v).add(w);
+			System.out.println(table.get(v));
 		}
 		edges++;
 	}
@@ -102,15 +104,15 @@ public class Solution {
 			// 	}
 			// 	System.out.println();
 			// }
-			for (Integer ele : list.table.keys()) {
-				System.out.print(elems[ele] + ": ");
-				Bag<Integer> b = list.table.get(ele);
-				for (Integer each : b) {
-					//if (each == w) return true;
-					System.out.print(elems[each] + " ");
-				}
-				System.out.println();
-			}
+			// for (Integer ele : list.table.keys()) {
+			// 	System.out.print(elems[ele] + ": ");
+			// 	Bag<Integer> b = list.table.get(ele);
+			// 	for (Integer each : b) {
+			// 		//if (each == w) return true;
+			// 		System.out.print(elems[each] + " ");
+			// 	}
+			// 	System.out.println();
+			// }
 
 			break;
 		case "Matrix" :
