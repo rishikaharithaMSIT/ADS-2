@@ -18,17 +18,17 @@ Haryana: Gujarat Delhi
 Your Output: 
 Bag@2f7c7260
 Bag@2d209079
-Bag@2f7c7260
-Bag@6b71769e
-Bag@2752f6e2
-Bag@e580929
-Bag@2f7c7260
-Bag@1cd072a9
-Bag@6b71769e
-Bag@2f7c7260
-Bag@7c75222b
-Bag@6b71769e
-Bag@e580929
+Bag@2f7c7260 contains
+Bag@67b64c45
+Bag@4411d970
+Bag@6442b0a6
+Bag@2f7c7260 contains
+Bag@60f82f98
+Bag@67b64c45 contains
+Bag@2f7c7260 contains
+Bag@35f983a6
+Bag@67b64c45 contains
+Bag@6442b0a6 contains
 13 vertices, 13 edges
 ----------------------------------------
 
@@ -109,76 +109,76 @@ West Bengal: Uttar Pradesh Bihar
 Your Output: 
 Bag@2f7c7260
 Bag@2d209079
-Bag@2f7c7260
-Bag@6b71769e
-Bag@2752f6e2
-Bag@e580929
-Bag@2f7c7260
-Bag@1cd072a9
-Bag@6b71769e
-Bag@2f7c7260
-Bag@7c75222b
-Bag@6b71769e
-Bag@e580929
-Bag@4c203ea1
-Bag@27f674d
-Bag@4c203ea1
-Bag@1d251891
-Bag@48140564
-Bag@58ceff1
-Bag@4c203ea1
-Bag@7c30a502
-Bag@1d251891
-Bag@4c203ea1
-Bag@49e4cb85
-Bag@1d251891
-Bag@58ceff1
-Bag@2f7c7260
-Bag@2d209079
-Bag@2f7c7260
-Bag@6b71769e
-Bag@2752f6e2
-Bag@e580929
-Bag@2f7c7260
-Bag@1cd072a9
-Bag@6b71769e
-Bag@2f7c7260
-Bag@7c75222b
-Bag@6b71769e
-Bag@e580929
-Bag@2133c8f8
-Bag@43a25848
-Bag@2133c8f8
-Bag@3ac3fd8b
-Bag@5594a1b5
-Bag@6a5fc7f7
-Bag@2133c8f8
-Bag@3b6eb2ec
-Bag@3ac3fd8b
-Bag@2133c8f8
-Bag@1e643faf
-Bag@3ac3fd8b
-Bag@6a5fc7f7
-Bag@2f7c7260
-Bag@2d209079
-Bag@2f7c7260
-Bag@6b71769e
-Bag@2752f6e2
-Bag@e580929
-Bag@2f7c7260
-Bag@1cd072a9
-Bag@6b71769e
-Bag@2f7c7260
-Bag@7c75222b
-Bag@6b71769e
-Bag@e580929
-Bag@6e8dacdf
-Bag@7a79be86
-Bag@6e8dacdf
-Bag@34ce8af7
-Bag@6e8dacdf
-Bag@6e8dacdf
-Bag@34ce8af7
+Bag@2f7c7260 contains
+Bag@67b64c45
+Bag@4411d970
+Bag@6442b0a6
+Bag@2f7c7260 contains
+Bag@60f82f98
+Bag@67b64c45 contains
+Bag@2f7c7260 contains
+Bag@35f983a6
+Bag@67b64c45 contains
+Bag@6442b0a6 contains
+Bag@7f690630
+Bag@edf4efb
+Bag@7f690630 contains
+Bag@2f7a2457
+Bag@566776ad
+Bag@6108b2d7
+Bag@7f690630 contains
+Bag@1554909b
+Bag@2f7a2457 contains
+Bag@7f690630 contains
+Bag@6bf256fa
+Bag@2f7a2457 contains
+Bag@6108b2d7 contains
+Bag@2f7c7260 contains
+Bag@2d209079 contains
+Bag@2f7c7260 contains
+Bag@67b64c45 contains
+Bag@4411d970 contains
+Bag@6442b0a6 contains
+Bag@2f7c7260 contains
+Bag@60f82f98 contains
+Bag@67b64c45 contains
+Bag@2f7c7260 contains
+Bag@35f983a6 contains
+Bag@67b64c45 contains
+Bag@6442b0a6 contains
+Bag@6cd8737
+Bag@22f71333
+Bag@6cd8737 contains
+Bag@13969fbe
+Bag@6aaa5eb0
+Bag@3498ed
+Bag@6cd8737 contains
+Bag@1a407d53
+Bag@13969fbe contains
+Bag@6cd8737 contains
+Bag@3d8c7aca
+Bag@13969fbe contains
+Bag@3498ed contains
+Bag@2f7c7260 contains
+Bag@2d209079 contains
+Bag@2f7c7260 contains
+Bag@67b64c45 contains
+Bag@4411d970 contains
+Bag@6442b0a6 contains
+Bag@2f7c7260 contains
+Bag@60f82f98 contains
+Bag@67b64c45 contains
+Bag@2f7c7260 contains
+Bag@35f983a6 contains
+Bag@67b64c45 contains
+Bag@6442b0a6 contains
+Bag@5ebec15
+Bag@21bcffb5
+Bag@5ebec15 contains
+Bag@380fb434
+Bag@5ebec15 contains
+Bag@5ebec15 contains
+Bag@380fb434 contains
 36 vertices, 72 edges
 ----------------------------------------
 
