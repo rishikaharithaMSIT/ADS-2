@@ -1,30 +1,5 @@
 Starting audit...
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:23: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:24:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:24:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:24:21: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:25:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:28: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:29:17: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:30:17: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:44: Expected @return tag. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:51: Expected @return tag. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:58:25: Parameter item should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:58:30: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:70: Expected @return tag. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:75: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:76:17: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:78: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:78:43: '{' at column 29 should have line break after. [LeftCurly]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:79: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:79:43: '{' at column 29 should have line break after. [LeftCurly]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:81:17: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Bag.java:82: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 24 errors.
 Starting audit...
 Audit done.
 Starting audit...
