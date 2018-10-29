@@ -57,11 +57,12 @@ public class Solution {
 		String Adjacency = scan.nextLine();
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
+		System.out.println(vertices+ " vertices, "+ edges +" edges");
 		if(vertices <= 1 || edges <= 1) {
 			System.out.println("No edges");
 			return;
 		}
-		System.out.println(vertices+ " vertices, "+ edges +" edges");
+
 		Matrix matrix = new Matrix(vertices, edges);
 		String[] elements = scan.nextLine().split(",");
 		while (scan.hasNext()) {
