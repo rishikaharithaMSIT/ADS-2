@@ -18,56 +18,141 @@ class Matrix implements Graph {
 	 * vertices.
 	 */
 	private int vertices;
+	/**
+	 * edges
+	 */
 	private int edges;
+	/**
+	 * matrix
+	 */
 	private int[][] matrix;
-	Matrix(int v, int e) {
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      e     { parameter_description }
+	 */
+	Matrix(final int v, final int e) {
 		this.vertices = v;
 		this.edges = 0;
 		matrix = new int[v][v];
 	}
+	/**
+	 * vertices.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int V() {
 		return vertices;
 	}
+	/**
+	 * edges.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int E() {
 		return edges;
 	}
+	/**
+	 * Gets the matrix.
+	 *
+	 * @return     The matrix.
+	 */
 	public int[][] getMatrix() {
 		return matrix;
 	}
+	/**
+	 * Adds an edge.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      w     { parameter_description }
+	 */
 	public void addEdge(int v, int w) {
 		if (v != w && !hasEdge(v, w)) {
 			matrix[v][w] = 1;
 			matrix[w][v] = 1;
 			edges++;
 		}
-
-
 	}
+	/**
+	 * { function_description }.
+	 *
+	 * @param      v     { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<Integer> adj(int v) {
 		return null;
 	}
+	/**
+	 * Determines if it has edge.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      w     { parameter_description }
+	 *
+	 * @return     True if has edge, False otherwise.
+	 */
 	public boolean hasEdge(int v, int w) {
 		return matrix[v][w] == 1;
 	}
 }
+/**
+ * List of .
+ */
 class List implements Graph {
+	/**
+	 * vertices.
+	 */
 	private int vertices;
+	/**
+	 * edges.
+	 */
 	private int edges;
+	/**
+	 * hash table.
+	 */
 	private SeparateChainingHashST<Integer, Bag> table;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      e     { parameter_description }
+	 */
 	List(int v, int e) {
 		this.vertices = v;
 		this.edges = 0;
 		table = new SeparateChainingHashST<>();
 	}
+	/**
+	 * V.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int V() {
 		return vertices;
 	}
+	/**
+	 * E.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int E() {
 		return edges;
 	}
+	/**
+	 * Gets the table.
+	 *
+	 * @return     The table.
+	 */
 	public SeparateChainingHashST<Integer, Bag> getTable() {
 		return table;
 	}
+	/**
+	 * Adds an edge.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      w     { parameter_description }
+	 */
 	public void addEdge(int v, int w) {
 		edges++;
 		if (v == w || hasEdge(v, w)) edges--;
@@ -89,11 +174,24 @@ class List implements Graph {
 		}
 
 	}
-
-
+	/**
+	 * { function_description }.
+	 *
+	 * @param      v     { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<Integer> adj(int v) {
 		return table.keys();
 	}
+	/**
+	 * Determines if it has edge.
+	 *
+	 * @param      v     { parameter_description }
+	 * @param      w     { parameter_description }
+	 *
+	 * @return     True if has edge, False otherwise.
+	 */
 	public boolean hasEdge(int v, int w) {
 		if (table.contains(v) == false) return false;
 		Bag<Integer> b = table.get(v);
@@ -103,7 +201,21 @@ class List implements Graph {
 		return false;
 	}
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * main.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String adjacency = scan.nextLine();
