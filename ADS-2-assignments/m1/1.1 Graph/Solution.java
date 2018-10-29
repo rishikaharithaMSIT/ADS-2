@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 /**
  * Interface for graph.
@@ -9,20 +8,20 @@ interface Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int getV();
+    int getV();
     /**
      * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
-    public int getE();
+    int getE();
     /**
      * Adds an edge.
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      */
-    public void addEdge(int v, int w);
+    void addEdge(int v, int w);
     /**
      * { function_description }.
      *
@@ -30,7 +29,7 @@ interface Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<Integer> adj(int v);
+    Iterable<Integer> adj(int v);
     /**
      * Determines if it has edge.
      *
@@ -39,7 +38,7 @@ interface Graph {
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w);
+    boolean hasEdge(int v, int w);
 }
 /**
  * Class for matrix.
@@ -50,11 +49,11 @@ class Matrix implements Graph {
      */
     private int vertices;
     /**
-     * edges
+     * edges.
      */
     private int edges;
     /**
-     * matrix
+     * matrix.
      */
     private int[][] matrix;
     /**
