@@ -8,7 +8,5 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:227:31: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m1\1.1 Graph\Solution.java:242: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.

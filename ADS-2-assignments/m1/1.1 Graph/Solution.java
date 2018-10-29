@@ -224,7 +224,7 @@ class List implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(final int v, final int w) {
-        if (table.contains(v) == false) {
+        if (!table.contains(v)) {
             return false;
         }
         Bag<Integer> b = table.get(v);
@@ -239,7 +239,7 @@ class List implements Graph {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
