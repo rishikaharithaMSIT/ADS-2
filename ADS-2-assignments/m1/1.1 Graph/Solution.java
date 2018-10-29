@@ -54,7 +54,8 @@ class List implements Graph {
 		return edges;
 	}
 	public void addEdge(int v, int w) {
-		if (v == w || hasEdge(v, w)) return;
+		edges++;
+		if (v == w || hasEdge(v, w)) edges--;
 		if (table.contains(v)) {
 			table.get(v).add(w);
 			//System.out.println(table.get(v) + " contains " + table.get(v).size());
@@ -71,7 +72,7 @@ class List implements Graph {
 			table.get(w).add(v);
 			// System.out.println(table.get(v));
 		}
-		edges++;
+		
 	}
 
 
