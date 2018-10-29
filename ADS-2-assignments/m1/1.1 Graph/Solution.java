@@ -104,15 +104,15 @@ public class Solution {
 			// 	}
 			// 	System.out.println();
 			// }
-			// for (Integer ele : list.table.keys()) {
-			// 	System.out.print(elems[ele] + ": ");
-			// 	Bag<Integer> b = list.table.get(ele);
-			// 	for (Integer each : b) {
-			// 		//if (each == w) return true;
-			// 		System.out.print(elems[each] + " ");
-			// 	}
-			// 	System.out.println();
-			// }
+			for (Integer ele : list.table.keys()) {
+				System.out.print(elems[ele] + ": ");
+				Bag<Integer> b = list.table.get(ele);
+				for (Integer each : b) {
+					//if (each == w) return true;
+					System.out.print(elems[each] + " ");
+				}
+				System.out.println();
+			}
 
 			break;
 		case "Matrix" :
