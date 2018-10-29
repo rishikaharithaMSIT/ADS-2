@@ -151,7 +151,7 @@ public class Solution {
 			for (int i = 0; i < vertices; i++) {
 				for (int j = 0; j < vertices; j++) {
 					//int elem = matrix.matrix[i][j] ? 1 : 0;
-					System.out.print(matrix.getMatrix()  + " ");
+					System.out.print(matrix.getMatrix()[i][j]  + " ");
 				}
 				System.out.println();
 			}
