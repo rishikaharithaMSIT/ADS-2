@@ -57,12 +57,11 @@ class List implements Graph {
 		if (v == w || !hasEdge(v, w)) return;
 		if (table.contains(v)) {
 			table.get(v).add(w);
-			edges++;
 		} else {
 			table.put(v, new Bag<Integer>());
 			table.get(v).add(w);
-			edges++;
 		}
+		edges++;
 	}
 
 
