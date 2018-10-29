@@ -23,7 +23,7 @@ class Matrix implements Graph {
 		return edges;
 	}
 	public void addEdge(int v, int w) {
-		if(v != w) {
+		if(v != w && !hasEdge(v,w)) {
 			matrix[v][w] = 1;
 			matrix[w][v] = 1;
 			edges++;
