@@ -13,7 +13,7 @@ class Matrix implements Graph {
 	int[][] matrix;
 	Matrix(int v, int e) {
 		this.vertices = v;
-		this.edges = e;
+		this.edges = 0;
 		matrix = new int[v][v];
 	}
 	public int V() {
@@ -23,8 +23,12 @@ class Matrix implements Graph {
 		return edges;
 	}
 	public void addEdge(int v, int w) {
-		matrix[v][w] = 1;
-		matrix[w][v] = 1;
+		if(v != w) {
+			matrix[v][w] = 1;
+			matrix[w][v] = 1;
+			edges++;
+		}
+		
 
 	}
 	public Iterable<Integer> adj(int v) {
