@@ -51,9 +51,9 @@ class Matrix implements Graph {
 	}
 }
 class List implements Graph {
-	int vertices;
-	int edges;
-	SeparateChainingHashST<Integer, Bag> table;
+	private int vertices;
+	private int edges;
+	private SeparateChainingHashST<Integer, Bag> table;
 	List(int v, int e) {
 		this.vertices = v;
 		this.edges = 0;
@@ -64,6 +64,9 @@ class List implements Graph {
 	}
 	public int E() {
 		return edges;
+	}
+	public SeparateChainingHashST<Integer, Bag> getTable() {
+		return table;
 	}
 	public void addEdge(int v, int w) {
 		edges++;
@@ -114,8 +117,8 @@ public class Solution {
 				String[] edg = scan.nextLine().split(" ");
 				list.addEdge(Integer.parseInt(edg[0]), Integer.parseInt(edg[1]));
 			}
-			System.out.println(list.vertices + " vertices, " + list.edges + " edges");
-			if (list.vertices <= 1 || list.edges <= 1) {
+			System.out.println(list.V() + " vertices, " + list.E() + " edges");
+			if (list.V() <= 1 || list.E() <= 1) {
 				System.out.println("No edges");
 				return;
 			}
@@ -127,7 +130,7 @@ public class Solution {
 			// }
 			for (int ele = 0; ele < vertices; ele++) {
 				System.out.print(elems[ele] + ": ");
-				Bag<Integer> b = list.table.get(ele);
+				Bag<Integer> b = list.getTable().get(ele);
 				for (Integer each : b) {
 					//if (each == w) return true;
 					System.out.print(elems[each] + " ");
