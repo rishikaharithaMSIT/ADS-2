@@ -101,7 +101,7 @@ final class Solution {
             System.out.println("Cycle exists.");
         } else {
             System.out.println("Cycle doesn't exists.");
-        } 
+        }
     }
 }
 
