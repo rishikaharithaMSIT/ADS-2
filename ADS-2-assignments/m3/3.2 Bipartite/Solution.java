@@ -105,7 +105,9 @@ final class Solution {
         Bipartite bipobj = new Bipartite(graphobj);
         if (bipobj.isBipartite()) {
             System.out.println("Graph is bipartite");
-        } 
+        } else {
+            System.out.println("Graph is not a bipartite");
+        }
     }
 }
 
