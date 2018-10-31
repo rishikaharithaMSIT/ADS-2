@@ -3,8 +3,7 @@ Expected Output:
 Cycle doesn't exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -12,44 +11,39 @@ Expected Output:
 Cycle doesn't exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Cycle exists.
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Cycle exists.
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Cycle exists.
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Cycle exists.
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -57,16 +51,14 @@ Expected Output:
 Cycle doesn't exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Error: Could not find or load main class Solution
-Caused by: java.lang.ClassNotFoundException: Solution
+Cycle exists.
 ----------------------------------------
 
