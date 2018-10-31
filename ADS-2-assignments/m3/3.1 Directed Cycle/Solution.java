@@ -99,6 +99,8 @@ final class Solution {
         DirectedCycle directedcycleobj = new DirectedCycle(graphobj);
         if (directedcycleobj.hasCycle()) {
             System.out.println("Cycle exists.");
+        } else {
+            System.out.println("Cycle doesn't exists.");
         } 
     }
 }
