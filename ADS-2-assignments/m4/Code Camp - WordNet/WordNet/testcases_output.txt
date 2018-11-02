@@ -18,6 +18,7 @@ Expected Output:
 14: 13
 
 Your Output: 
+15 verticies, 14 edges
 0 :
 1 :0 
 2 :0 
@@ -41,6 +42,7 @@ distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
+100 verticies, 100 edges
 0 :75 
 1 :11 
 2 :11 
@@ -153,6 +155,7 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
+500 verticies, 507 edges
 0 :36 
 1 :411 
 2 :104 
@@ -662,6 +665,7 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
+1000 verticies, 1008 edges
 0 :53 
 1 :858 
 2 :498 
@@ -1673,6 +1677,7 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
+6 verticies, 6 edges
 0 :
 1 :2 0 
 2 :3 
@@ -1695,6 +1700,7 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
+11 verticies, 12 edges
 0 :10 1 
 1 :2 
 2 :
@@ -1719,6 +1725,7 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
+8 verticies, 8 edges
 0 :7 1 
 1 :2 
 2 :3 
@@ -1743,6 +1750,7 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
+11 verticies, 16 edges
 0 :4 3 2 1 
 1 :5 
 2 :5 
@@ -1769,6 +1777,7 @@ Expected Output:
 7:
 
 Your Output: 
+8 verticies, 17 edges
 0 :7 6 5 4 3 1 
 1 :7 
 2 :7 6 5 4 3 1 
@@ -1784,6 +1793,7 @@ Expected Output:
 Multiple roots
 
 Your Output: 
+6 verticies, 5 edges
 0 :
 1 :2 0 
 2 :3 
@@ -1797,6 +1807,7 @@ Expected Output:
 Multiple roots
 
 Your Output: 
+6 verticies, 4 edges
 0 :1 
 1 :2 
 2 :3 
@@ -1810,6 +1821,7 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
+15 verticies, 14 edges
 0 :
 1 :0 
 2 :0 
@@ -1832,6 +1844,7 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
+15 verticies, 14 edges
 0 :
 1 :0 
 2 :0 
@@ -1870,6 +1883,7 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
+82192 verticies, 84505 edges
 0 :79541 
 1 :34093 
 2 :75958 
@@ -84069,6 +84083,7 @@ Expected Output:
 Cycle detected
 
 Your Output: 
+3 verticies, 2 edges
 0 :1 
 1 :0 
 2 :
