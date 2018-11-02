@@ -1,35 +1,45 @@
-import java.util.*;
-
-public class Solution {
-	public static void main(String[] args) {
-		//Scanner scan = new Scanner(System.in);
-		String fileName1 = "Files\\" + StdIn.readLine();
-		String fileName2 = "Files\\" + StdIn.readLine();
-		In file1 = new In(fileName1);
-		In file2 = new In(fileName2);
-		int vertices = 0;
-		Hashtable hashtable = new Hashtable();
-		while (file1.hasNextLine()) {
-			String[] lines = file1.readLine().split(",");
-			hashtable.put(Integer.parseInt(lines[0]), lines[1]);
-			vertices++;
-		}
-		Digraph diGraph = new Digraph(vertices);
-		while (file2.hasNextLine()) {
-			String[] lines = file2.readLine().split(",");
-			int v = Integer.parseInt(lines[0]);
-			for (int w = 1; w < lines.length; w++) {
-				diGraph.addEdge(v, Integer.parseInt(lines[w]));
-			}
-		}
-		String command = StdIn.readLine();
-		System.out.println(diGraph.V()+" vertices, "+ diGraph.E()+ " edges ");
-		for (int i = 0; i < vertices; i++) {
-			System.out.print(i + ": ");
-			for (Integer k : diGraph.adj(i)) {
-				System.out.print(k + " ");
-			}
-			System.out.println();
-		}
-	}
+/**.
+ * { item_description }
+ */
+import java.util.Scanner;
+/**.
+ * { item_description }
+ */
+public final class Solution {
+    /**.
+     * Constructs the object.
+     */
+    private Solution() {
+        /**.
+         * { item_description }
+         */
+    }
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    // time complexity for the main method is 1.
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String n = "Files" + "\\" + sc.nextLine();
+        String m = "Files" + "\\" + sc.nextLine();
+        String word = sc.nextLine();
+        try {
+            WordNet wn = new WordNet(n, m);
+            if (word.equals("Graph")) {
+                wn.display();
+            } else if (word.equals("Queries")) {
+                while (sc.hasNextLine()) {
+                    String[] tokens = sc.nextLine().split(" ");
+                    String str = wn.sap(tokens[0], tokens[1]);
+                    int id = wn.distance(tokens[0], tokens[1]);
+                    System.out.println("distance = " + id
+                        + ", ancestor = " + str);
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("IllegalArgumentException");
+        }
+    }
 }
