@@ -23,7 +23,7 @@ public class Solution {
 			}
 		}
 		String command = StdIn.readLine();
-		System.out.println(diGraph.V()+" vertices, "+ diGraph.E()+ " edges");
+		System.out.println(diGraph.V()+" vertices, "+ diGraph.E()+ " edges ");
 		for (int i = 0; i < vertices; i++) {
 			System.out.print(i + ": ");
 			for (Integer k : diGraph.adj(i)) {
