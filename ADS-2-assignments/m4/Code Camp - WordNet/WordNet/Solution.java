@@ -25,7 +25,7 @@ public class Solution {
 		String command = StdIn.readLine();
 		System.out.println(diGraph.V()+" verticies, "+ diGraph.E()+ " edges");
 		for (int i = 0; i < verticies; i++) {
-			System.out.print(i + " :");
+			System.out.print(i + ": ");
 			for (Integer k : diGraph.adj(i)) {
 				System.out.print(k + " ");
 			}
