@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
 	public static void main(String[] args) {
 		//Scanner scan = new Scanner(System.in);
@@ -5,14 +7,28 @@ public class Solution {
 		String fileName2 = "Files\\" + StdIn.readLine();
 		In file1 = new In(fileName1);
 		In file2 = new In(fileName2);
-		while(file1.hasNextLine()) {
-			System.out.println(file1.readLine());
+		int verticies = 0;
+		Hashtable hashtable = new Hashtable();
+		while (file1.hasNextLine()) {
+			String[] lines = file1.readLine().split(",");
+			hashtable.put(Integer.parseInt(lines[0]), lines[1]);
+			verticies++;
 		}
-		while(file2.hasNextLine()) {
-			System.out.println(file2.readLine());
+		Digraph diGraph = new Digraph(verticies);
+		while (file2.hasNextLine()) {
+			String[] lines = file2.readLine().split(",");
+			int v = Integer.parseInt(lines[0]);
+			for (int w = 1; w < lines.length; w++) {
+				diGraph.addEdge(v, Integer.parseInt(lines[w]));
+			}
 		}
-
-
-
+		String command = StdIn.readLine();
+		for (int i = 0; i < verticies; i++) {
+			System.out.print(i + " :");
+			for (Integer k : diGraph.adj(i)) {
+				System.out.print(k + " ");
+			}
+			System.out.println();
+		}
 	}
 }
