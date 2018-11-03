@@ -37,24 +37,25 @@ class PageRank {
 			return 0.0;
 		}
 		values = new HashMap<Integer, Double>();
-		for (int i = 0; i < dg.V(); i++) {
-			values.put(i , 1.0 / dg.V());
+		for(int i = 0; i < dg.V(); i++) {
+			values.put(i , 1.0/dg.V());
 		}
 		//double initial = 1 / dg.V();
 		double rank = 0.0;
-		for (int i = 0; i < 10; i++) {
-			ArrayList<Integer> vert = incomingVertices.get(vertex);
-			System.out.println("vert" + vert);
-			for (int j = 0; j < vert.size(); j++) {
-				int key = vert.get(j);
-				System.out.println("key : " + key);
-				System.out.println("values : " + values.get(key));
-				rank = values.get(key) / dg.outdegree(key);
-				values.put(key , rank);
+		for (int i = 0; i < 1000; i++) {
+			for (Integer k : incomingVertices.keySet()) {
+				ArrayList<Integer> vert = incomingVertices.get(k);
+				for(int j = 0; j < vert.size(); j++) {
+					int key = vert.get(j);
+					rank = values.get(key) / dg.outdegree(key);
+					values.put(key , rank); 
+				}
 			}
-
 		}
 		//System.out.println(rank);
+		for (Integer l : values.keySet()) {
+			System.out.println(l +  " - " +values.get(l));
+		}
 		return rank;
 
 	}
@@ -109,15 +110,12 @@ public class Solution {
 			System.out.print(i + ": ");
 			PageRank pr = new PageRank(digraph, i);
 			prList.add(pr);
-			System.out.println(pr.getPR(i));
+			pr.getPR(i);
 			for (Integer k : digraph.adj(i)) {
 				System.out.print(k + " ");
 			}
 			System.out.println();
 		}
-		// for(int i = 0;i < prList.size();i++){
-		// 	System.out.println(prList.get(i).getPR());
-		// }
 
 	}
 }
