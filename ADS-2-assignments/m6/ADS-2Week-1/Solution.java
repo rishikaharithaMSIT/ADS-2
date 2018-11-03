@@ -53,8 +53,9 @@ class PageRank {
 					int key = vert.get(j);
 					//System.out.println("Key: "+ values.get(key));
 					rank = rank + values.get(key) / dg.outdegree(key);
-					values.put(key , rank); 
+					//values.put(key , rank); 
 				}
+				values.put(k, rank);
 				
 			}
 		}
