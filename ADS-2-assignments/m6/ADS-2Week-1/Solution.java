@@ -42,25 +42,27 @@ class PageRank {
 			values.put(i , 1.0/dg.V());
 		}
 		//double initial = 1 / dg.V();
-		double rank = 0.0;
+		
 		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
 				System.out.println("vert: " + vert);
+				double rank = 0.0;
 				for(int j = 0; j < vert.size(); j++) {
 					int key = vert.get(j);
 					System.out.println("Key: "+ values.get(key));
-					rank = values.get(key) / dg.outdegree(key);
+					rank = rank + values.get(key) / dg.outdegree(key);
 					values.put(key , rank); 
 				}
+				
 			}
 		}
 		//System.out.println(rank);
 		// for (Integer l : values.keySet()) {
 		// 	System.out.println(l +  " - " +values.get(l));
 		// }
-		return rank;
+		return 0.0;
 
 	}
 
