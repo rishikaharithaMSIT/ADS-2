@@ -43,7 +43,7 @@ class PageRank {
 		}
 		//double initial = 1 / dg.V();
 		
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 2; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
