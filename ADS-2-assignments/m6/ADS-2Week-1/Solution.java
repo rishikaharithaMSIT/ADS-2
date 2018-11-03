@@ -33,7 +33,7 @@ class PageRank {
 		//System.out.println(outDegree + " - " + inDegree);
 	}
 	double getPR(int vertex) {
-		if (outDegree == 0) {
+		if (dg.outdegree(vertex) == 0) {
 			return 0.0;
 		}
 		values = new HashMap<Integer, Double>();
