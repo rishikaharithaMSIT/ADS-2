@@ -45,6 +45,7 @@ public class Solution {
 			}
 			verticesCopy--;
 		}
+		System.out.println(digraph.V() + " vertices, "+ digraph.E() + " edges ");
 		for(int i = 0; i < vertices; i++) {
 			System.out.print(i + ": ");
 			for(Integer k : digraph.adj(i)) {
