@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.*;
-
+/**
+ * Class for page rank.
+ */
 class PageRank {
 	
 	Digraph dg;
