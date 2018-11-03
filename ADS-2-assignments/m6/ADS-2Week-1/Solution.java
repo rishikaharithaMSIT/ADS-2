@@ -38,34 +38,40 @@ class PageRank {
 			return 0.0;
 		}
 		values = new HashMap<Integer, Double>();
-		for(int i = 0; i < dg.V(); i++) {
-			values.put(i , 1.0/dg.V());
+		for (int i = 0; i < dg.V(); i++) {
+			values.put(i , 1.0 / dg.V());
+		}
+		for (int i = 0; i < dg.V(); i++) {
+			ranks.put(i , 1.0 / dg.V());
 		}
 		//double initial = 1 / dg.V();
-		
+
 		for (int i = 0; i < 2; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				//System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
 				//System.out.println("vert: " + vert);
 				double rank = 0.0;
-				for(int j = 0; j < vert.size(); j++) {
+				for (int j = 0; j < vert.size(); j++) {
 					int key = vert.get(j);
 					System.out.println(" I " + i);
 					System.out.println(" k " + k);
 					System.out.println(" key " + key);
 					System.out.println(" val " + values.get(key));
 					System.out.println("------------");
-					rank = rank + (values.get(key) / dg.outdegree(key));
-					//values.put(key , rank); 
+					rank = rank + (ranks.get(key) / dg.outdegree(key));
+					//values.put(key , rank);
 				}
 				values.put(k, rank);
-				
+
+			}
+			for (int j = 0; j < dg.V(); j++) {
+				ranks.put(j , values.get(j));
 			}
 		}
 		//System.out.println(rank);
 		for (Integer l : values.keySet()) {
-			System.out.println(l +  " - " +values.get(l));
+			System.out.println(l +  " - " + values.get(l));
 		}
 		return 0.0;
 
