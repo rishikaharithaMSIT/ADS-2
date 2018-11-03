@@ -300,6 +300,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:9:35: Parameter vertex should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:17: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:21: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:28:56: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:42: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:47: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:47:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
@@ -311,7 +312,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:76:40: ')' is preceded with whitespace. [ParenPad]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:85: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

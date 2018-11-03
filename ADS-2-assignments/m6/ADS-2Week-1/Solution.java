@@ -25,7 +25,7 @@ class PageRank {
 			}
 		}
 		for (Integer l : incomingVertices.keySet()) {
-			System.out.println(incomingVertices.get(l));
+			System.out.println(l +  " - " +incomingVertices.get(l));
 		}
 		//System.out.println(outDegree + " - " + inDegree);
 	}
