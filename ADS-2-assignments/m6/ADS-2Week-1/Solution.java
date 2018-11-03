@@ -60,7 +60,12 @@ class PageRank {
 					System.out.println(" key " + key);
 					System.out.println(" val " + ranks.get(key));
 					System.out.println("------------");
-					rank = rank + (ranks.get(key) / dg.outdegree(key));
+					if(dg.indegree(key) != 0) {
+						rank = rank + (ranks.get(key) / dg.indegree(key));
+					}else {
+						rank = 0.0;
+					}
+					
 					//values.put(key , rank);
 				}
 				values.put(k, rank);
