@@ -314,7 +314,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:49: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:52:36: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:54: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:55: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:55: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:56: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:59: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:64:56: '+' is not followed by whitespace. [WhitespaceAround]
