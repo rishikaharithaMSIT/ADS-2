@@ -7,6 +7,7 @@ class PageRank {
 	Digraph dg;
 	HashMap<Integer, ArrayList<Integer>> incomingVertices;
 	HashMap<Integer, Double> values;
+	HashMap<Integer, Double> ranks;
 	PageRank(Digraph digraph, Integer vertex) {
 		this.outDegree = digraph.outdegree(vertex);
 		this.inDegree = digraph.indegree(vertex);
@@ -49,6 +50,7 @@ class PageRank {
 				System.out.println("vert: " + vert);
 				for(int j = 0; j < vert.size(); j++) {
 					int key = vert.get(j);
+					System.out.println("Key: "+ key);
 					rank = values.get(key) / dg.outdegree(key);
 					values.put(key , rank); 
 				}
