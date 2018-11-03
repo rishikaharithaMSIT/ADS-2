@@ -1,6 +1,17 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 class PageRank {
-	
+	int outDegree;
+	int inDegree;
+	PageRank(Digraph digraph, Integer vertex) {
+		this.outDegree = digraph.outdegree(vertex);
+		this.inDegree = digraph.indegree(vertex);
+		System.out.println(outDegree + " - " + inDegree);
+	}
+	// double getPR(int vertex) {
+
+	// }
+
 }
 
 class WebSearch {
@@ -45,9 +56,12 @@ public class Solution {
 			}
 			verticesCopy--;
 		}
+		ArrayList<PageRank> prList = new ArrayList<>();
 		System.out.println(digraph.V() + " vertices, "+ digraph.E() + " edges ");
 		for(int i = 0; i < vertices; i++) {
 			System.out.print(i + ": ");
+			PageRank pr = new PageRank(digraph, i);
+			prList.add(pr);
 			for(Integer k : digraph.adj(i)) {
 				System.out.print(k + " ");
 			}
