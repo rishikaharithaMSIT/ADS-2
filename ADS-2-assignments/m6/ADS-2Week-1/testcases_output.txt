@@ -15,94 +15,144 @@ Your Output:
 4 vertices, 5 edges 
 0: vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 0.25
 2 1 
 1: vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.0625
 vert[0]
 key : 0
+values : 0.03125
 vert[0]
 key : 0
+values : 0.015625
 vert[0]
 key : 0
+values : 0.0078125
 vert[0]
 key : 0
+values : 0.00390625
 vert[0]
 key : 0
+values : 0.001953125
 vert[0]
 key : 0
+values : 9.765625E-4
 vert[0]
 key : 0
+values : 4.8828125E-4
 2.44140625E-4
 2 
 2: vert[0, 1, 3]
 key : 0
+values : 0.25
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.125
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.0625
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.03125
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.015625
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.0078125
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.00390625
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.001953125
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 9.765625E-4
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 4.8828125E-4
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 0.25
 0 
 3: vertnull
 Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:48)
-	at Solution.main(Solution.java:111)
+	at Solution.main(Solution.java:112)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -122,110 +172,170 @@ Your Output:
 4 vertices, 6 edges 
 0: vert[1, 2, 3]
 key : 1
+values : 0.25
 key : 2
+values : 0.25
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.0625
 key : 2
+values : 0.0625
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.03125
 key : 2
+values : 0.03125
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.015625
 key : 2
+values : 0.015625
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.0078125
 key : 2
+values : 0.0078125
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.00390625
 key : 2
+values : 0.00390625
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.001953125
 key : 2
+values : 0.001953125
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 9.765625E-4
 key : 2
+values : 9.765625E-4
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 4.8828125E-4
 key : 2
+values : 4.8828125E-4
 key : 3
+values : 0.25
 0.25
 1 
 1: vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 0.25
 2 0 
 2: vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.125
 vert[1]
 key : 1
+values : 0.0625
 vert[1]
 key : 1
+values : 0.03125
 vert[1]
 key : 1
+values : 0.015625
 vert[1]
 key : 1
+values : 0.0078125
 vert[1]
 key : 1
+values : 0.00390625
 vert[1]
 key : 1
+values : 0.001953125
 vert[1]
 key : 1
+values : 9.765625E-4
 vert[1]
 key : 1
+values : 4.8828125E-4
 2.44140625E-4
 3 0 
 3: vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.125
 vert[2]
 key : 2
+values : 0.0625
 vert[2]
 key : 2
+values : 0.03125
 vert[2]
 key : 2
+values : 0.015625
 vert[2]
 key : 2
+values : 0.0078125
 vert[2]
 key : 2
+values : 0.00390625
 vert[2]
 key : 2
+values : 0.001953125
 vert[2]
 key : 2
+values : 9.765625E-4
 vert[2]
 key : 2
+values : 4.8828125E-4
 2.44140625E-4
 0
 ----------------------------------------
@@ -247,130 +357,210 @@ Your Output:
 4 vertices, 8 edges 
 0: vert[1, 2, 3]
 key : 1
+values : 0.25
 key : 2
+values : 0.25
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.125
 vert[1, 2, 3]
 key : 1
+values : 0.0625
 key : 2
+values : 0.027777777777777776
 key : 3
+values : 0.0625
 vert[1, 2, 3]
 key : 1
+values : 0.03125
 key : 2
+values : 0.009259259259259259
 key : 3
+values : 0.03125
 vert[1, 2, 3]
 key : 1
+values : 0.015625
 key : 2
+values : 0.0030864197530864196
 key : 3
+values : 0.015625
 vert[1, 2, 3]
 key : 1
+values : 0.0078125
 key : 2
+values : 0.0010288065843621398
 key : 3
+values : 0.0078125
 vert[1, 2, 3]
 key : 1
+values : 0.00390625
 key : 2
+values : 3.429355281207133E-4
 key : 3
+values : 0.00390625
 vert[1, 2, 3]
 key : 1
+values : 0.001953125
 key : 2
+values : 1.1431184270690443E-4
 key : 3
+values : 0.001953125
 vert[1, 2, 3]
 key : 1
+values : 9.765625E-4
 key : 2
+values : 3.8103947568968146E-5
 key : 3
+values : 9.765625E-4
 vert[1, 2, 3]
 key : 1
+values : 4.8828125E-4
 key : 2
+values : 1.2701315856322716E-5
 key : 3
+values : 4.8828125E-4
 2.44140625E-4
 1 
 1: vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.25
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.08333333333333333
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.027777777777777776
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.009259259259259259
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.0030864197530864196
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 0.0010288065843621398
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 3.429355281207133E-4
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 1.1431184270690443E-4
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 3.8103947568968146E-5
 vert[0, 2]
 key : 0
+values : 0.25
 key : 2
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 2 0 
 2: vert[1, 3]
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[1, 3]
 key : 1
+values : 0.125
 key : 3
+values : 0.125
 vert[1, 3]
 key : 1
+values : 0.0625
 key : 3
+values : 0.0625
 vert[1, 3]
 key : 1
+values : 0.03125
 key : 3
+values : 0.03125
 vert[1, 3]
 key : 1
+values : 0.015625
 key : 3
+values : 0.015625
 vert[1, 3]
 key : 1
+values : 0.0078125
 key : 3
+values : 0.0078125
 vert[1, 3]
 key : 1
+values : 0.00390625
 key : 3
+values : 0.00390625
 vert[1, 3]
 key : 1
+values : 0.001953125
 key : 3
+values : 0.001953125
 vert[1, 3]
 key : 1
+values : 9.765625E-4
 key : 3
+values : 9.765625E-4
 vert[1, 3]
 key : 1
+values : 4.8828125E-4
 key : 3
+values : 4.8828125E-4
 2.44140625E-4
 3 1 0 
 3: vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.08333333333333333
 vert[2]
 key : 2
+values : 0.027777777777777776
 vert[2]
 key : 2
+values : 0.009259259259259259
 vert[2]
 key : 2
+values : 0.0030864197530864196
 vert[2]
 key : 2
+values : 0.0010288065843621398
 vert[2]
 key : 2
+values : 3.429355281207133E-4
 vert[2]
 key : 2
+values : 1.1431184270690443E-4
 vert[2]
 key : 2
+values : 3.8103947568968146E-5
 vert[2]
 key : 2
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 2 0
 ----------------------------------------
@@ -400,238 +590,378 @@ Your Output:
 8 vertices, 14 edges 
 0: vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.125
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.025
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.005
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.001
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 2.0E-4
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 4.0E-5
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 8.000000000000001E-6
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 1.6000000000000004E-6
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 3.2000000000000006E-7
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 vert[1, 2, 3, 4, 5, 6, 7]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 6.400000000000002E-8
 key : 4
+values : 0.125
 key : 5
+values : 0.125
 key : 6
+values : 0.125
 key : 7
+values : 0.125
 0.125
 3 2 1 
 1: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 0 
 2: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 0 
 3: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 7 6 5 4 0 
 4: vert[3]
 key : 3
+values : 0.125
 vert[3]
 key : 3
+values : 0.025
 vert[3]
 key : 3
+values : 0.005
 vert[3]
 key : 3
+values : 0.001
 vert[3]
 key : 3
+values : 2.0E-4
 vert[3]
 key : 3
+values : 4.0E-5
 vert[3]
 key : 3
+values : 8.000000000000001E-6
 vert[3]
 key : 3
+values : 1.6000000000000004E-6
 vert[3]
 key : 3
+values : 3.2000000000000006E-7
 vert[3]
 key : 3
+values : 6.400000000000002E-8
 1.2800000000000004E-8
 0 
 5: vert[3]
 key : 3
+values : 0.125
 vert[3]
 key : 3
+values : 0.025
 vert[3]
 key : 3
+values : 0.005
 vert[3]
 key : 3
+values : 0.001
 vert[3]
 key : 3
+values : 2.0E-4
 vert[3]
 key : 3
+values : 4.0E-5
 vert[3]
 key : 3
+values : 8.000000000000001E-6
 vert[3]
 key : 3
+values : 1.6000000000000004E-6
 vert[3]
 key : 3
+values : 3.2000000000000006E-7
 vert[3]
 key : 3
+values : 6.400000000000002E-8
 1.2800000000000004E-8
 0 
 6: vert[3]
 key : 3
+values : 0.125
 vert[3]
 key : 3
+values : 0.025
 vert[3]
 key : 3
+values : 0.005
 vert[3]
 key : 3
+values : 0.001
 vert[3]
 key : 3
+values : 2.0E-4
 vert[3]
 key : 3
+values : 4.0E-5
 vert[3]
 key : 3
+values : 8.000000000000001E-6
 vert[3]
 key : 3
+values : 1.6000000000000004E-6
 vert[3]
 key : 3
+values : 3.2000000000000006E-7
 vert[3]
 key : 3
+values : 6.400000000000002E-8
 1.2800000000000004E-8
 0 
 7: vert[3]
 key : 3
+values : 0.125
 vert[3]
 key : 3
+values : 0.025
 vert[3]
 key : 3
+values : 0.005
 vert[3]
 key : 3
+values : 0.001
 vert[3]
 key : 3
+values : 2.0E-4
 vert[3]
 key : 3
+values : 4.0E-5
 vert[3]
 key : 3
+values : 8.000000000000001E-6
 vert[3]
 key : 3
+values : 1.6000000000000004E-6
 vert[3]
 key : 3
+values : 3.2000000000000006E-7
 vert[3]
 key : 3
+values : 6.400000000000002E-8
 1.2800000000000004E-8
 0
 ----------------------------------------
@@ -657,126 +987,196 @@ Your Output:
 6 vertices, 8 edges 
 0: vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.16666666666666666
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.08333333333333333
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.041666666666666664
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.020833333333333332
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.010416666666666666
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.005208333333333333
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.0026041666666666665
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.0013020833333333333
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 6.510416666666666E-4
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 3.255208333333333E-4
 key : 4
+values : 0.16666666666666666
 0.16666666666666666
 3 2 1 
 1: vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.05555555555555555
 vert[0]
 key : 0
+values : 0.018518518518518517
 vert[0]
 key : 0
+values : 0.006172839506172839
 vert[0]
 key : 0
+values : 0.0020576131687242796
 vert[0]
 key : 0
+values : 6.858710562414266E-4
 vert[0]
 key : 0
+values : 2.2862368541380886E-4
 vert[0]
 key : 0
+values : 7.620789513793629E-5
 vert[0]
 key : 0
+values : 2.5402631712645432E-5
 vert[0]
 key : 0
+values : 8.467543904215145E-6
 2.8225146347383815E-6
 0 
 2: vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.05555555555555555
 vert[0]
 key : 0
+values : 0.018518518518518517
 vert[0]
 key : 0
+values : 0.006172839506172839
 vert[0]
 key : 0
+values : 0.0020576131687242796
 vert[0]
 key : 0
+values : 6.858710562414266E-4
 vert[0]
 key : 0
+values : 2.2862368541380886E-4
 vert[0]
 key : 0
+values : 7.620789513793629E-5
 vert[0]
 key : 0
+values : 2.5402631712645432E-5
 vert[0]
 key : 0
+values : 8.467543904215145E-6
 2.8225146347383815E-6
 0 
 3: vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.05555555555555555
 vert[0]
 key : 0
+values : 0.018518518518518517
 vert[0]
 key : 0
+values : 0.006172839506172839
 vert[0]
 key : 0
+values : 0.0020576131687242796
 vert[0]
 key : 0
+values : 6.858710562414266E-4
 vert[0]
 key : 0
+values : 2.2862368541380886E-4
 vert[0]
 key : 0
+values : 7.620789513793629E-5
 vert[0]
 key : 0
+values : 2.5402631712645432E-5
 vert[0]
 key : 0
+values : 8.467543904215145E-6
 2.8225146347383815E-6
 5 0 
 4: vertnull
 Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:48)
-	at Solution.main(Solution.java:111)
+	at Solution.main(Solution.java:112)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -804,110 +1204,170 @@ Your Output:
 8 vertices, 10 edges 
 0: vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.125
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.025
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.005
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 0.001
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 2.0E-4
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 4.0E-5
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 8.000000000000001E-6
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 1.6000000000000004E-6
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 3.2000000000000006E-7
 vert[1, 2, 3]
 key : 1
+values : 0.125
 key : 2
+values : 0.125
 key : 3
+values : 6.400000000000002E-8
 1.2800000000000004E-8
 3 2 1 
 1: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 0 
 2: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 0 
 3: vert[0]
 key : 0
+values : 0.125
 vert[0]
 key : 0
+values : 0.041666666666666664
 vert[0]
 key : 0
+values : 0.013888888888888888
 vert[0]
 key : 0
+values : 0.004629629629629629
 vert[0]
 key : 0
+values : 0.0015432098765432098
 vert[0]
 key : 0
+values : 5.144032921810699E-4
 vert[0]
 key : 0
+values : 1.7146776406035664E-4
 vert[0]
 key : 0
+values : 5.7155921353452216E-5
 vert[0]
 key : 0
+values : 1.9051973784484073E-5
 vert[0]
 key : 0
+values : 6.350657928161358E-6
 2.116885976053786E-6
 7 6 5 4 0 
 4: 0.0
@@ -936,90 +1396,130 @@ Your Output:
 4 vertices, 4 edges 
 0: vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 vert[3]
 key : 3
+values : 0.25
 0.25
 1 
 1: vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 vert[0]
 key : 0
+values : 0.25
 0.25
 2 
 2: vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 vert[1]
 key : 1
+values : 0.25
 0.25
 3 
 3: vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 vert[2]
 key : 2
+values : 0.25
 0.25
 0
 ----------------------------------------
@@ -1045,106 +1545,156 @@ Your Output:
 6 vertices, 6 edges 
 0: vert[3, 4]
 key : 3
+values : 0.16666666666666666
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.08333333333333333
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.041666666666666664
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.020833333333333332
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.010416666666666666
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.005208333333333333
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.0026041666666666665
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 0.0013020833333333333
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 6.510416666666666E-4
 key : 4
+values : 0.16666666666666666
 vert[3, 4]
 key : 3
+values : 3.255208333333333E-4
 key : 4
+values : 0.16666666666666666
 0.16666666666666666
 1 
 1: vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 vert[0]
 key : 0
+values : 0.16666666666666666
 0.16666666666666666
 2 
 2: vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 vert[1]
 key : 1
+values : 0.16666666666666666
 0.16666666666666666
 3 
 3: vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 vert[2]
 key : 2
+values : 0.16666666666666666
 0.16666666666666666
 5 0 
 4: vertnull
 Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:48)
-	at Solution.main(Solution.java:111)
+	at Solution.main(Solution.java:112)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -1164,170 +1714,290 @@ Your Output:
 4 vertices, 12 edges 
 0: vert[1, 2, 3]
 key : 1
+values : 0.25
 key : 2
+values : 0.25
 key : 3
+values : 0.25
 vert[1, 2, 3]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.08333333333333333
 vert[1, 2, 3]
 key : 1
+values : 0.027777777777777776
 key : 2
+values : 0.027777777777777776
 key : 3
+values : 0.027777777777777776
 vert[1, 2, 3]
 key : 1
+values : 0.009259259259259259
 key : 2
+values : 0.009259259259259259
 key : 3
+values : 0.009259259259259259
 vert[1, 2, 3]
 key : 1
+values : 0.0030864197530864196
 key : 2
+values : 0.0030864197530864196
 key : 3
+values : 0.0030864197530864196
 vert[1, 2, 3]
 key : 1
+values : 0.0010288065843621398
 key : 2
+values : 0.0010288065843621398
 key : 3
+values : 0.0010288065843621398
 vert[1, 2, 3]
 key : 1
+values : 3.429355281207133E-4
 key : 2
+values : 3.429355281207133E-4
 key : 3
+values : 3.429355281207133E-4
 vert[1, 2, 3]
 key : 1
+values : 1.1431184270690443E-4
 key : 2
+values : 1.1431184270690443E-4
 key : 3
+values : 1.1431184270690443E-4
 vert[1, 2, 3]
 key : 1
+values : 3.8103947568968146E-5
 key : 2
+values : 3.8103947568968146E-5
 key : 3
+values : 3.8103947568968146E-5
 vert[1, 2, 3]
 key : 1
+values : 1.2701315856322716E-5
 key : 2
+values : 1.2701315856322716E-5
 key : 3
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 3 2 1 
 1: vert[0, 2, 3]
 key : 0
+values : 0.25
 key : 2
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 2, 3]
 key : 0
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.08333333333333333
 vert[0, 2, 3]
 key : 0
+values : 0.027777777777777776
 key : 2
+values : 0.027777777777777776
 key : 3
+values : 0.027777777777777776
 vert[0, 2, 3]
 key : 0
+values : 0.009259259259259259
 key : 2
+values : 0.009259259259259259
 key : 3
+values : 0.009259259259259259
 vert[0, 2, 3]
 key : 0
+values : 0.0030864197530864196
 key : 2
+values : 0.0030864197530864196
 key : 3
+values : 0.0030864197530864196
 vert[0, 2, 3]
 key : 0
+values : 0.0010288065843621398
 key : 2
+values : 0.0010288065843621398
 key : 3
+values : 0.0010288065843621398
 vert[0, 2, 3]
 key : 0
+values : 3.429355281207133E-4
 key : 2
+values : 3.429355281207133E-4
 key : 3
+values : 3.429355281207133E-4
 vert[0, 2, 3]
 key : 0
+values : 1.1431184270690443E-4
 key : 2
+values : 1.1431184270690443E-4
 key : 3
+values : 1.1431184270690443E-4
 vert[0, 2, 3]
 key : 0
+values : 3.8103947568968146E-5
 key : 2
+values : 3.8103947568968146E-5
 key : 3
+values : 3.8103947568968146E-5
 vert[0, 2, 3]
 key : 0
+values : 1.2701315856322716E-5
 key : 2
+values : 1.2701315856322716E-5
 key : 3
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 3 2 0 
 2: vert[0, 1, 3]
 key : 0
+values : 0.25
 key : 1
+values : 0.25
 key : 3
+values : 0.25
 vert[0, 1, 3]
 key : 0
+values : 0.08333333333333333
 key : 1
+values : 0.08333333333333333
 key : 3
+values : 0.08333333333333333
 vert[0, 1, 3]
 key : 0
+values : 0.027777777777777776
 key : 1
+values : 0.027777777777777776
 key : 3
+values : 0.027777777777777776
 vert[0, 1, 3]
 key : 0
+values : 0.009259259259259259
 key : 1
+values : 0.009259259259259259
 key : 3
+values : 0.009259259259259259
 vert[0, 1, 3]
 key : 0
+values : 0.0030864197530864196
 key : 1
+values : 0.0030864197530864196
 key : 3
+values : 0.0030864197530864196
 vert[0, 1, 3]
 key : 0
+values : 0.0010288065843621398
 key : 1
+values : 0.0010288065843621398
 key : 3
+values : 0.0010288065843621398
 vert[0, 1, 3]
 key : 0
+values : 3.429355281207133E-4
 key : 1
+values : 3.429355281207133E-4
 key : 3
+values : 3.429355281207133E-4
 vert[0, 1, 3]
 key : 0
+values : 1.1431184270690443E-4
 key : 1
+values : 1.1431184270690443E-4
 key : 3
+values : 1.1431184270690443E-4
 vert[0, 1, 3]
 key : 0
+values : 3.8103947568968146E-5
 key : 1
+values : 3.8103947568968146E-5
 key : 3
+values : 3.8103947568968146E-5
 vert[0, 1, 3]
 key : 0
+values : 1.2701315856322716E-5
 key : 1
+values : 1.2701315856322716E-5
 key : 3
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 3 1 0 
 3: vert[0, 1, 2]
 key : 0
+values : 0.25
 key : 1
+values : 0.25
 key : 2
+values : 0.25
 vert[0, 1, 2]
 key : 0
+values : 0.08333333333333333
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 vert[0, 1, 2]
 key : 0
+values : 0.027777777777777776
 key : 1
+values : 0.027777777777777776
 key : 2
+values : 0.027777777777777776
 vert[0, 1, 2]
 key : 0
+values : 0.009259259259259259
 key : 1
+values : 0.009259259259259259
 key : 2
+values : 0.009259259259259259
 vert[0, 1, 2]
 key : 0
+values : 0.0030864197530864196
 key : 1
+values : 0.0030864197530864196
 key : 2
+values : 0.0030864197530864196
 vert[0, 1, 2]
 key : 0
+values : 0.0010288065843621398
 key : 1
+values : 0.0010288065843621398
 key : 2
+values : 0.0010288065843621398
 vert[0, 1, 2]
 key : 0
+values : 3.429355281207133E-4
 key : 1
+values : 3.429355281207133E-4
 key : 2
+values : 3.429355281207133E-4
 vert[0, 1, 2]
 key : 0
+values : 1.1431184270690443E-4
 key : 1
+values : 1.1431184270690443E-4
 key : 2
+values : 1.1431184270690443E-4
 vert[0, 1, 2]
 key : 0
+values : 3.8103947568968146E-5
 key : 1
+values : 3.8103947568968146E-5
 key : 2
+values : 3.8103947568968146E-5
 vert[0, 1, 2]
 key : 0
+values : 1.2701315856322716E-5
 key : 1
+values : 1.2701315856322716E-5
 key : 2
+values : 1.2701315856322716E-5
 4.233771952107572E-6
 2 1 0
 ----------------------------------------
@@ -1353,186 +2023,316 @@ Your Output:
 6 vertices, 14 edges 
 0: vert[1, 2, 3, 4]
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.16666666666666666
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.05555555555555555
 key : 2
+values : 0.041666666666666664
 key : 3
+values : 0.05555555555555555
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.018518518518518517
 key : 2
+values : 0.010416666666666666
 key : 3
+values : 0.018518518518518517
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.006172839506172839
 key : 2
+values : 0.0026041666666666665
 key : 3
+values : 0.006172839506172839
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 0.0020576131687242796
 key : 2
+values : 6.510416666666666E-4
 key : 3
+values : 0.0020576131687242796
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 6.858710562414266E-4
 key : 2
+values : 1.6276041666666666E-4
 key : 3
+values : 6.858710562414266E-4
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 2.2862368541380886E-4
 key : 2
+values : 4.0690104166666664E-5
 key : 3
+values : 2.2862368541380886E-4
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 7.620789513793629E-5
 key : 2
+values : 1.0172526041666666E-5
 key : 3
+values : 7.620789513793629E-5
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 2.5402631712645432E-5
 key : 2
+values : 2.5431315104166665E-6
 key : 3
+values : 2.5402631712645432E-5
 key : 4
+values : 0.16666666666666666
 vert[1, 2, 3, 4]
 key : 1
+values : 8.467543904215145E-6
 key : 2
+values : 6.357828776041666E-7
 key : 3
+values : 8.467543904215145E-6
 key : 4
+values : 0.16666666666666666
 0.16666666666666666
 3 2 1 
 1: vert[0, 2, 3]
 key : 0
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 key : 3
+values : 0.16666666666666666
 vert[0, 2, 3]
 key : 0
+values : 0.05555555555555555
 key : 2
+values : 0.041666666666666664
 key : 3
+values : 0.05555555555555555
 vert[0, 2, 3]
 key : 0
+values : 0.018518518518518517
 key : 2
+values : 0.010416666666666666
 key : 3
+values : 0.018518518518518517
 vert[0, 2, 3]
 key : 0
+values : 0.006172839506172839
 key : 2
+values : 0.0026041666666666665
 key : 3
+values : 0.006172839506172839
 vert[0, 2, 3]
 key : 0
+values : 0.0020576131687242796
 key : 2
+values : 6.510416666666666E-4
 key : 3
+values : 0.0020576131687242796
 vert[0, 2, 3]
 key : 0
+values : 6.858710562414266E-4
 key : 2
+values : 1.6276041666666666E-4
 key : 3
+values : 6.858710562414266E-4
 vert[0, 2, 3]
 key : 0
+values : 2.2862368541380886E-4
 key : 2
+values : 4.0690104166666664E-5
 key : 3
+values : 2.2862368541380886E-4
 vert[0, 2, 3]
 key : 0
+values : 7.620789513793629E-5
 key : 2
+values : 1.0172526041666666E-5
 key : 3
+values : 7.620789513793629E-5
 vert[0, 2, 3]
 key : 0
+values : 2.5402631712645432E-5
 key : 2
+values : 2.5431315104166665E-6
 key : 3
+values : 2.5402631712645432E-5
 vert[0, 2, 3]
 key : 0
+values : 8.467543904215145E-6
 key : 2
+values : 6.357828776041666E-7
 key : 3
+values : 8.467543904215145E-6
 2.8225146347383815E-6
 3 2 0 
 2: vert[0, 1, 3]
 key : 0
+values : 0.16666666666666666
 key : 1
+values : 0.16666666666666666
 key : 3
+values : 0.16666666666666666
 vert[0, 1, 3]
 key : 0
+values : 0.05555555555555555
 key : 1
+values : 0.05555555555555555
 key : 3
+values : 0.05555555555555555
 vert[0, 1, 3]
 key : 0
+values : 0.018518518518518517
 key : 1
+values : 0.018518518518518517
 key : 3
+values : 0.018518518518518517
 vert[0, 1, 3]
 key : 0
+values : 0.006172839506172839
 key : 1
+values : 0.006172839506172839
 key : 3
+values : 0.006172839506172839
 vert[0, 1, 3]
 key : 0
+values : 0.0020576131687242796
 key : 1
+values : 0.0020576131687242796
 key : 3
+values : 0.0020576131687242796
 vert[0, 1, 3]
 key : 0
+values : 6.858710562414266E-4
 key : 1
+values : 6.858710562414266E-4
 key : 3
+values : 6.858710562414266E-4
 vert[0, 1, 3]
 key : 0
+values : 2.2862368541380886E-4
 key : 1
+values : 2.2862368541380886E-4
 key : 3
+values : 2.2862368541380886E-4
 vert[0, 1, 3]
 key : 0
+values : 7.620789513793629E-5
 key : 1
+values : 7.620789513793629E-5
 key : 3
+values : 7.620789513793629E-5
 vert[0, 1, 3]
 key : 0
+values : 2.5402631712645432E-5
 key : 1
+values : 2.5402631712645432E-5
 key : 3
+values : 2.5402631712645432E-5
 vert[0, 1, 3]
 key : 0
+values : 8.467543904215145E-6
 key : 1
+values : 8.467543904215145E-6
 key : 3
+values : 8.467543904215145E-6
 2.8225146347383815E-6
 5 3 1 0 
 3: vert[0, 1, 2]
 key : 0
+values : 0.16666666666666666
 key : 1
+values : 0.16666666666666666
 key : 2
+values : 0.16666666666666666
 vert[0, 1, 2]
 key : 0
+values : 0.05555555555555555
 key : 1
+values : 0.05555555555555555
 key : 2
+values : 0.041666666666666664
 vert[0, 1, 2]
 key : 0
+values : 0.018518518518518517
 key : 1
+values : 0.018518518518518517
 key : 2
+values : 0.010416666666666666
 vert[0, 1, 2]
 key : 0
+values : 0.006172839506172839
 key : 1
+values : 0.006172839506172839
 key : 2
+values : 0.0026041666666666665
 vert[0, 1, 2]
 key : 0
+values : 0.0020576131687242796
 key : 1
+values : 0.0020576131687242796
 key : 2
+values : 6.510416666666666E-4
 vert[0, 1, 2]
 key : 0
+values : 6.858710562414266E-4
 key : 1
+values : 6.858710562414266E-4
 key : 2
+values : 1.6276041666666666E-4
 vert[0, 1, 2]
 key : 0
+values : 2.2862368541380886E-4
 key : 1
+values : 2.2862368541380886E-4
 key : 2
+values : 4.0690104166666664E-5
 vert[0, 1, 2]
 key : 0
+values : 7.620789513793629E-5
 key : 1
+values : 7.620789513793629E-5
 key : 2
+values : 1.0172526041666666E-5
 vert[0, 1, 2]
 key : 0
+values : 2.5402631712645432E-5
 key : 1
+values : 2.5402631712645432E-5
 key : 2
+values : 2.5431315104166665E-6
 vert[0, 1, 2]
 key : 0
+values : 8.467543904215145E-6
 key : 1
+values : 8.467543904215145E-6
 key : 2
+values : 6.357828776041666E-7
 1.5894571940104166E-7
 2 1 0 
 4: vertnull
 Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:48)
-	at Solution.main(Solution.java:111)
+	at Solution.main(Solution.java:112)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -1548,46 +2348,66 @@ Your Output:
 2 vertices, 2 edges 
 0: vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 vert[1]
 key : 1
+values : 0.5
 0.5
 1 
 1: vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 vert[0]
 key : 0
+values : 0.5
 0.5
 0
 ----------------------------------------
@@ -1630,366 +2450,586 @@ Your Output:
 12 vertices, 22 edges 
 0: vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.08333333333333333
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.009259259259259259
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 0.0010288065843621398
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.1431184270690442E-4
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.2701315856322713E-5
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.4112573173691903E-6
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.568063685965767E-7
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.7422929844064077E-8
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 1.9358810937848975E-9
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 vert[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 key : 1
+values : 0.08333333333333333
 key : 2
+values : 0.08333333333333333
 key : 3
+values : 2.1509789930943306E-10
 key : 4
+values : 0.08333333333333333
 key : 5
+values : 0.08333333333333333
 key : 6
+values : 0.08333333333333333
 key : 7
+values : 0.08333333333333333
 key : 8
+values : 0.08333333333333333
 key : 9
+values : 0.08333333333333333
 key : 10
+values : 0.08333333333333333
 key : 11
+values : 0.08333333333333333
 0.08333333333333333
 3 2 1 
 1: vert[0]
 key : 0
+values : 0.08333333333333333
 vert[0]
 key : 0
+values : 0.027777777777777776
 vert[0]
 key : 0
+values : 0.009259259259259259
 vert[0]
 key : 0
+values : 0.0030864197530864196
 vert[0]
 key : 0
+values : 0.0010288065843621398
 vert[0]
 key : 0
+values : 3.429355281207133E-4
 vert[0]
 key : 0
+values : 1.1431184270690443E-4
 vert[0]
 key : 0
+values : 3.8103947568968146E-5
 vert[0]
 key : 0
+values : 1.2701315856322716E-5
 vert[0]
 key : 0
+values : 4.233771952107572E-6
 1.4112573173691908E-6
 0 
 2: vert[0]
 key : 0
+values : 0.08333333333333333
 vert[0]
 key : 0
+values : 0.027777777777777776
 vert[0]
 key : 0
+values : 0.009259259259259259
 vert[0]
 key : 0
+values : 0.0030864197530864196
 vert[0]
 key : 0
+values : 0.0010288065843621398
 vert[0]
 key : 0
+values : 3.429355281207133E-4
 vert[0]
 key : 0
+values : 1.1431184270690443E-4
 vert[0]
 key : 0
+values : 3.8103947568968146E-5
 vert[0]
 key : 0
+values : 1.2701315856322716E-5
 vert[0]
 key : 0
+values : 4.233771952107572E-6
 1.4112573173691908E-6
 0 
 3: vert[0]
 key : 0
+values : 0.08333333333333333
 vert[0]
 key : 0
+values : 0.027777777777777776
 vert[0]
 key : 0
+values : 0.009259259259259259
 vert[0]
 key : 0
+values : 0.0030864197530864196
 vert[0]
 key : 0
+values : 0.0010288065843621398
 vert[0]
 key : 0
+values : 3.429355281207133E-4
 vert[0]
 key : 0
+values : 1.1431184270690443E-4
 vert[0]
 key : 0
+values : 3.8103947568968146E-5
 vert[0]
 key : 0
+values : 1.2701315856322716E-5
 vert[0]
 key : 0
+values : 4.233771952107572E-6
 1.4112573173691908E-6
 11 10 9 8 7 6 5 4 0 
 4: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 5: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 6: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 7: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 8: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 9: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 10: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0 
 11: vert[3]
 key : 3
+values : 0.08333333333333333
 vert[3]
 key : 3
+values : 0.009259259259259259
 vert[3]
 key : 3
+values : 0.0010288065843621398
 vert[3]
 key : 3
+values : 1.1431184270690442E-4
 vert[3]
 key : 3
+values : 1.2701315856322713E-5
 vert[3]
 key : 3
+values : 1.4112573173691903E-6
 vert[3]
 key : 3
+values : 1.568063685965767E-7
 vert[3]
 key : 3
+values : 1.7422929844064077E-8
 vert[3]
 key : 3
+values : 1.9358810937848975E-9
 vert[3]
 key : 3
+values : 2.1509789930943306E-10
 2.3899766589937006E-11
 0
 ----------------------------------------
