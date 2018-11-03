@@ -22,6 +22,7 @@ class PageRank {
 					ArrayList<Integer> list = new ArrayList<Integer>();
 					list.add(i);
 					incomingVertices.put(k, list);
+					System.out.println("list :" + list);
 				}
 			}
 		}
