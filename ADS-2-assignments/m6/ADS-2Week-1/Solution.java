@@ -44,6 +44,7 @@ class PageRank {
 		double rank = 0.0;
 		for (int i = 0; i < 1000; i++) {
 			ArrayList<Integer> vert = incomingVertices.get(vertex);
+			System.out.println("vert" + vert);
 			for (int j = 0; j < vert.size(); j++) {
 				int key = vert.get(j);
 				rank = values.get(key) / dg.outdegree(key);
@@ -112,6 +113,9 @@ public class Solution {
 			}
 			System.out.println();
 		}
+		// for(int i = 0;i < prList.size();i++){
+		// 	System.out.println(prList.get(i).getPR());
+		// }
 
 	}
 }
