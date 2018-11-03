@@ -52,7 +52,7 @@ class PageRank {
 			}
 			
 		}
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if(incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
@@ -64,11 +64,11 @@ class PageRank {
 				double rank = 0.0;
 				for (int j = 0; j < vert.size(); j++) {
 					int key = vert.get(j);
-					System.out.println(" I " + i);
-					System.out.println(" k " + k);
-					System.out.println(" key " + key);
-					System.out.println(" val " + ranks.get(key));
-					System.out.println("------------");
+					// System.out.println(" I " + i);
+					// System.out.println(" k " + k);
+					// System.out.println(" key " + key);
+					// System.out.println(" val " + ranks.get(key));
+					// System.out.println("------------");
 					
 					rank = rank + (ranks.get(key) / dg.outdegree(key));
 					
