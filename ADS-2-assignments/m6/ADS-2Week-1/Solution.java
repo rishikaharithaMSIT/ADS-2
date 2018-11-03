@@ -58,7 +58,7 @@ class PageRank {
 					System.out.println(" I " + i);
 					System.out.println(" k " + k);
 					System.out.println(" key " + key);
-					System.out.println(" val " + values.get(key));
+					System.out.println(" val " + ranks.get(key));
 					System.out.println("------------");
 					rank = rank + (ranks.get(key) / dg.outdegree(key));
 					//values.put(key , rank);
