@@ -63,7 +63,7 @@ class PageRank {
 					if(dg.indegree(k) != 0) {
 						rank = rank + (ranks.get(key) / dg.outdegree(k));
 					}else {
-						rank = 0.0;
+						rank = rank + 0.0;
 					}
 					
 					//values.put(key , rank);
