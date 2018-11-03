@@ -6,6 +6,7 @@ class PageRank {
 	int inDegree;
 	Digraph dg;
 	HashMap<Integer, ArrayList<Integer>> incomingVertices;
+	HashMap<Integer, Double> values;
 	PageRank(Digraph digraph, Integer vertex) {
 		this.outDegree = digraph.outdegree(vertex);
 		this.inDegree = digraph.indegree(vertex);
@@ -26,18 +27,35 @@ class PageRank {
 				}
 			}
 		}
-		for (Integer l : incomingVertices.keySet()) {
-			System.out.println(l +  " - " +incomingVertices.get(l));
-		}
+		// for (Integer l : incomingVertices.keySet()) {
+		// 	System.out.println(l +  " - " +incomingVertices.get(l));
+		// }
 		//System.out.println(outDegree + " - " + inDegree);
 	}
-	// double getPR(int vertex) {
-	// 	if (outDegree == 0) {
-	// 		return 0.0;
-	// 	}
-	// 	double initial = 1 / dg.V();
+	double getPR(int vertex) {
+		if (outDegree == 0) {
+			return 0.0;
+		}
+		values = new HashMap<Integer, Double>();
+		for(int i = 0; i < dg.V(); i++) {
+			values.put(i , 1.0/dg.V());
+		}
+		//double initial = 1 / dg.V();
+		double rank = 0.0;
+		for (int i = 0; i < 1000; i++) {
+			for (Integer k : incomingVertices.keySet()) {
+				ArrayList<Integer> vert = incomingVertices.get(k);
+				for(int j = 0; j < vert.size(); j++) {
+					int key = vert.get(j);
+					rank = values.get(key) / dg.outdegree(key);
+					values.put(key , rank); 
+				}
+			}
+		}
+		System.out.println(rank);
+		return rank;
 
-	// }
+	}
 
 }
 
