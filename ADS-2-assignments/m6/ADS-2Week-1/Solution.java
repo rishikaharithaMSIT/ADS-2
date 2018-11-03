@@ -14,10 +14,14 @@ class PageRank {
 		for (int i = 0; i < digraph.V(); i++) {
 			for (Integer k : digraph.adj(i)) {
 				if (incomingVertices.contains(k)) {
-					incomingVertices.get(k).add(i);
+					ArrayList<Integer> list = incomingVertices.get(k);
+					list.add(i);
+					incomingVertices.put(k, list);
 				} else {
 					incomingVertices.put(k , new ArrayList<Integer>());
-					incomingVertices.get(k).add(i);
+					ArrayList<Integer> list = incomingVertices.get(k);
+					list.add(i);
+					incomingVertices.put(k, list);
 				}
 			}
 		}
