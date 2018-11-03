@@ -2,15 +2,13 @@ import java.util.Scanner;
 import java.util.*;
 
 class PageRank {
-	int outDegree;
-	int inDegree;
+	
 	Digraph dg;
 	HashMap<Integer, ArrayList<Integer>> incomingVertices;
 	HashMap<Integer, Double> values;
 	HashMap<Integer, Double> ranks;
-	PageRank(Digraph digraph, Integer vertex) {
-		this.outDegree = digraph.outdegree(vertex);
-		this.inDegree = digraph.indegree(vertex);
+	PageRank(Digraph digraph) {
+		
 		this.dg = digraph;
 		incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
 		for (int i = 0; i < digraph.V(); i++) {
@@ -33,10 +31,10 @@ class PageRank {
 		// }
 		//System.out.println(outDegree + " - " + inDegree);
 	}
-	double getPR(int vertex) {
-		if (dg.outdegree(vertex) == 0) {
-			return 0.0;
-		}
+	double getPR() {
+		// if (dg.outdegree(vertex) == 0) {
+		// 	return 0.0;
+		// }
 		values = new HashMap<Integer, Double>();
 		ranks = new HashMap<Integer, Double>();
 		for (int i = 0; i < dg.V(); i++) {
@@ -142,14 +140,16 @@ public class Solution {
 		System.out.println(digraph.V() + " vertices, " + digraph.E() + " edges ");
 		for (int i = 0; i < vertices; i++) {
 			System.out.print(i + ": ");
-			PageRank pr = new PageRank(digraph, i);
-			prList.add(pr);
-			pr.getPR(i);
+			//PageRank pr = new PageRank(digraph, i);
+			//prList.add(pr);
+			//pr.getPR(i);
 			for (Integer k : digraph.adj(i)) {
 				System.out.print(k + " ");
 			}
 			System.out.println();
 		}
+		PageRank pr = new PageRank(digraph);
+		pr.getPR();
 
 	}
 }
