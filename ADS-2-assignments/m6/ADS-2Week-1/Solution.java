@@ -148,6 +148,7 @@ public class Solution {
 			}
 			System.out.println();
 		}
+		System.out.println();
 		PageRank pr = new PageRank(digraph);
 		pr.getPR();
 
