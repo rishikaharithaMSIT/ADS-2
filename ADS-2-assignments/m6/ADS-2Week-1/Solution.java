@@ -51,7 +51,7 @@ class PageRank {
 			}
 
 		}
-		System.out.println(rank);
+		//System.out.println(rank);
 		return rank;
 
 	}

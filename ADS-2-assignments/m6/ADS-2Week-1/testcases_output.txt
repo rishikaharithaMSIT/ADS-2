@@ -14,13 +14,10 @@ Expected Output:
 Your Output: 
 4 vertices, 5 edges 
 0: 0.25
-0.25
 2 1 
 1: 2.3331590462580472E-302
-2.3331590462580472E-302
 2 
 2: 0.25
-0.25
 0 
 3: Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:47)
@@ -43,16 +40,12 @@ Expected Output:
 Your Output: 
 4 vertices, 6 edges 
 0: 0.25
-0.25
 1 
 1: 0.25
-0.25
 2 0 
 2: 2.3331590462580472E-302
-2.3331590462580472E-302
 3 0 
 3: 2.3331590462580472E-302
-2.3331590462580472E-302
 0
 ----------------------------------------
 
@@ -72,16 +65,12 @@ Expected Output:
 Your Output: 
 4 vertices, 8 edges 
 0: 2.3331590462580472E-302
-2.3331590462580472E-302
 1 
 1: 0.0
-0.0
 2 0 
 2: 2.3331590462580472E-302
-2.3331590462580472E-302
 3 1 0 
 3: 0.0
-0.0
 2 0
 ----------------------------------------
 
@@ -109,28 +98,20 @@ Expected Output:
 Your Output: 
 8 vertices, 14 edges 
 0: 0.125
-0.125
 3 2 1 
 1: 0.0
-0.0
 0 
 2: 0.0
-0.0
 0 
 3: 0.0
-0.0
 7 6 5 4 0 
 4: 0.0
-0.0
 0 
 5: 0.0
-0.0
 0 
 6: 0.0
-0.0
 0 
 7: 0.0
-0.0
 0
 ----------------------------------------
 
@@ -154,16 +135,12 @@ Expected Output:
 Your Output: 
 6 vertices, 8 edges 
 0: 0.16666666666666666
-0.16666666666666666
 3 2 1 
 1: 0.0
-0.0
 0 
 2: 0.0
-0.0
 0 
 3: 0.0
-0.0
 5 0 
 4: Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:47)
@@ -194,16 +171,12 @@ Expected Output:
 Your Output: 
 8 vertices, 10 edges 
 0: 0.0
-0.0
 3 2 1 
 1: 0.0
-0.0
 0 
 2: 0.0
-0.0
 0 
 3: 0.0
-0.0
 7 6 5 4 0 
 4: 0.0
 
@@ -230,16 +203,12 @@ Expected Output:
 Your Output: 
 4 vertices, 4 edges 
 0: 0.25
-0.25
 1 
 1: 0.25
-0.25
 2 
 2: 0.25
-0.25
 3 
 3: 0.25
-0.25
 0
 ----------------------------------------
 
@@ -263,16 +232,12 @@ Expected Output:
 Your Output: 
 6 vertices, 6 edges 
 0: 0.16666666666666666
-0.16666666666666666
 1 
 1: 0.16666666666666666
-0.16666666666666666
 2 
 2: 0.16666666666666666
-0.16666666666666666
 3 
 3: 0.16666666666666666
-0.16666666666666666
 5 0 
 4: Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:47)
@@ -295,16 +260,12 @@ Expected Output:
 Your Output: 
 4 vertices, 12 edges 
 0: 0.0
-0.0
 3 2 1 
 1: 0.0
-0.0
 3 2 0 
 2: 0.0
-0.0
 3 1 0 
 3: 0.0
-0.0
 2 1 0
 ----------------------------------------
 
@@ -328,16 +289,12 @@ Expected Output:
 Your Output: 
 6 vertices, 14 edges 
 0: 0.16666666666666666
-0.16666666666666666
 3 2 1 
 1: 0.0
-0.0
 3 2 0 
 2: 0.0
-0.0
 5 3 1 0 
 3: 0.0
-0.0
 2 1 0 
 4: Exception in thread "main" java.lang.NullPointerException
 	at PageRank.getPR(Solution.java:47)
@@ -356,10 +313,8 @@ Expected Output:
 Your Output: 
 2 vertices, 2 edges 
 0: 0.5
-0.5
 1 
 1: 0.5
-0.5
 0
 ----------------------------------------
 
@@ -400,40 +355,28 @@ Expected Output:
 Your Output: 
 12 vertices, 22 edges 
 0: 0.08333333333333333
-0.08333333333333333
 3 2 1 
 1: 0.0
-0.0
 0 
 2: 0.0
-0.0
 0 
 3: 0.0
-0.0
 11 10 9 8 7 6 5 4 0 
 4: 0.0
-0.0
 0 
 5: 0.0
-0.0
 0 
 6: 0.0
-0.0
 0 
 7: 0.0
-0.0
 0 
 8: 0.0
-0.0
 0 
 9: 0.0
-0.0
 0 
 10: 0.0
-0.0
 0 
 11: 0.0
-0.0
 0
 ----------------------------------------
 
