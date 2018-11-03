@@ -44,7 +44,9 @@ class PageRank {
 		double rank = 0.0;
 		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
+				System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
+				System.out.println("vert: " + vert);
 				for(int j = 0; j < vert.size(); j++) {
 					int key = vert.get(j);
 					rank = values.get(key) / dg.outdegree(key);
@@ -53,9 +55,9 @@ class PageRank {
 			}
 		}
 		//System.out.println(rank);
-		for (Integer l : values.keySet()) {
-			System.out.println(l +  " - " +values.get(l));
-		}
+		// for (Integer l : values.keySet()) {
+		// 	System.out.println(l +  " - " +values.get(l));
+		// }
 		return rank;
 
 	}
