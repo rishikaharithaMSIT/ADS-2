@@ -52,7 +52,7 @@ class PageRank {
 			}
 			
 		}
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 30; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if(incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
