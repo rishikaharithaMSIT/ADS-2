@@ -16,13 +16,13 @@ class PageRank {
 				if (incomingVertices.containsKey(k)) {
 					ArrayList<Integer> list = incomingVertices.get(k);
 					list.add(i);
-					System.out.println("list :" + list);
+					//System.out.println("list :" + list);
 					incomingVertices.put(k, list);
 				} else {
 					ArrayList<Integer> list = new ArrayList<Integer>();
 					list.add(i);
 					incomingVertices.put(k, list);
-					System.out.println("list :" + list);
+					//System.out.println("list :" + list);
 				}
 			}
 		}
