@@ -18,8 +18,7 @@ class PageRank {
 					list.add(i);
 					incomingVertices.put(k, list);
 				} else {
-					incomingVertices.put(k , new ArrayList<Integer>());
-					ArrayList<Integer> list = incomingVertices.get(k);
+					ArrayList<Integer> list = new ArrayList<Integer>();
 					list.add(i);
 					incomingVertices.put(k, list);
 				}
