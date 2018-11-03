@@ -294,7 +294,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:7:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:7:17: Variable 'dg' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:8:48: Variable 'incomingVertices' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:8:46: Variable 'incomingVertices' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:9:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:9:18: Parameter digraph should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:9:35: Parameter vertex should be final. [FinalParameters]

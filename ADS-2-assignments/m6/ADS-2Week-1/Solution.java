@@ -5,15 +5,15 @@ class PageRank {
 	int outDegree;
 	int inDegree;
 	Digraph dg;
-	Hashtable<Integer, ArrayList<Integer>> incomingVertices;
+	HashMap<Integer, ArrayList<Integer>> incomingVertices;
 	PageRank(Digraph digraph, Integer vertex) {
 		this.outDegree = digraph.outdegree(vertex);
 		this.inDegree = digraph.indegree(vertex);
 		this.dg = digraph;
-		incomingVertices = new Hashtable<Integer, ArrayList<Integer>>();
+		incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
 		for (int i = 0; i < digraph.V(); i++) {
 			for (Integer k : digraph.adj(i)) {
-				if (incomingVertices.contains(k)) {
+				if (incomingVertices.containsKey(k)) {
 					ArrayList<Integer> list = incomingVertices.get(k);
 					list.add(i);
 					System.out.println("list :" + list);
