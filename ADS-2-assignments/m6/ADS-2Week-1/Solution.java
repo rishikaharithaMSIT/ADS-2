@@ -29,15 +29,7 @@ class PageRank {
 				}
 			}
 		}
-		for (int i = 0; i < dg.V(); i++) {
-			if (dg.outdegree(i) == 0) {
-				for (int j = 0; j < dg.V(); j++) {
-					if(i!=j) {
-						dg.addEdge(i, j);
-					}
-				}
-			}
-		}
+		
 		// for (Integer l : incomingVertices.keySet()) {
 		// 	System.out.println(l +  " - " +incomingVertices.get(l));
 		// }
@@ -55,6 +47,15 @@ class PageRank {
 		}
 		for (int i = 0; i < dg.V(); i++) {
 			ranks.put(i , 1.0 / dg.V());
+		}
+		for (int i = 0; i < dg.V(); i++) {
+			if (dg.outdegree(i) == 0) {
+				for (int j = 0; j < dg.V(); j++) {
+					if(i != j) {
+						dg.addEdge(i, j);
+					}
+				}
+			}
 		}
 		//double initial = 1 / dg.V();
 		for (int i = 0; i < dg.V(); i++) {
