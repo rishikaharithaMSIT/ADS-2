@@ -73,6 +73,9 @@ class PageRank {
 					// if(dg.indegree(k) != 0) {
 					// 	rank = rank + (ranks.get(key) / dg.outdegree(key));
 					// }
+					if(dg.outdegree(key) == 0 ){
+						System.out.println("hi");
+					}
 					rank = rank + (ranks.get(key) / dg.outdegree(key));
 					
 
