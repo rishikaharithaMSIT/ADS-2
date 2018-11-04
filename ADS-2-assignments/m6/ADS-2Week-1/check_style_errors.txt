@@ -36,19 +36,20 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:74: Line is longer than 80 characters (found 99). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:76: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:88:44: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:93: Line is longer than 80 characters (found 106). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:101: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:106: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:106:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:107:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:107:33: Parameter args should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:108: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:115: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:125: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:135:40: ')' is preceded with whitespace. [ParenPad]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:144: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:86:46: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:89:44: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:94: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:102: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:107: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:107:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:108:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:108:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:109: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:116: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:126: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:136:40: ')' is preceded with whitespace. [ParenPad]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:145: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 43 errors.
+Checkstyle ends with 44 errors.
 Starting audit...
 Audit done.

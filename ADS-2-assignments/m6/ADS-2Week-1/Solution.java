@@ -83,6 +83,7 @@ class PageRank {
 				// } else {
 				// 	values.put(k, 0.0);
 				// }
+				values.put(k,rank);
 			}
 			for (int j = 0; j < dg.V(); j++) {
 				ranks.put(j , values.get(j));
