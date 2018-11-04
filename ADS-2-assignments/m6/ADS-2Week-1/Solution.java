@@ -59,6 +59,9 @@ class PageRank {
 					values.put(k , 0.0);
 					break;
 				}
+				if(dg.outdegree(k) == 0 ){
+						System.out.println("hi");
+					}
 				//System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
 				//System.out.println("vert: " + vert);
@@ -73,9 +76,7 @@ class PageRank {
 					// if(dg.indegree(k) != 0) {
 					// 	rank = rank + (ranks.get(key) / dg.outdegree(key));
 					// }
-					if(dg.outdegree(key) == 0 ){
-						System.out.println("hi");
-					}
+
 					rank = rank + (ranks.get(key) / dg.outdegree(key));
 					
 
