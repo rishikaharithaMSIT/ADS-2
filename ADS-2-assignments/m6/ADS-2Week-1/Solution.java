@@ -42,9 +42,9 @@ class PageRank {
 		values = new HashMap<Integer, Double>();
 		ranks = new HashMap<Integer, Double>();
 
-		for (int i = 0; i < dg.V(); i++) {
-			values.put(i , 1.0 / dg.V());
-		}
+		// for (int i = 0; i < dg.V(); i++) {
+		// 	values.put(i , 1.0 / dg.V());
+		// }
 		for (int i = 0; i < dg.V(); i++) {
 			ranks.put(i , 1.0 / dg.V());
 		}
