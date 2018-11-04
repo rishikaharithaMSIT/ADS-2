@@ -52,7 +52,7 @@ class PageRank {
 			}
 			
 		}
-		for (int i = 0; i < 750; i++) {
+		for (int i = 0; i < 900; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if(incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
@@ -75,11 +75,11 @@ class PageRank {
 
 					//values.put(key , rank);
 				}
-				if (dg.indegree(k) != 0) {
-					values.put(k, rank);
-				} else {
-					values.put(k, 0.0);
-				}
+				// if (dg.indegree(k) != 0) {
+				// 	values.put(k, rank);
+				// } else {
+				// 	values.put(k, 0.0);
+				// }
 
 			}
 			for (int j = 0; j < dg.V(); j++) {
