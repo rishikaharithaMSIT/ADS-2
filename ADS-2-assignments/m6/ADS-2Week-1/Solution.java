@@ -14,6 +14,15 @@ class PageRank {
 
 		this.dg = digraph;
 		incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
+		for (int i = 0; i < dg.V(); i++) {
+			if (dg.outdegree(i) == 0) {
+				for (int j = 0; j < dg.V(); j++) {
+					if(i != j) {
+						dg.addEdge(i, j);
+					}
+				}
+			}
+		}
 		for (int i = 0; i < digraph.V(); i++) {
 			for (Integer k : digraph.adj(i)) {
 				if (incomingVertices.containsKey(k)) {
@@ -48,15 +57,7 @@ class PageRank {
 		for (int i = 0; i < dg.V(); i++) {
 			ranks.put(i , 1.0 / dg.V());
 		}
-		for (int i = 0; i < dg.V(); i++) {
-			if (dg.outdegree(i) == 0) {
-				for (int j = 0; j < dg.V(); j++) {
-					if(i != j) {
-						dg.addEdge(i, j);
-					}
-				}
-			}
-		}
+
 		//double initial = 1 / dg.V();
 		for (int i = 0; i < dg.V(); i++) {
 			if (!incomingVertices.containsKey(i)) {
