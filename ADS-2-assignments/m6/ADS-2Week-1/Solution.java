@@ -32,7 +32,9 @@ class PageRank {
 		for (int i = 0; i < dg.V(); i++) {
 			if (dg.outdegree(i) == 0) {
 				for (int j = 0; j < dg.V(); j++) {
-					dg.addEdge(i, j);
+					if(i!=j) {
+						dg.addEdge(i, j);
+					}
 				}
 			}
 		}
