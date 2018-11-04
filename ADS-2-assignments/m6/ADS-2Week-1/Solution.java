@@ -51,9 +51,9 @@ class PageRank {
 		values = new HashMap<Integer, Double>();
 		ranks = new HashMap<Integer, Double>();
 
-		// for (int i = 0; i < dg.V(); i++) {
-		// 	values.put(i , 1.0 / dg.V());
-		// }
+		for (int i = 0; i < dg.V(); i++) {
+			values.put(i , 1.0 / dg.V());
+		}
 		for (int i = 0; i < dg.V(); i++) {
 			ranks.put(i , 1.0 / dg.V());
 		}
@@ -65,7 +65,7 @@ class PageRank {
 			}
 
 		}
-		for (int i = 0; i < 1500; i++) {
+		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if (incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
@@ -102,11 +102,11 @@ class PageRank {
 			for (int j = 0; j < dg.V(); j++) {
 				ranks.put(j , values.get(j));
 			}
-			System.out.println("iteration number " + i);
-			for (Integer l : ranks.keySet()) {
-				System.out.println(l +  " - " + ranks.get(l));
-			}
-			System.out.println("--------------------------------");
+			// System.out.println("iteration number " + i);
+			// for (Integer l : ranks.keySet()) {
+			// 	System.out.println(l +  " - " + ranks.get(l));
+			// }
+			// System.out.println("--------------------------------");
 		}
 		//System.out.println(rank);
 		for (Integer l : ranks.keySet()) {
