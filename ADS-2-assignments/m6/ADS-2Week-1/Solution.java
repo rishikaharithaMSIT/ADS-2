@@ -17,7 +17,7 @@ class PageRank {
 		for (int i = 0; i < dg.V(); i++) {
 			if (dg.outdegree(i) == 0) {
 				for (int j = 0; j < dg.V(); j++) {
-					if(i != j) {
+					if (i != j) {
 						dg.addEdge(i, j);
 					}
 				}
@@ -38,7 +38,7 @@ class PageRank {
 				}
 			}
 		}
-		
+
 		// for (Integer l : incomingVertices.keySet()) {
 		// 	System.out.println(l +  " - " +incomingVertices.get(l));
 		// }
@@ -65,7 +65,7 @@ class PageRank {
 			}
 
 		}
-		for (int i = 0; i < 999; i++) {
+		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if (incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
@@ -102,6 +102,11 @@ class PageRank {
 			for (int j = 0; j < dg.V(); j++) {
 				ranks.put(j , values.get(j));
 			}
+			System.out.println("iteration number " + i);
+			for (Integer l : ranks.keySet()) {
+				System.out.println(l +  " - " + ranks.get(l));
+			}
+			System.out.println("--------------------------------");
 		}
 		//System.out.println(rank);
 		for (Integer l : ranks.keySet()) {
