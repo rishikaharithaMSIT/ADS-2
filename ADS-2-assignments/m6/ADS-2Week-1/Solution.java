@@ -5,13 +5,13 @@ import java.math.BigDecimal;
  * Class for page rank.
  */
 class PageRank {
-	
+
 	Digraph dg;
 	HashMap<Integer, ArrayList<Integer>> incomingVertices;
 	HashMap<Integer, Double> values;
 	HashMap<Integer, Double> ranks;
 	PageRank(Digraph digraph) {
-		
+
 		this.dg = digraph;
 		incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
 		for (int i = 0; i < digraph.V(); i++) {
@@ -29,6 +29,13 @@ class PageRank {
 				}
 			}
 		}
+		for (int i = 0; i < dg.V(); i++) {
+			if (dg.outdegree(i) == 0) {
+				for (int j = 0; j < dg.V(); j++) {
+					dg.addEdge(i, j);
+				}
+			}
+		}
 		// for (Integer l : incomingVertices.keySet()) {
 		// 	System.out.println(l +  " - " +incomingVertices.get(l));
 		// }
@@ -40,6 +47,7 @@ class PageRank {
 		// }
 		values = new HashMap<Integer, Double>();
 		ranks = new HashMap<Integer, Double>();
+
 		for (int i = 0; i < dg.V(); i++) {
 			values.put(i , 1.0 / dg.V());
 		}
@@ -48,20 +56,18 @@ class PageRank {
 		}
 		//double initial = 1 / dg.V();
 		for (int i = 0; i < dg.V(); i++) {
-			if(!incomingVertices.containsKey(i)) {
+			if (!incomingVertices.containsKey(i)) {
 				incomingVertices.put(i , null);
 			}
-			
+
 		}
 		for (int i = 0; i < 1000; i++) {
 			for (Integer k : incomingVertices.keySet()) {
-				if(incomingVertices.get(k) == null) {
+				if (incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
 					break;
 				}
-				if(dg.outdegree(k) == 0 ){
-						System.out.println("hi");
-					}
+
 				//System.out.println("K" + k);
 				ArrayList<Integer> vert = incomingVertices.get(k);
 				//System.out.println("vert: " + vert);
@@ -78,7 +84,7 @@ class PageRank {
 					// }
 
 					rank = rank + (ranks.get(key) / dg.outdegree(key));
-					
+
 
 					//values.put(key , rank);
 				}
@@ -87,7 +93,7 @@ class PageRank {
 				// } else {
 				// 	values.put(k, 0.0);
 				// }
-				values.put(k,rank);
+				values.put(k, rank);
 			}
 			for (int j = 0; j < dg.V(); j++) {
 				ranks.put(j , values.get(j));
