@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.*;
+import java.math.BigDecimal;
 /**
  * Class for page rank.
  */
@@ -87,7 +88,7 @@ class PageRank {
 		}
 		//System.out.println(rank);
 		for (Integer l : ranks.keySet()) {
-			System.out.println(l +  " - " + ranks.get(l));
+			System.out.println(l +  " - " + BigDecimal.valueOf(ranks.get(l)).toPlainString());
 		}
 		return 0.0;
 
