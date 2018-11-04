@@ -75,11 +75,11 @@ class PageRank {
 
 					//values.put(key , rank);
 				}
-				// if (dg.indegree(k) != 0) {
-				// 	values.put(k, rank);
-				// } else {
-				// 	values.put(k, 0.0);
-				// }
+				if (dg.indegree(k) != 0) {
+					values.put(k, rank);
+				} else {
+					values.put(k, 0.0);
+				}
 			}
 			for (int j = 0; j < dg.V(); j++) {
 				ranks.put(j , values.get(j));
