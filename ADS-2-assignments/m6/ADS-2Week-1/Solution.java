@@ -105,7 +105,7 @@ class PageRank {
 		}
 		//System.out.println(rank);
 		for (Integer l : ranks.keySet()) {
-			System.out.println(l +  " - " + BigDecimal.valueOf(ranks.get(l)).toPlainString());
+			System.out.println(l +  " - " + ranks.get(l));
 		}
 		return 0.0;
 
