@@ -65,7 +65,7 @@ class PageRank {
 
 		}
 
-		for (int i = 0; i < 1001; i++) {
+		for (int i = 0; i < 1000; i++) {
 			for (int v = 0; v < dg.V(); v++) {
 				if (dg.indegree(v) == 0) {
 					values.put(v , 0.0);
