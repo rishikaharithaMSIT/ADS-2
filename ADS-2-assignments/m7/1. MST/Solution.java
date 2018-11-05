@@ -1,7 +1,22 @@
 import java.util.Scanner;
 import java.util.Random;
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+		//unused.
+	}
+	/**
+	 * main function.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
+
 		Scanner scan = new Scanner(System.in);
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
@@ -16,12 +31,12 @@ public class Solution {
 
 		}
 		KruskalMST mst = new KruskalMST(ewg);
-		
-		System.out.format("%.5f",mst.weight());
+		System.out.format("%.5f", mst.weight());
 		//String.format("%.5f", weight);
 
 	}
 }
+
 class Edge implements Comparable<Edge> {
 
 	private final int v;
