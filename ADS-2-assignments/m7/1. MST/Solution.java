@@ -16,15 +16,9 @@ public class Solution {
 
 		}
 		KruskalMST mst = new KruskalMST(ewg);
-		double max = 0.0;
-		for (Edge e : mst.edges()) {
-			double ed = e.weight();
-			//StdOut.println(e);
-			if(max < ed) {
-				max = ed;
-			}
-		}
-		System.out.println(mst.weight());
+		
+		System.out.format("%.5f",mst.weight());
+		//String.format("%.5f", weight);
 
 	}
 }
