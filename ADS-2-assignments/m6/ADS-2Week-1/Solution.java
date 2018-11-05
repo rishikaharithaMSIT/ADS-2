@@ -57,7 +57,6 @@ class PageRank {
 		for (int i = 0; i < dg.V(); i++) {
 			ranks.put(i , 1.0 / dg.V());
 		}
-
 		//double initial = 1 / dg.V();
 		for (int i = 0; i < dg.V(); i++) {
 			if (!incomingVertices.containsKey(i)) {
@@ -65,7 +64,7 @@ class PageRank {
 			}
 
 		}
-		for (int i = 0; i < 997; i++) {
+		for (int i = 0; i < 1002; i++) {
 			for (Integer k : incomingVertices.keySet()) {
 				if (incomingVertices.get(k) == null) {
 					values.put(k , 0.0);
