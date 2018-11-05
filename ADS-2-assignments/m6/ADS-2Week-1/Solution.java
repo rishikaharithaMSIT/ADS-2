@@ -65,7 +65,7 @@ class PageRank {
 
 		}
 
-		for (int i = 0; i < 920; i++) {
+		for (int i = 0; i < 1000; i++) {
 			for (int v = 0; v < dg.V(); v++) {
 				if (dg.indegree(v) == 0) {
 					values.put(v , 0.0);
@@ -95,14 +95,14 @@ class PageRank {
 					// } else {
 					// 	values.put(k, 0.0);
 					// }
-					
+
 				}
 				values.put(v, rank);
-				for (int j = 0; j < dg.V(); j++) {
-					ranks.put(j , values.get(j));
-				}
-			}
 
+			}
+			for (int j = 0; j < dg.V(); j++) {
+				ranks.put(j , values.get(j));
+			}
 			// System.out.println("iteration number " + i);
 			// for (Integer l : ranks.keySet()) {
 			// 	System.out.println(l +  " - " + ranks.get(l));
