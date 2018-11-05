@@ -25,7 +25,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:55:37: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:58:36: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:63:55: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:67:37: '1000' is a magic number. [MagicNumber]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:67:37: '105' is a magic number. [MagicNumber]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:70:53: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:75: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m6\ADS-2Week-1\Solution.java:83: Line is longer than 80 characters (found 88). [LineLength]
