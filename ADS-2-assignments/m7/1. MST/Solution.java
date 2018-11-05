@@ -16,9 +16,15 @@ public class Solution {
 
 		}
 		KruskalMST mst = new KruskalMST(ewg);
+		double max = 0.0;
 		for (Edge e : mst.edges()) {
-			StdOut.println(e);
+			double ed = e.weight();
+			//StdOut.println(e);
+			if(max < ed) {
+				max = ed;
+			}
 		}
+		System.out.println(max);
 
 	}
 }
@@ -101,7 +107,7 @@ class Edge implements Comparable<Edge> {
 	 * @return a string representation of this edge
 	 */
 	public String toString() {
-		return String.format("%d-%d %.5f", v, w, weight);
+		return String.format("%.5f", weight);
 	}
 
 	// /**
