@@ -66,18 +66,16 @@ class PageRank {
 		}
 
 		for (int i = 0; i < 1000; i++) {
-			for (Integer k : incomingVertices.keySet()) {
-				if (incomingVertices.get(k) == null) {
-					values.put(k , 0.0);
+			for (int v = 0; v < dg.V(); v++) {
+				if (dg.indegree(v) == 0) {
+					values.put(v , 0.0);
 					break;
 				}
-
-				//System.out.println("K" + k);
-				ArrayList<Integer> vert = incomingVertices.get(k);
-				//System.out.println("vert: " + vert);
 				double rank = 0.0;
-				for (int j = 0; j < vert.size(); j++) {
-					int key = vert.get(j);
+				for (Integer k : dg.reverse().adj(v)) {
+					//System.out.println("K" + k);
+					//ArrayList<Integer> vert = incomingVertices.get(k);
+					//System.out.println("vert: " + vert);
 					// System.out.println(" I " + i);
 					// System.out.println(" k " + k);
 					// System.out.println(" key " + key);
@@ -87,21 +85,24 @@ class PageRank {
 					// 	rank = rank + (ranks.get(key) / dg.outdegree(key));
 					// }
 
-					rank = rank + (ranks.get(key) / dg.outdegree(key));
+					rank = rank + (ranks.get(k) / dg.outdegree(k));
 
 
 					//values.put(key , rank);
+
+					// if (dg.indegree(k) != 0) {
+					// 	values.put(k, rank);
+					// } else {
+					// 	values.put(k, 0.0);
+					// }
+					
 				}
-				// if (dg.indegree(k) != 0) {
-				// 	values.put(k, rank);
-				// } else {
-				// 	values.put(k, 0.0);
-				// }
-				values.put(k, rank);
+				values.put(v, rank);
+				for (int j = 0; j < dg.V(); j++) {
+					ranks.put(j , values.get(j));
+				}
 			}
-			for (int j = 0; j < dg.V(); j++) {
-				ranks.put(j , values.get(j));
-			}
+
 			// System.out.println("iteration number " + i);
 			// for (Integer l : ranks.keySet()) {
 			// 	System.out.println(l +  " - " + ranks.get(l));
