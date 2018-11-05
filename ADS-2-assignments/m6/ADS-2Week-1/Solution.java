@@ -13,7 +13,7 @@ class PageRank {
 	PageRank(Digraph digraph) {
 
 		this.dg = digraph;
-		incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
+		//incomingVertices = new HashMap<Integer, ArrayList<Integer>>();
 		for (int i = 0; i < dg.V(); i++) {
 			if (dg.outdegree(i) == 0) {
 				for (int j = 0; j < dg.V(); j++) {
@@ -23,21 +23,21 @@ class PageRank {
 				}
 			}
 		}
-		for (int i = 0; i < digraph.V(); i++) {
-			for (Integer k : digraph.adj(i)) {
-				if (incomingVertices.containsKey(k)) {
-					ArrayList<Integer> list = incomingVertices.get(k);
-					list.add(i);
-					//System.out.println("list :" + list);
-					incomingVertices.put(k, list);
-				} else {
-					ArrayList<Integer> list = new ArrayList<Integer>();
-					list.add(i);
-					incomingVertices.put(k, list);
-					//System.out.println("list :" + list);
-				}
-			}
-		}
+		// for (int i = 0; i < digraph.V(); i++) {
+		// 	for (Integer k : digraph.adj(i)) {
+		// 		if (incomingVertices.containsKey(k)) {
+		// 			ArrayList<Integer> list = incomingVertices.get(k);
+		// 			list.add(i);
+		// 			//System.out.println("list :" + list);
+		// 			incomingVertices.put(k, list);
+		// 		} else {
+		// 			ArrayList<Integer> list = new ArrayList<Integer>();
+		// 			list.add(i);
+		// 			incomingVertices.put(k, list);
+		// 			//System.out.println("list :" + list);
+		// 		}
+		// 	}
+		// }
 
 		// for (Integer l : incomingVertices.keySet()) {
 		// 	System.out.println(l +  " - " +incomingVertices.get(l));
@@ -58,12 +58,12 @@ class PageRank {
 			ranks.put(i , 1.0 / (double) dg.V());
 		}
 		//double initial = 1 / dg.V();
-		for (int i = 0; i < dg.V(); i++) {
-			if (!incomingVertices.containsKey(i)) {
-				incomingVertices.put(i , null);
-			}
+		// for (int i = 0; i < dg.V(); i++) {
+		// 	if (!incomingVertices.containsKey(i)) {
+		// 		incomingVertices.put(i , null);
+		// 	}
 
-		}
+		// }
 
 		for (int i = 0; i < 1000; i++) {
 			for (int v = 0; v < dg.V(); v++) {
