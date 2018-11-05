@@ -24,7 +24,7 @@ public class Solution {
 				max = ed;
 			}
 		}
-		System.out.println(max);
+		System.out.println(mst.weight());
 
 	}
 }
