@@ -1,14 +1,10 @@
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:29: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:33: 'v' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:36: Parameter w should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:40: 'w' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:43: Parameter weight should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:50: 'weight' hides a field. [HiddenField]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:35: 'v' hides a field. [HiddenField]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:48: 'w' hides a field. [HiddenField]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:64: 'weight' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
