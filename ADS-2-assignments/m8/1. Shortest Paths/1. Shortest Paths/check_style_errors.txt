@@ -1,25 +1,14 @@
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:1: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:7: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:25: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:29: 'v' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:32: Parameter w should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:36: 'w' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:39: Parameter weight should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:16:46: 'weight' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:17: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:17: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:18: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:18: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:19: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:19: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:29: Parameter v should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:33: 'v' hides a field. [HiddenField]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:36: Parameter w should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:40: 'w' hides a field. [HiddenField]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:43: Parameter weight should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\DirectedEdge.java:25:50: 'weight' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m8\1. Shortest Paths\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
