@@ -18,9 +18,9 @@ public class DirectedEdge {
     /**
      * Constructs the object.
      *
-     * @param      v       { parameter_description }
-     * @param      w       { parameter_description }
-     * @param      weight  The weight
+     * @param      vv    { parameter_description }
+     * @param      ww    { parameter_description }
+     * @param      wei   The wei
      */
     public DirectedEdge(final int vv, final int ww, final double wei) {
         if (vv < 0) {
