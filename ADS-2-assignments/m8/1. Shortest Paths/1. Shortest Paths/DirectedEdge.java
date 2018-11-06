@@ -22,22 +22,22 @@ public class DirectedEdge {
      * @param      w       { parameter_description }
      * @param      weight  The weight
      */
-    public DirectedEdge(final int v, final int w, final double weight) {
-        if (v < 0) {
+    public DirectedEdge(final int vv, final int ww, final double wei) {
+        if (vv < 0) {
             throw new IllegalArgumentException(
                 "Vertex names must be nonnegative integers");
         }
-        if (w < 0) {
+        if (ww < 0) {
             throw new IllegalArgumentException(
                 "Vertex names must be nonnegative integers");
         }
-        if (Double.isNaN(weight)) {
+        if (Double.isNaN(wei)) {
             throw new IllegalArgumentException(
                 "Weight is NaN");
         }
-        this.v = v;
-        this.w = w;
-        this.weight = weight;
+        this.v = vv;
+        this.w = ww;
+        this.weight = wei;
     }
 
     /**
