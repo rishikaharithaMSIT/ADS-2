@@ -19,9 +19,9 @@ public class SeamCarver {
 		for (int i = 1; i < picture.width() - 1; i++) {
 			for (int j = 1; j < picture.height() - 1; j++) {
 				matrix[i][j] = energy(i, j);
-				System.out.print(matrix[i][j] + " ");
+				//System.out.print(matrix[i][j] + " ");
 			}
-			System.out.println();
+			//System.out.println();
 		}
 		for (int i = 0; i < picture.width(); i++) {
 			for (int j = 1; j < picture.height(); j++) {
