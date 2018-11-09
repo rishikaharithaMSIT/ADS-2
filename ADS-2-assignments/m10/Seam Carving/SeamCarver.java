@@ -2,7 +2,8 @@
 public class SeamCarver {
 	Picture picture;
 	// create a seam carver object based on the given picture
-	public SeamCarver(Picture pic) {
+	public SeamCarver(Picture pic) throws Exception {
+		if (pic == null) throw new Exception("picture is null");
 		this.picture = pic;
 
 	}

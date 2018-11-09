@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Solution {
 
-    public static void printEnergies(String fileName) {
+    public static void printEnergies(String fileName) throws Exception{
         Picture picture = new Picture(fileName);
         StdOut.printf("image is %d pixels wide by %d pixels high.\n", picture.width(), picture.height());
 
