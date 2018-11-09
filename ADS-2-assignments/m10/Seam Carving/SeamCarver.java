@@ -18,7 +18,7 @@ public class SeamCarver {
 	public void setEnergyMatrix(int w, int h) {
 		for (int i = 1; i < picture.width() - 1; i++) {
 			for (int j = 1; j < picture.height() - 1; j++) {
-				matrix[i][j] = energy(i, j);
+				matrix[i][j] = energyCal(i, j);
 				//System.out.print(matrix[i][j] + " ");
 			}
 			//System.out.println();
@@ -45,9 +45,7 @@ public class SeamCarver {
 	public int height() {
 		return picture.height();
 	}
-
-	// energy of pixel at column x and row y
-	public double energy(int x, int y) {
+	public double energyCal(int x, int y) {
 		Color up = picture.get(x, y - 1);
 		Color bottom = picture.get(x, y + 1);
 		Color left = picture.get(x - 1, y);
@@ -61,6 +59,11 @@ public class SeamCarver {
 		double value = Math.sqrt(upDown + leftRight);
 
 		return value;
+	}
+
+	// energy of pixel at column x and row y
+	public double energy(int x, int y) {
+		return matrix[x][y];
 	}
 
 	// sequence of indices for horizontal seam
