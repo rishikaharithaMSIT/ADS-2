@@ -7,12 +7,17 @@ public class SeamCarver {
 		if (pic == null) throw new Exception("picture is null");
 		this.picture = pic;
 		matrix = new double[picture.width()][picture.height()];
+		for (int i = 0; i < picture.width(); i++) {
+			for (int j = 0; j < picture.height(); j++) {
+				matrix[i][j] = 1000.0;
+			}
+		}
 		setEnergyMatrix(picture.width(), picture.height());
 
 	}
 	public void setEnergyMatrix(int w, int h) {
-		for (int i = 1; i < picture.width(); i++) {
-			for (int j = 0; j < picture.height(); j++) {
+		for (int i = 1; i < picture.width() - 1; i++) {
+			for (int j = 1; j < picture.height() - 1; j++) {
 				matrix[i][j] = energy(i, j);
 			}
 		}
@@ -38,11 +43,11 @@ public class SeamCarver {
 		Color left = picture.get(x - 1, y);
 		Color right = picture.get(x + 1, y);
 		double upDown = Math.pow((up.getRed() - bottom.getRed()), 2)
-		             + Math.pow((up.getGreen() - bottom.getGreen()), 2)
-		             + Math.pow((up.getBlue() - bottom.getBlue()), 2);
+		                + Math.pow((up.getGreen() - bottom.getGreen()), 2)
+		                + Math.pow((up.getBlue() - bottom.getBlue()), 2);
 		double leftRight = Math.pow((left.getRed() - right.getRed()), 2)
-		                + Math.pow((left.getGreen() - right.getGreen()), 2)
-		                + Math.pow((left.getBlue() - right.getBlue()), 2);
+		                   + Math.pow((left.getGreen() - right.getGreen()), 2)
+		                   + Math.pow((left.getBlue() - right.getBlue()), 2);
 		double value = Math.sqrt(upDown + leftRight);
 
 		return value;
