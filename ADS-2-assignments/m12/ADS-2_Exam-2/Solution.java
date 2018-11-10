@@ -35,7 +35,7 @@ public class Solution {
 			int d = Integer.parseInt(dirPaths[1]);
 			DijkstraUndirectedSP sp = new DijkstraUndirectedSP(edgeGraph, s);
 			if(sp.hasPathTo(d)) {
-
+				System.out.println(sp.distTo(d));
 			}else {
 				System.out.println("No Path Found.");
 			}

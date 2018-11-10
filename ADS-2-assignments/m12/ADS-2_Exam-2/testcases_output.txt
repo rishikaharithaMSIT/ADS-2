@@ -54,12 +54,12 @@ Your Output:
 No Path Found.
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 370.0
 
 Your Output: 
-
+370.0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
