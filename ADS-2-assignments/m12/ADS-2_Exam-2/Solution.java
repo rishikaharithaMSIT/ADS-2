@@ -57,25 +57,56 @@ public class Solution {
 				for (Edge e : dsp.pathTo(via)) {
                     String[] line = e.toString().split(" ");
                     String[] vw = line[0].split("-");
-                    que.enqueue(Integer.parseInt(vw[0]));
-                    que.enqueue(Integer.parseInt(vw[1]));
+                    int v = 0;
+                    int w = 0;
+                    
+                    
                     for(Integer j : que){
-                    	System.out.println(j);
+                    	if(Integer.parseInt(vw[0]) == j) {
+                    		v = 1;
+                    	}
+                    	if(Integer.parseInt(vw[1]) == j) {
+                    		w = 1;
+                    	}
+                    	
                     }
-                    que.dequeue();
-                    System.out.println("---");
-                    for(Integer l : que){
-                    	System.out.println(l);
+                    if(v == 0) {
+                    	que.enqueue(Integer.parseInt(vw[0]));
                     }
+                    if(w == 0) {
+                    	que.enqueue(Integer.parseInt(vw[1]));
+                    }
+
+                    
 
                 }
                 DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
                 for (Edge e : two.pathTo(d)) {
                     String[] line = e.toString().split(" ");
                     String[] vw = line[0].split("-");
-                    //System.out.println(e.other(Integer.parseInt(vw[1])));
+                    int v = 0;
+                    int w = 0;                  
+                    
+                    for(Integer j : que){
+                    	if(Integer.parseInt(vw[0]) == j) {
+                    		v = 1;
+                    	}
+                    	if(Integer.parseInt(vw[1]) == j) {
+                    		w = 1;
+                    	}
+                    	
+                    }
+                    if(v == 0) {
+                    	que.enqueue(Integer.parseInt(vw[0]));
+                    }
+                    if(w == 0) {
+                    	que.enqueue(Integer.parseInt(vw[1]));
+                    }
                 }
 				System.out.println(dsp.distTo(via) + two.distTo(d));
+				while(!que.isEmpty()){
+					System.out.print(que.dequeue() + " ");
+				}
 			} else {
 				System.out.println("No Path Found.");
 			}
