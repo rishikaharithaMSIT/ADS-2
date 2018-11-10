@@ -177,20 +177,8 @@ Audit done.
 Checkstyle ends with 31 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:7:33: Parameter args should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:19: Line is longer than 80 characters (found 109). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:32: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:39: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:48: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:57: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:87: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:110: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:6: Line is longer than 80 characters (found 89). [LineLength]
