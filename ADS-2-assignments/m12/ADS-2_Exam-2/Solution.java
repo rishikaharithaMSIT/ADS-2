@@ -53,6 +53,7 @@ public class Solution {
 			d = Integer.parseInt(viaPaths[viaPaths.length - 1]);
 			DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(edgeGraph, s);
 			if (dsp.hasPathTo(d)) {
+
 				for (Edge e : dsp.pathTo(via)) {
                     System.out.print(e + "   ");
                 }
@@ -60,7 +61,7 @@ public class Solution {
                 for (Edge e : two.pathTo(d)) {
                     System.out.print(e + "   ");
                 }
-				System.out.println(dsp.distTo(d));
+				System.out.println(dsp.distTo(via) + two.distTo(d));
 			} else {
 				System.out.println("No Path Found.");
 			}
