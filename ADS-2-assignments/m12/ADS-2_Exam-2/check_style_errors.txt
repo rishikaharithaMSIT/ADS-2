@@ -83,39 +83,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:16: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:19: Line is longer than 80 characters (found 106). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:28:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:29:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:30:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:33: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:34:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:35:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:72: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:81:25: Parameter item should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:86: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:87: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:98: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:102: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:118: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:121: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:123: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:126: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:130: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:131:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:133:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:133:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:133:29: Parameter first should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:133:40: 'first' hides a field. [HiddenField]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:137: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:137:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:138: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:138:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:140:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:141: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Queue.java:143: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 31 errors.
 Starting audit...
 Audit done.
 Starting audit...
