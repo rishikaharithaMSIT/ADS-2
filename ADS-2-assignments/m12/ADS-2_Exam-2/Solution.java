@@ -57,14 +57,18 @@ public class Solution {
 				for (Edge e : dsp.pathTo(via)) {
                     String[] line = e.toString().split(" ");
                     String[] vw = line[0].split("-");
-                    System.out.println(e.other(Integer.parseInt(vw[1])));
+                    que.enqueue(Integer.parseInt(vw[0]));
+                    que.enqueue(Integer.parseInt(vw[1]));
+                    for(Integer j : que){
+                    	System.out.println(j);
+                    }
 
                 }
                 DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
                 for (Edge e : two.pathTo(d)) {
                     String[] line = e.toString().split(" ");
                     String[] vw = line[0].split("-");
-                    System.out.println(e.other(Integer.parseInt(vw[1])));
+                    //System.out.println(e.other(Integer.parseInt(vw[1])));
                 }
 				System.out.println(dsp.distTo(via) + two.distTo(d));
 			} else {
