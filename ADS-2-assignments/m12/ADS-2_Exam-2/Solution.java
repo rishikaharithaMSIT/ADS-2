@@ -57,7 +57,7 @@ public class Solution {
                     System.out.print(e + "   ");
                 }
                 DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
-                for (Edge e : two.pathTo(via)) {
+                for (Edge e : two.pathTo(d)) {
                     System.out.print(e + "   ");
                 }
 				System.out.println(dsp.distTo(d));
