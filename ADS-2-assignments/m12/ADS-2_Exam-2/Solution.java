@@ -47,6 +47,15 @@ public class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] viaPaths = scan.nextLine().split(" ");
+			s = Integer.parseInt(viaPaths[0]);
+			d = Integer.parseInt(viaPaths[viaPaths.length-1]);
+			DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(edgeGraph, s);
+			if(dsp.hasPathTo(d)) {
+				System.out.println(dsp.distTo(d));
+			}else {
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		default:
