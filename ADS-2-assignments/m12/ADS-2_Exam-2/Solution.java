@@ -58,8 +58,6 @@ public final class Solution {
 			if (dsp.hasPathTo(d)) {
 				Queue<Integer> que = new Queue<Integer>();
 				for (Edge e : dsp.pathTo(via)) {
-					// String[] line = e.toString().split(" ");
-					// String[] vw = line[0].split("-");
 					int ver = e.either();
 					int other = e.other(ver);
 					int v = 0;
@@ -88,25 +86,25 @@ public final class Solution {
 				}
 				DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
 				for (Edge e : two.pathTo(d)) {
-					String[] line = e.toString().split(" ");
-					String[] vw = line[0].split("-");
+					int ver = e.either();
+					int other = e.other(ver);
 					int v = 0;
 					int w = 0;
 
 					for (Integer j : que) {
-						if (Integer.parseInt(vw[0]) == j) {
+						if (ver == j) {
 							v = 1;
 						}
-						if (Integer.parseInt(vw[1]) == j) {
+						if (other == j) {
 							w = 1;
 						}
 
 					}
 					if (v == 0) {
-						que.enqueue(Integer.parseInt(vw[0]));
+						que.enqueue(ver);
 					}
 					if (w == 0) {
-						que.enqueue(Integer.parseInt(vw[1]));
+						que.enqueue(other);
 					}
 				}
 				System.out.println(dsp.distTo(via) + two.distTo(d));
