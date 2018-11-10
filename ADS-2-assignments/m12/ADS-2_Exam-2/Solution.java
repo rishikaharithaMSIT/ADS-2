@@ -62,7 +62,7 @@ public class Solution {
                     
                     
                     for(Integer j : que){
-                    	if(Integer.parseInt(vw[0]) == j) {
+                    	if(Integer.parseInt(vw[1]) == j) {
                     		v = 1;
                     	}
                     	if(Integer.parseInt(vw[1]) == j) {
@@ -70,11 +70,12 @@ public class Solution {
                     	}
                     	
                     }
-                    if(v == 0) {
-                    	que.enqueue(Integer.parseInt(vw[0]));
-                    }
+                    
                     if(w == 0) {
                     	que.enqueue(Integer.parseInt(vw[1]));
+                    }
+                    if(v == 0) {
+                    	que.enqueue(Integer.parseInt(vw[0]));
                     }
 
                     
