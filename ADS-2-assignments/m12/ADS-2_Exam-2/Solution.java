@@ -10,10 +10,10 @@ public class Solution {
 		int edges = Integer.parseInt(scan.nextLine());
 		EdgeWeightedGraph edgeGraph = new EdgeWeightedGraph(vertices);
 		int k = edges;
-		while(k>0) {
+		while (k > 0) {
 			String[] edgeString = scan.nextLine().split(" ");
-			Edge ed = new Edge(Integer.parseInt(edgeString[0]), 
-				Integer.parseInt(edgeString[1]), Integer.parseInt(edgeString[2]));
+			Edge ed = new Edge(Integer.parseInt(edgeString[0]),
+			                   Integer.parseInt(edgeString[1]), Integer.parseInt(edgeString[2]));
 			edgeGraph.addEdge(ed);
 			k--;
 		}
@@ -34,9 +34,9 @@ public class Solution {
 			int s = Integer.parseInt(dirPaths[0]);
 			int d = Integer.parseInt(dirPaths[1]);
 			DijkstraUndirectedSP sp = new DijkstraUndirectedSP(edgeGraph, s);
-			if(sp.hasPathTo(d)) {
+			if (sp.hasPathTo(d)) {
 				System.out.println(sp.distTo(d));
-			}else {
+			} else {
 				System.out.println("No Path Found.");
 			}
 			break;
@@ -49,11 +49,19 @@ public class Solution {
 			// Other wise print "No Path Found."
 			String[] viaPaths = scan.nextLine().split(" ");
 			s = Integer.parseInt(viaPaths[0]);
-			d = Integer.parseInt(viaPaths[viaPaths.length-1]);
+			int via = Integer.parseInt(viaPaths[1]);
+			d = Integer.parseInt(viaPaths[viaPaths.length - 1]);
 			DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(edgeGraph, s);
-			if(dsp.hasPathTo(d)) {
+			if (dsp.hasPathTo(d)) {
+				for (Edge e : dsp.pathTo(via)) {
+                    System.out.print(e + "   ");
+                }
+                DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
+                for (Edge e : two.pathTo(via)) {
+                    System.out.print(e + "   ");
+                }
 				System.out.println(dsp.distTo(d));
-			}else {
+			} else {
 				System.out.println("No Path Found.");
 			}
 			break;
