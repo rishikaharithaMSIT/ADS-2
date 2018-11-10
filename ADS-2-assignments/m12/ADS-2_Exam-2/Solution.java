@@ -30,8 +30,9 @@ public class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
-			int s = Integer.parseInt(scan.nextLine());
-			int d = Integer.parseInt(scan.nextLine());
+			String[] dirPaths = scan.nextLine().split(" ");
+			int s = Integer.parseInt(dirPaths[0]);
+			int d = Integer.parseInt(dirPaths[1]);
 			DijkstraUndirectedSP sp = new DijkstraUndirectedSP(edgeGraph, s);
 			if(sp.hasPathTo(d)) {
 
