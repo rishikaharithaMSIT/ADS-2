@@ -77,7 +77,7 @@ class Edge implements Comparable<Edge> {
      * @return a string representation of this edge
      */
     public String toString() {
-        return String.format("%d-%d", v, w);
+        return String.format("%d-%d", v, w, weight);
     }
 
     // /**
