@@ -1,5 +1,8 @@
 import java.util.Scanner;
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
 
 	public static void main(String[] args) {
 		// Self loops are not allowed...
@@ -55,57 +58,59 @@ public class Solution {
 			if (dsp.hasPathTo(d)) {
 				Queue<Integer> que = new Queue<Integer>();
 				for (Edge e : dsp.pathTo(via)) {
-                    String[] line = e.toString().split(" ");
-                    String[] vw = line[0].split("-");
-                    int v = 0;
-                    int w = 0;
-                    
-                    
-                    for(Integer j : que){
-                    	if(Integer.parseInt(vw[1]) == j) {
-                    		v = 1;
-                    	}
-                    	if(Integer.parseInt(vw[1]) == j) {
-                    		w = 1;
-                    	}
-                    	
-                    }
-                    
-                    if(w == 0) {
-                    	que.enqueue(Integer.parseInt(vw[1]));
-                    }
-                    if(v == 0) {
-                    	que.enqueue(Integer.parseInt(vw[0]));
-                    }
+					// String[] line = e.toString().split(" ");
+					// String[] vw = line[0].split("-");
+					int ver = e.either();
+					int other = e.other(ver);
+					int v = 0;
+					int w = 0;
 
-                    
 
-                }
-                DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
-                for (Edge e : two.pathTo(d)) {
-                    String[] line = e.toString().split(" ");
-                    String[] vw = line[0].split("-");
-                    int v = 0;
-                    int w = 0;                  
-                    
-                    for(Integer j : que){
-                    	if(Integer.parseInt(vw[0]) == j) {
-                    		v = 1;
-                    	}
-                    	if(Integer.parseInt(vw[1]) == j) {
-                    		w = 1;
-                    	}
-                    	
-                    }
-                    if(v == 0) {
-                    	que.enqueue(Integer.parseInt(vw[0]));
-                    }
-                    if(w == 0) {
-                    	que.enqueue(Integer.parseInt(vw[1]));
-                    }
-                }
+					for (Integer j : que) {
+						if (ver == j) {
+							v = 1;
+						}
+						if (other == j) {
+							w = 1;
+						}
+
+					}
+
+					if (w == 0) {
+						que.enqueue(other);
+					}
+					if (v == 0) {
+						que.enqueue(ver);
+					}
+
+
+
+				}
+				DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
+				for (Edge e : two.pathTo(d)) {
+					String[] line = e.toString().split(" ");
+					String[] vw = line[0].split("-");
+					int v = 0;
+					int w = 0;
+
+					for (Integer j : que) {
+						if (Integer.parseInt(vw[0]) == j) {
+							v = 1;
+						}
+						if (Integer.parseInt(vw[1]) == j) {
+							w = 1;
+						}
+
+					}
+					if (v == 0) {
+						que.enqueue(Integer.parseInt(vw[0]));
+					}
+					if (w == 0) {
+						que.enqueue(Integer.parseInt(vw[1]));
+					}
+				}
 				System.out.println(dsp.distTo(via) + two.distTo(d));
-				while(!que.isEmpty()){
+				while (!que.isEmpty()) {
 					System.out.print(que.dequeue() + " ");
 				}
 			} else {
