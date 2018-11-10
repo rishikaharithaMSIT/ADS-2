@@ -52,7 +52,12 @@ class DijkstraUndirectedSP {
         //assert check(g, s);
     }
 
-    // relax edge e and update pq if changed
+    /**
+     * { function_description }.
+     *
+     * @param      e     { parameter_description }
+     * @param      v     { parameter_description }
+     */
     private void relax(final Edge e, final int v) {
         int w = e.other(v);
         if (distTo[w] > distTo[v] + e.weight()) {
@@ -117,10 +122,10 @@ class DijkstraUndirectedSP {
      * @param      v     { parameter_description }
      */
     private void validateVertex(final int v) {
-        int V = distTo.length;
-        if (v < 0 || v >= V) {
+        int ver = distTo.length;
+        if (v < 0 || v >= ver) {
             throw new IllegalArgumentException(
-                "vertex " + v + " is not between 0 and " + (V - 1));
+                "vertex " + v + " is not between 0 and " + (ver - 1));
         }
     }
 
