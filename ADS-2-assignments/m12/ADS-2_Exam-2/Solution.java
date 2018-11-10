@@ -62,6 +62,7 @@ public class Solution {
                     for(Integer j : que){
                     	System.out.println(j);
                     }
+                    que.dequeue();
 
                 }
                 DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
