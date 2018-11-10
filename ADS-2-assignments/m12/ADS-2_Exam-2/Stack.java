@@ -21,7 +21,13 @@ public class Stack<Item> implements Iterable<Item> {
      * @param      <Item>  The item
      */
     private static class Node<Item> {
+        /**
+         * { var_description }.
+         */
         private Item item;
+        /**
+         * { var_description }.
+         */
         private Node<Item> next;
     }
 
@@ -56,7 +62,7 @@ public class Stack<Item> implements Iterable<Item> {
      *
      * @param      item  The item
      */
-    public void push(Item item) {
+    public void push(final Item item) {
         Node<Item> oldfirst = first;
         first = new Node<Item>();
         first.item = item;
@@ -133,8 +139,8 @@ public class Stack<Item> implements Iterable<Item> {
          *
          * @param      first  The first
          */
-        public ListIterator(Node<Item> first) {
-            current = first;
+        public ListIterator(final Node<Item> firstval) {
+            current = firstval;
         }
         /**
          * Determines if it has next.
