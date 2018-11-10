@@ -53,13 +53,18 @@ public class Solution {
 			d = Integer.parseInt(viaPaths[viaPaths.length - 1]);
 			DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(edgeGraph, s);
 			if (dsp.hasPathTo(d)) {
-
+				Queue<Integer> que = new Queue<Integer>();
 				for (Edge e : dsp.pathTo(via)) {
-                    System.out.print(e + "   ");
+                    String[] line = e.toString().split(" ");
+                    String[] vw = line[0].split("-");
+                    System.out.println(e.other(Integer.parseInt(vw[0])));
+
                 }
                 DijkstraUndirectedSP two = new DijkstraUndirectedSP(edgeGraph, via);
                 for (Edge e : two.pathTo(d)) {
-                    System.out.print(e + "   ");
+                    String[] line = e.toString().split(" ");
+                    String[] vw = line[0].split("-");
+                    System.out.println(e.other(Integer.parseInt(vw[0])));
                 }
 				System.out.println(dsp.distTo(via) + two.distTo(d));
 			} else {
