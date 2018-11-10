@@ -2,32 +2,17 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:23:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:23:33: Parameter G should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:23:51: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:23:54: Parameter s should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:25: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:34: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:43: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:52:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:52:24: Parameter e should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:52:32: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:57: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:58: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:69:26: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:81:30: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:93:34: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:95: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:114:27: Parameter G should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:114:45: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:114:48: Parameter s should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:132: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:153: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:155: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:170:33: Parameter v should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:171:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:172: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:26: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:35: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:44: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:58: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:59: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:96: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:112:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:113: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 25 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 Audit done.
 Starting audit...
