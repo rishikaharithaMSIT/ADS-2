@@ -13,9 +13,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:140:12: Unused @param tag for 'first'. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:142:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Stack.java:142:46: Expected @param tag for 'firstval'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 4 errors.

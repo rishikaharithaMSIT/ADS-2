@@ -137,9 +137,9 @@ public class Stack<Item> implements Iterable<Item> {
         /**
          * Constructs the object.
          *
-         * @param      first  The first
+         * @param      firstval  The first
          */
-        public ListIterator(final Node<Item> firstval) {
+        ListIterator(final Node<Item> firstval) {
             current = firstval;
         }
         /**
