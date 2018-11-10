@@ -89,8 +89,9 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:170: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:172: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:184: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:189:40: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 57 errors.
+Checkstyle ends with 58 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m12\ADS-2_Exam-2\Solution.java:2: Missing a Javadoc comment. [JavadocType]
