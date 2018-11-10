@@ -30,6 +30,14 @@ public class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			int s = Integer.parseInt(scan.nextLine());
+			int d = Integer.parseInt(scan.nextLine());
+			DijkstraUndirectedSP sp = new DijkstraUndirectedSP(edgeGraph, s);
+			if(sp.hasPathTo(d)) {
+
+			}else {
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		case "ViaPaths":
