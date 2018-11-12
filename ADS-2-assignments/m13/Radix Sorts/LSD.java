@@ -72,7 +72,7 @@ final class LSD {
             }
 
             // compute cumulates
-            for (int r = 0; r < rR ; r++) {
+            for (int r = 0; r < rR; r++) {
                 count[r + 1] += count[r];
             }
             if (d == w - 1) {
