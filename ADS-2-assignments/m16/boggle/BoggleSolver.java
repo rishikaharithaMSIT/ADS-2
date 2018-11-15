@@ -23,10 +23,10 @@ public class BoggleSolver {
 				bag.add(each);
 			}
 		}
-		System.out.println(bag.size());
-		for (String word : bag) {
-			System.out.println(word);
-		}
+		// System.out.println(bag.size());
+		// for (String word : bag) {
+		// 	System.out.println(word);
+		// }
 		return bag;
 	}
 

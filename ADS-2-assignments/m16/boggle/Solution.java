@@ -31,10 +31,10 @@ public class Solution {
 			//StdOut.println(board.rows() + " - "+ board.cols());
 			int score = 0;
 			solver.getAllValidWords(board);
-			// for (String word : solver.getAllValidWords(board)) {
-			// 	score += solver.scoreOf(word);
-			// }
-			// StdOut.println("Score = " + score);
+			for (String word : solver.getAllValidWords(board)) {
+				score += solver.scoreOf(word);
+			}
+			StdOut.println("Score = " + score);
 			break;
 
 		default:
