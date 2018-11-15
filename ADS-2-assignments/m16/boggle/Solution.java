@@ -28,11 +28,12 @@ public class Solution {
 
 			String boardName = StdIn.readLine();
 			BoggleBoard board = new BoggleBoard("/Files/" + boardName);
+			//StdOut.println(board.rows() + " - "+ board.cols());
 			int score = 0;
 			for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
 			}
-			StdOut.println("Score = " + score);
+			StdOut.println("Score = " + score + " - " + board.rows() + " - "+ board.cols());
 			break;
 
 		default:
