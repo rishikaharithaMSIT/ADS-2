@@ -69,16 +69,16 @@ public class BoggleSolver {
 		if (i >= 0 && j >= 0 && i < board.rows() && j < board.cols()) {
 			marked[i][j] = true;
 		}
-		// int a = i;
-		// int b = j;
-		// if (a >= 0 && b >= 0 && a < board.rows() && b < board.cols()) {
-		// 	if (board.getLetter(a, b) == word.charAt(index) && !marked[a][b]) {
-		// 		if(isValid(a, b, marked, board, word)) return true;
+		int a = i;
+		int b = j;
+		if (a >= 0 && b >= 0 && a < board.rows() && b < board.cols()) {
+			if (board.getLetter(a, b) == word.charAt(index) && !marked[a][b]) {
+				return true;
 
-		// 	}
-		// }
-		int a = i - 1;
-		int b = j - 1;
+			}
+		}
+		a = i - 1;
+		b = j - 1;
 		if (a >= 0 && b >= 0 && a < board.rows() && b < board.cols()) {
 			if (board.getLetter(a, b) == word.charAt(index) && !marked[a][b]) {
 				if(isValid(a, b, marked, board, word)) return true;
