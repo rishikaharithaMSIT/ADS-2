@@ -600,8 +600,17 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:47:59: Parameter board should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:47:78: Parameter word should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:49: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:54: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:61: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:68: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:75: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:82: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:89: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:96: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:103: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:110: Line is longer than 80 characters (found 91). [LineLength]
 Audit done.
-Checkstyle ends with 40 errors.
+Checkstyle ends with 49 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
