@@ -48,7 +48,8 @@ public class BoggleSolver {
 	}
 	boolean isValid(int i, int j, boolean[][] marked, BoggleBoard board, String word) {
 		index++;
-		if (index == word.length()) return true;
+		System.out.println(index);
+		if (index == word.length()-1) return true;
 		marked[i][j] = true;
 		int a = i;
 		int b = j;
