@@ -797,7 +797,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\Solution.java:30: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\Solution.java:47: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\Solution.java:48: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
 Checkstyle ends with 6 errors.
 Starting audit...
