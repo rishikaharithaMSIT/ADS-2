@@ -38,6 +38,7 @@ public class BoggleSolver {
 			for (int  j = 0; j < board.cols(); j++) {
 				if (word.charAt(0) == board.getLetter(i, j)) {
 					marked = new boolean[board.rows()][board.cols()];
+					index = 0;
 					boolean yes = isValid(i, j, marked, board, word);
 					if (yes) return true;
 				}
