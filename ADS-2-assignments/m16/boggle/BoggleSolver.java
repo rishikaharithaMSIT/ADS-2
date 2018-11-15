@@ -24,6 +24,9 @@ public class BoggleSolver {
 			}
 		}
 		System.out.println(bag.size());
+		for (String word : bag) {
+			System.out.println(word);
+		}
 		return bag;
 	}
 
