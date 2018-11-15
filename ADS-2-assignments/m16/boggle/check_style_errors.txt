@@ -611,7 +611,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:65:59: Parameter board should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:65:78: Parameter word should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:68: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:75: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:75: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:76: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:76: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:76:35: 'if' is not followed by whitespace. [WhitespaceAround]
