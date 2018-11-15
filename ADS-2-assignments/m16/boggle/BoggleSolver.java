@@ -72,7 +72,7 @@ public class BoggleSolver {
 		int a = i;
 		int b = j;
 		if (a >= 0 && b >= 0 && a < board.rows() && b < board.cols()) {
-			if (board.getLetter(a, b) == word.charAt(index)) {
+			if (board.getLetter(a, b) == word.charAt(index) && !marked[a][b]) {
 				if(isValid(a, b, marked, board, word)) return true;
 
 			}
