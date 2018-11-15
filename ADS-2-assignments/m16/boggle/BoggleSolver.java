@@ -50,7 +50,9 @@ public class BoggleSolver {
 		index++;
 		System.out.println(index);
 		if (index == word.length()-1) return true;
-		marked[i][j] = true;
+		if (i >= 0 && j >= 0 && i < board.rows() && j < board.cols()) {
+			marked[i][j] = true;
+		}
 		int a = i;
 		int b = j;
 		if (a >= 0 && b >= 0 && a < board.rows() && b < board.cols()) {
