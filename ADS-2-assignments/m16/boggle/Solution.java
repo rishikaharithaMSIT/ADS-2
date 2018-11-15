@@ -32,7 +32,7 @@ public class Solution {
 			int score = 0;
 			solver.getAllValidWords(board);
 			for (String word : solver.getAllValidWords(board)) {
-				//System.out.println(word);
+				System.out.println(word);
 				score += solver.scoreOf(word);
 			}
 			StdOut.println("Score = " + score);

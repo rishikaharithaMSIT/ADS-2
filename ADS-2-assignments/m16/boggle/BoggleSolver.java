@@ -51,9 +51,7 @@ public class BoggleSolver {
 		//String[] letters = word.split("");
 		for (int i = 0; i < board.rows(); i++) {
 			for (int  j = 0; j < board.cols(); j++) {
-				if(board.getLetter(i, j) == 'Q') {
-					//board.getLetter(i, j) = "QU"
-				}
+				
 				if (word.charAt(0) == board.getLetter(i, j)) {
 					marked = new boolean[board.rows()][board.cols()];
 					index = 0;
