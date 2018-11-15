@@ -6,7 +6,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 9
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -48,7 +48,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 4
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:61)
+	at BoggleSolver.isValid(BoggleSolver.java:54)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -62,7 +62,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:54)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -76,7 +76,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:82)
+	at BoggleSolver.isValid(BoggleSolver.java:89)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -90,7 +90,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -104,7 +104,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 6
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -148,7 +148,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 17
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -159,10 +159,10 @@ Expected Output:
 Score = 687
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -176,7 +176,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 6
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -195,10 +195,10 @@ Expected Output:
 Score = 129
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:54)
+	at BoggleSolver.isValid(BoggleSolver.java:61)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -212,7 +212,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 9
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:89)
+	at BoggleSolver.isValid(BoggleSolver.java:96)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -226,7 +226,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 6
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -240,7 +240,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 8
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -254,7 +254,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 8
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -268,7 +268,7 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 8
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -309,10 +309,10 @@ Expected Output:
 Score = 0
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:68)
+	at BoggleSolver.isValid(BoggleSolver.java:75)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -323,10 +323,10 @@ Expected Output:
 Score = 26539
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:61)
+	at BoggleSolver.isValid(BoggleSolver.java:68)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -337,10 +337,10 @@ Expected Output:
 Score = 19797
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:61)
+	at BoggleSolver.isValid(BoggleSolver.java:68)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -351,10 +351,10 @@ Expected Output:
 Score = 27325
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 2
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
-	at BoggleSolver.isValid(BoggleSolver.java:61)
+	at BoggleSolver.isValid(BoggleSolver.java:68)
 	at BoggleSolver.isValid(BoggleSolver.java:40)
 	at BoggleSolver.getAllValidWords(BoggleSolver.java:21)
 	at Solution.main(Solution.java:33)
@@ -365,7 +365,7 @@ Expected Output:
 Score = 32175
 
 Your Output: 
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 9
 	at java.base/java.lang.StringLatin1.charAt(Unknown Source)
 	at java.base/java.lang.String.charAt(Unknown Source)
 	at BoggleSolver.isValid(BoggleSolver.java:61)

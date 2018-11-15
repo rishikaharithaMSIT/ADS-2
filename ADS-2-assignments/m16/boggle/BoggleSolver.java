@@ -15,11 +15,11 @@ public class BoggleSolver {
 
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
-		
+
 		Bag<String> bag = new Bag<String>();
-		for(String each: tset) {
+		for (String each : tset) {
 			boolean possible = isValid(each, board);
-			if(possible) {
+			if (possible) {
 				bag.add(each);
 			}
 		}
@@ -38,7 +38,7 @@ public class BoggleSolver {
 				if (word.charAt(0) == board.getLetter(i, j)) {
 					marked = new boolean[board.rows()][board.cols()];
 					boolean yes = isValid(i, j, marked, board, word);
-					if(yes) return true;
+					if (yes) return true;
 				}
 			}
 		}
@@ -46,66 +46,73 @@ public class BoggleSolver {
 	}
 	boolean isValid(int i, int j, boolean[][] marked, BoggleBoard board, String word) {
 		index++;
-		if(index == word.length()) return true;
+		if (index == word.length()) return true;
 		marked[i][j] = true;
-		int a = i - 1;
-		int b = j - 1;
+		int a = i;
+		int b = j;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
-		a = i-1;
+		a = i - 1;
+		b = j - 1;
+		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
+			}
+		}
+		a = i - 1;
 		b = j;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
-		a = i+1;
-		b = j+1;
+		a = i + 1;
+		b = j + 1;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
-			}
-		}
-		a = i;
-		b = j-1;
-		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
 		a = i;
-		b = j+1;
+		b = j - 1;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
-		a = i+1;
-		b = j-1;
+		a = i;
+		b = j + 1;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
-		a = i+1;
-		b =j;
+		a = i + 1;
+		b = j - 1;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
-		a = i+1;
-		b = j+1;
+		a = i + 1;
+		b = j;
 		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
-			if(board.getLetter(a,b) == word.charAt(index)){
-				isValid(a,b,marked,board,word);
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
+			}
+		}
+		a = i + 1;
+		b = j + 1;
+		if (a > 0 && b > 0 && a < board.rows() && b < board.cols()) {
+			if (board.getLetter(a, b) == word.charAt(index)) {
+				isValid(a, b, marked, board, word);
 			}
 		}
 		return false;
 	}
-	
+
 
 }
