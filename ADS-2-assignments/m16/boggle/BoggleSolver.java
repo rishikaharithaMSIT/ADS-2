@@ -23,6 +23,7 @@ public class BoggleSolver {
 				bag.add(each);
 			}
 		}
+		System.out.println(bag.size());
 		return bag;
 	}
 
