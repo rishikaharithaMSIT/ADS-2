@@ -30,10 +30,10 @@ public class Solution {
 			BoggleBoard board = new BoggleBoard("/Files/" + boardName);
 			//StdOut.println(board.rows() + " - "+ board.cols());
 			int score = 0;
-			for (String word : solver.getAllValidWords(board)) {
-				score += solver.scoreOf(word);
-			}
-			StdOut.println("Score = " + score);
+			// for (String word : solver.getAllValidWords(board)) {
+			// 	score += solver.scoreOf(word);
+			// }
+			// StdOut.println("Score = " + score);
 			break;
 
 		default:
