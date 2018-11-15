@@ -6,7 +6,10 @@ public class Solution {
 		//Your code goes here...
 		Tst tst = new Tst();
 		for(int i =0; i < words.length;i++) {
-			tst.put(words[i], i);
+			for(int j =0; j < words[i].length(); j++) {
+				tst.put(words[i].substring(j), i);
+			}
+			
 		}
 		Scanner scan = new Scanner(System.in);
 		String prefixWord = scan.nextLine();
