@@ -64,9 +64,9 @@ public class BoggleSolver {
 				int v = r + i;
 				int w = c + j;
 				if (v >= 0 && w >= 0 && v < board.rows() && w < board.cols()) {
-					if(!marked[v][w]){
-						str = str + board.getLetter(v,w);
-						getWords(r,c,board,str);
+					if (!marked[v][w]) {
+						str = str + board.getLetter(v, w);
+						getWords(v, w, board, str);
 					}
 				}
 			}

@@ -598,13 +598,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:60:37: Parameter board should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:60:56: Parameter str should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:66: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:67:43: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:67:58: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:68: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:68:79: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:69:60: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:69:62: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:69:68: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:68: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:83: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:85: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:92: Line is longer than 80 characters (found 94). [LineLength]
@@ -627,7 +621,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:160: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\BoggleSolver.java:161: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 66 errors.
+Checkstyle ends with 60 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
