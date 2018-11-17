@@ -168,6 +168,7 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:169:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:169:48: Parameter words should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:169:72: Parameter k should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:172:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:177: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:179:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:180:27: 'if' is not followed by whitespace. [WhitespaceAround]
@@ -198,6 +199,6 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:228:36: Parameter t9Signature should be final. [FinalParameters]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:228:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 82 errors.
+Checkstyle ends with 83 errors.
 Starting audit...
 Audit done.
