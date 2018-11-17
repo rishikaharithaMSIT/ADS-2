@@ -127,13 +127,16 @@ class T9 {
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
 		ArrayList<String> list = new ArrayList<String>();
-		BinarySearchST<String, Integer> bst = new BinarySearchST<>();
-		for (String word : words) {
-			bst.put(word, tst.get(word));
-		}
-		for(int i =0;i<k;i++) {
-			list.add(bst.max());
-			bst.deleteMax();
+		// BinarySearchST<String, Integer> bst = new BinarySearchST<>();
+		// for (String word : words) {
+		// 	bst.put(word, tst.get(word));
+		// }
+		// for(int i =0;i<k;i++) {
+		// 	list.add(bst.max());
+		// 	bst.deleteMax();
+		// }
+		for(String word : words) {
+			System.out.println(word + " - " + tst.get(word));
 		}
 
 		return list;

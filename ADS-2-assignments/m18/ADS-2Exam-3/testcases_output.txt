@@ -169,10 +169,12 @@ right
 words
 
 Your Output: 
-words
-within
-rights
-right
+is - 704
+within - 6
+words - 22
+rights - 2
+right - 87
+hello - 42
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -225,8 +227,8 @@ keep
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at T9.getSuggestions(Solution.java:131)
-	at T9.t9(Solution.java:145)
+	at T9.getSuggestions(Solution.java:138)
+	at T9.t9(Solution.java:148)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 
