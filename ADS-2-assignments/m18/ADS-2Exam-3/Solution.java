@@ -189,7 +189,7 @@ class T9 {
 				bst.put(freq, arr);
 			}
 		}
-		int i =1;
+		int i =0;
 
 		while(true) {
 			if(maxpq.isEmpty()) break;
@@ -205,7 +205,7 @@ class T9 {
 		}
 
 		Collections.sort(al);
-		System.out.println(al.size());
+		System.out.println(al.size() + " - " + k);
 		return al;
 	}
 
