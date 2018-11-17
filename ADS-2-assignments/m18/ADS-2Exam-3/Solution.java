@@ -90,7 +90,13 @@ public class Solution {
 		// your code goes here            
             In in = new In(file);
             String[] dictionary = in.readAllStrings();
-            System.out.println(dictionary[0]);
+            for(int i =0;i< dictionary.length;i++){
+            	if(st.contains(dictionary[i])) {
+            		st.put(dictionary[i], st.get(dictionary[i])+1);
+            	} else {
+            		st.put(dictionary[i] , 1);
+            	}
+            }
 		return st;
 	}
 

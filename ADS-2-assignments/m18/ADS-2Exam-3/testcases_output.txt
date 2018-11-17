@@ -10,15 +10,14 @@ Expected Output:
 149
 
 Your Output: 
-Go
-null
-null
-null
-null
-null
-null
-null
-null
+50
+27
+134
+3
+94
+49
+45
+133
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -58,7 +57,6 @@ messagesome
 going
 
 Your Output: 
-Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:26)
 ----------------------------------------
@@ -128,7 +126,6 @@ fine
 seeking
 
 Your Output: 
-Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:38)
 ----------------------------------------
@@ -141,7 +138,6 @@ right
 words
 
 Your Output: 
-Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:57)
 ----------------------------------------
@@ -195,7 +191,6 @@ paper
 keep
 
 Your Output: 
-Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:70)
 ----------------------------------------
