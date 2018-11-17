@@ -220,7 +220,7 @@ fine
 seeking
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 hello
 is
@@ -228,9 +228,9 @@ right
 words
 
 Your Output: 
+hello
 is
 right
-hello
 words
 ----------------------------------------
 

@@ -195,7 +195,7 @@ class T9 {
 			if(i == k) break;
 		}
 
-		
+		Collections.sort(al);
 		return al;
 	}
 
