@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.ArrayList;
 
 public class Solution {
 
@@ -107,9 +107,9 @@ class T9 {
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		tst = new TST<>();
-		for(String each : st.keys()) {
+		for (String each : st.keys()) {
 			tst.put(each, st.get(each));
-		} 
+		}
 	}
 
 	// get all the prefixes that match with given prefix.
@@ -126,8 +126,21 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		System.out.println(tst.get("hello"));
-		return null;
+		ArrayList<String> list = new ArrayList<String>();
+		BinarySearchST<String, Integer> bst = new BinarySearchST<>();
+		for (String word : words) {
+			if (bst.contains(word )) {
+				bst.put(word , bst.get(word) + 1);
+			} else {
+				bst.put(word, 1);
+			}
+		}
+		for(int i =0;i<k;i++) {
+			list.add(bst.max());
+			bst.deleteMax();
+		}
+
+		return list;
 	}
 
 	// final output
