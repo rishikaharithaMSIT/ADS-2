@@ -220,7 +220,7 @@ fine
 seeking
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 hello
 is
@@ -228,7 +228,6 @@ right
 words
 
 Your Output: 
-
 hello
 is
 right
@@ -284,97 +283,57 @@ paper
 keep
 
 Your Output: 
-
 update
-
 record
-
 immediately
-
 bristol
-
 ball
 call
-
 spoil
-
 kiss
 lips
-
 pints
-
 alone
 blood
-
 shop
-
 any
 boy
 coz
-
 pay
 saw
 say
-
 goods
 goods
 inner
-
 cards
 cares
-
 rate
 save
-
 card
 care
 case
-
 happy
-
-
 sales
-
-
 bone
 come
-
-
-
-
 poker
 roles
-
 real
-
 maps
-
 itor
-
 paces
-
 adds
 beer
 bffs
-
 jane
 jane
 lane
-
-
-
-
-
-
 chef
-
 ages
 aids
 bids
-
 paper
 pases
-
 keep
 ----------------------------------------
 

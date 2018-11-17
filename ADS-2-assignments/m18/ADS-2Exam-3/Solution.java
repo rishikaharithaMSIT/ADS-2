@@ -172,7 +172,7 @@ class T9 {
 		// for(String one : words) {
 		// 	System.out.print(one + " ");
 		// }
-		System.out.println();
+		//System.out.println();
 		ArrayList<String> al = new ArrayList<>();
 		BinarySearchST<Integer, ArrayList<String>> bst = new BinarySearchST<>();
 		MaxPQ<Integer> maxpq = new MaxPQ<>();
