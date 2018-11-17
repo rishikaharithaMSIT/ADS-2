@@ -220,7 +220,7 @@ fine
 seeking
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 hello
 is
@@ -228,9 +228,9 @@ right
 words
 
 Your Output: 
-hello
 is
 right
+hello
 words
 ----------------------------------------
 
@@ -285,8 +285,8 @@ keep
 Your Output: 
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
 	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:171)
-	at T9.t9(Solution.java:185)
+	at T9.getSuggestions(Solution.java:189)
+	at T9.t9(Solution.java:205)
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 

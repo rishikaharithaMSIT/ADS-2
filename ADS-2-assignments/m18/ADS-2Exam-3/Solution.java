@@ -163,19 +163,39 @@ class T9 {
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
 		ArrayList<String> al = new ArrayList<>();
+		BinarySearchST<Integer, ArrayList<String>> bst = new BinarySearchST<>();
 		MaxPQ<Integer> maxpq = new MaxPQ<>();
 		for(String each : words) {
 			maxpq.insert(tst.get(each));
 		}
-		for(int i =0;i<k;i++) {
-			int f = maxpq.delMax();
-			for(String word : words) {
-				if(f == tst.get(word)) {
-					al.add(word);
-				}
+		for(String each : words) {
+			int freq = tst.get(each);
+			if(bst.contains(freq)) {
+				ArrayList<String> arr = bst.get(freq);
+				arr.add(each);
+				Collections.sort(arr);
+				bst.put(freq, arr);
+			} else {
+				bst.put(freq, new ArrayList<String>());
+				ArrayList<String> arr = bst.get(freq);
+				arr.add(each);
+				Collections.sort(arr);
+				bst.put(freq, arr);
 			}
 		}
-		Collections.sort(al);
+		int i =0;
+
+		while(true) {
+			int m = maxpq.delMax();
+			ArrayList<String> arr2 = bst.get(m);
+			for(String a : arr2) {
+				al.add(a);
+			}
+			i = i + arr2.size();
+			if(i == k) break;
+		}
+
+		
 		return al;
 	}
 
