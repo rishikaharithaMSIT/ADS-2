@@ -93,12 +93,24 @@ public final class Solution {
 		}
 	}
 
-	// Don't modify this method.
+	/**
+	 * { function_description }.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static String[] toReadFile(final String file) {
 		In in = new In(file);
 		return in.readAllStrings();
 	}
-
+	/**
+	 * Loads a dictionary.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static BinarySearchST<String, Integer> loadDictionary(
 	    final String file) {
 		BinarySearchST<String, Integer>  st
@@ -267,11 +279,6 @@ class T9 {
 			if (i >= k) break;
 
 		}
-
-
-
-
-
 		Collections.sort(al);
 		//System.out.println(al.size() + " - " + k);
 		return al;

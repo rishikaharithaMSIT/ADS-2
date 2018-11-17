@@ -1,9 +1,7 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\BinarySearchST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -15,17 +13,15 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:4:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:52: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:97:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:110:45: ')' is preceded with whitespace. [ParenPad]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:111:44: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:111:58: ')' is preceded with whitespace. [ParenPad]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:127:22: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:133:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:257: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:265: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:267: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:122:45: ')' is preceded with whitespace. [ParenPad]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:123:44: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:123:58: ')' is preceded with whitespace. [ParenPad]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:139:22: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:145:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:269: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:277: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:279: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 Audit done.
