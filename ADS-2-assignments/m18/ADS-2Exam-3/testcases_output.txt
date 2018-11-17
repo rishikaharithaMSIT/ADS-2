@@ -158,6 +158,9 @@ seeking
 
 Your Output: 
 a
+aah
+aaniye
+aaooooright
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:39)
 ----------------------------------------
@@ -226,9 +229,12 @@ keep
 
 Your Output: 
 a
+aah
+aaniye
+aaooooright
 Exception in thread "main" java.lang.NullPointerException
-	at T9.getSuggestions(Solution.java:136)
-	at T9.t9(Solution.java:154)
+	at T9.getSuggestions(Solution.java:138)
+	at T9.t9(Solution.java:156)
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 
