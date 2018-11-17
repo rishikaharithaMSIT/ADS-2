@@ -121,13 +121,42 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		int i = 0;
+		// String[] nums = t9Signature.split("");
+		ArrayList<String> list = new ArrayList<>();
 		for(String each: tst.keys()) {
-			System.out.println(each);
-			if (i == 3) break;
-			i++;
-		}
-		return null;
+			String[] word = each.split("");
+			String num = "";
+			for(String ch : word){
+				if(ch.equals("a") || ch.equals("b") || ch.equals("c")) {
+					num = num + "2";
+				}
+				if(ch.equals("d") || ch.equals("e") || ch.equals("f")) {
+					num = num + "3";
+				}
+				if(ch.equals("g") || ch.equals("h") || ch.equals("i")) {
+					num = num + "4";
+				}
+				if(ch.equals("j") || ch.equals("k") || ch.equals("l")) {
+					num = num + "5";
+				}
+				if(ch.equals("m") || ch.equals("n") || ch.equals("o")) {
+					num = num + "6";
+				}
+				if(ch.equals("p") || ch.equals("q") || ch.equals("r") || ch.equals("s")) {
+					num = num + "7";
+				}
+				if(ch.equals("t") || ch.equals("u") || ch.equals("v")) {
+					num = num + "8";
+				}
+				if(ch.equals("w") || ch.equals("x") || ch.equals("y") || ch.equals("z")) {
+					num = num + "9";
+				}
+			}
+			if(num.equals(t9Signature)) {
+				list.add(each);
+			}
+		} 
+		return list;
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
