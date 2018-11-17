@@ -189,7 +189,7 @@ class T9 {
 				bst.put(freq, arr);
 			}
 		}
-		int i =0;
+		int i =1;
 
 		while(true) {
 			if(maxpq.isEmpty()) break;

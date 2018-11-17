@@ -228,11 +228,10 @@ right
 words
 
 Your Output: 
-4
+3
 hello
 is
 right
-words
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -307,18 +306,14 @@ alone
 blood
 1
 shop
-3
+2
 any
 boy
-coz
-3
+2
 pay
-saw
 say
-4
+2
 goods
-goods
-inner
 inner
 2
 cards
@@ -326,8 +321,7 @@ cares
 2
 rate
 save
-3
-card
+2
 care
 case
 1
@@ -353,15 +347,14 @@ maps
 itor
 1
 paces
-3
+5
+adds
 adds
 beer
 bffs
-5
+bffs
+2
 jane
-jane
-kane
-lane
 lane
 0
 0
@@ -370,9 +363,11 @@ lane
 0
 1
 chef
-3
+5
 ages
 aids
+aids
+bids
 bids
 2
 paper
