@@ -2,7 +2,9 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Arrays;
-
+/**
+ * Class for solution.
+ */
 public class Solution {
 
 	// Don't modify this method.
@@ -166,10 +168,10 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		System.out.print("Possible : ");
-		for(String one : words) {
-			System.out.print(one + " ");
-		}
+		// System.out.print("Possible : ");
+		// for(String one : words) {
+		// 	System.out.print(one + " ");
+		// }
 		System.out.println();
 		ArrayList<String> al = new ArrayList<>();
 		BinarySearchST<Integer, ArrayList<String>> bst = new BinarySearchST<>();

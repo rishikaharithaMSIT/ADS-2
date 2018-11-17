@@ -228,7 +228,7 @@ right
 words
 
 Your Output: 
-Possible : is within words rights right hello 
+
 hello
 is
 right
@@ -284,97 +284,97 @@ paper
 keep
 
 Your Output: 
-Possible : update 
+
 update
-Possible : record 
+
 record
-Possible : immediately 
+
 immediately
-Possible : bristol 
+
 bristol
-Possible : ball call 
+
 ball
 call
-Possible : spoil 
+
 spoil
-Possible : kiss lips 
+
 kiss
 lips
-Possible : pints 
+
 pints
-Possible : alone blood 
+
 alone
 blood
-Possible : shop 
+
 shop
-Possible : any bmw box boy coz 
+
 any
 boy
 coz
-Possible : pax pay saw say 
+
 pay
 saw
 say
-Possible : goods inner 
+
 goods
 goods
 inner
-Possible : cards cares 
+
 cards
 cares
-Possible : rate save 
+
 rate
 save
-Possible : bare base card care case 
+
 card
 care
 case
-Possible : happy 
+
 happy
-Possible : 
-Possible : sales 
+
+
 sales
-Possible : 
-Possible : bone come 
+
+
 bone
 come
-Possible : 
-Possible : 
-Possible : 
-Possible : poker roles 
+
+
+
+
 poker
 roles
-Possible : real 
+
 real
-Possible : maps 
+
 maps
-Possible : itor 
+
 itor
-Possible : paces 
+
 paces
-Possible : adds beer bffs 
+
 adds
 beer
 bffs
-Possible : jane kane lane 
+
 jane
 jane
 lane
-Possible : 
-Possible : 
-Possible : 
-Possible : 
-Possible : 
-Possible : chef 
+
+
+
+
+
+
 chef
-Possible : ages aids bids 
+
 ages
 aids
 bids
-Possible : paper pases 
+
 paper
 pases
-Possible : keep 
+
 keep
 ----------------------------------------
 
