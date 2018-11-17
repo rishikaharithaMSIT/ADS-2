@@ -228,10 +228,12 @@ right
 words
 
 Your Output: 
-3 - 4
 hello
 is
 right
+rights
+within
+words
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -283,96 +285,67 @@ paper
 keep
 
 Your Output: 
-1 - 3
 update
-1 - 3
 record
-1 - 3
 immediately
-1 - 3
 bristol
-2 - 3
 ball
 call
-1 - 3
 spoil
-2 - 3
 kiss
 lips
-1 - 3
 pints
-2 - 3
 alone
 blood
-1 - 3
 shop
-2 - 3
 any
+bmw
+box
 boy
-2 - 3
+coz
+pax
 pay
+saw
 say
-2 - 3
+goods
 goods
 inner
-2 - 3
 cards
 cares
-2 - 3
 rate
 save
-2 - 3
+bare
+base
+card
 care
 case
-1 - 3
 happy
-0 - 3
-1 - 3
 sales
-0 - 3
-2 - 3
 bone
 come
-0 - 3
-0 - 3
-0 - 3
-2 - 3
 poker
 roles
-1 - 3
 real
-1 - 3
 maps
-1 - 3
 itor
-1 - 3
 paces
-5 - 3
 adds
 adds
 beer
 bffs
 bffs
-2 - 3
 jane
+jane
+kane
 lane
-0 - 3
-0 - 3
-0 - 3
-0 - 3
-0 - 3
-1 - 3
 chef
-5 - 3
 ages
 aids
 aids
 bids
 bids
-2 - 3
 paper
 pases
-1 - 3
 keep
 ----------------------------------------
 

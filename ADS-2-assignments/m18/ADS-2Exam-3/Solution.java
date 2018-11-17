@@ -197,15 +197,17 @@ class T9 {
 			ArrayList<String> arr2 = bst.get(m);
 			for(String a : arr2) {
 				al.add(a);
-			}
-			i = i + arr2.size();
+				i++;
+				if(i == k) break;
+				
+			}	
 
 			
-			if(i == k-1) break;
+			
 		}
 
 		Collections.sort(al);
-		System.out.println(al.size() + " - " + k);
+		//System.out.println(al.size() + " - " + k);
 		return al;
 	}
 
