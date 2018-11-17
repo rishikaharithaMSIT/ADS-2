@@ -196,11 +196,11 @@ class T9 {
 			if(maxpq.isEmpty()) break;
 			int m = maxpq.delMax();
 			ArrayList<String> arr2 = bst.get(m);
-			System.out.println(arr2);
+			//System.out.println(arr2);
 			for(int j =0;j<arr2.size();j++) {
 				al.add(arr2.get(j));
 				i++;
-				System.out.println(i + "-"+ k);
+				//System.out.println(i + "-"+ k);
 				if(i >= k) break;
 			}
 			if(i >= k) break;	
