@@ -117,9 +117,19 @@ public final class Solution {
 	}
 
 }
-
+/**
+ * Class for t 9.
+ */
 class T9 {
+	/**
+	 * { var_description }.
+	 */
 	TST<Integer> tst;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      st    { parameter_description }
+	 */
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		tst = new TST<>();
@@ -128,12 +138,24 @@ class T9 {
 		}
 	}
 
-	// get all the prefixes that match with given prefix.
+	/**
+	 * Gets all words.
+	 *
+	 * @param      prefix  The prefix
+	 *
+	 * @return     All words.
+	 */
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
 		return tst.keysWithPrefix(prefix);
 	}
-
+	/**
+	 * { function_description }.
+	 *
+	 * @param      t9Signature  The t 9 signature
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
 		// String[] nums = t9Signature.split("");
@@ -142,28 +164,38 @@ class T9 {
 			String[] word = each.split("");
 			String num = "";
 			for (String ch : word) {
-				if (ch.equals("a") || ch.equals("b") || ch.equals("c")) {
+				if (ch.equals("a")
+				        || ch.equals("b") || ch.equals("c")) {
 					num = num + "2";
 				}
-				if (ch.equals("d") || ch.equals("e") || ch.equals("f")) {
+				if (ch.equals("d")
+				        || ch.equals("e") || ch.equals("f")) {
 					num = num + "3";
 				}
-				if (ch.equals("g") || ch.equals("h") || ch.equals("i")) {
+				if (ch.equals("g")
+				        || ch.equals("h") || ch.equals("i")) {
 					num = num + "4";
 				}
-				if (ch.equals("j") || ch.equals("k") || ch.equals("l")) {
+				if (ch.equals("j")
+				        || ch.equals("k") || ch.equals("l")) {
 					num = num + "5";
 				}
-				if (ch.equals("m") || ch.equals("n") || ch.equals("o")) {
+				if (ch.equals("m")
+				        || ch.equals("n") || ch.equals("o")) {
 					num = num + "6";
 				}
-				if (ch.equals("p") || ch.equals("q") || ch.equals("r") || ch.equals("s")) {
+				if (ch.equals("p")
+				        || ch.equals("q") || ch.equals("r")
+				        || ch.equals("s")) {
 					num = num + "7";
 				}
-				if (ch.equals("t") || ch.equals("u") || ch.equals("v")) {
+				if (ch.equals("t")
+				        || ch.equals("u") || ch.equals("v")) {
 					num = num + "8";
 				}
-				if (ch.equals("w") || ch.equals("x") || ch.equals("y") || ch.equals("z")) {
+				if (ch.equals("w")
+				        || ch.equals("x") || ch.equals("y")
+				        || ch.equals("z")) {
 					num = num + "9";
 				}
 			}
@@ -177,8 +209,16 @@ class T9 {
 		return list;
 	}
 
-	// return all possibilities(words), find top k with highest frequency.
-	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
+	/**
+	 * Gets the suggestions.
+	 *
+	 * @param      words  The words
+	 * @param      k      { parameter_description }
+	 *
+	 * @return     The suggestions.
+	 */
+	public Iterable<String> getSuggestions(
+	    final Iterable<String> words, final int k) {
 		// your code goes here
 		// System.out.print("Possible : ");
 		// for(String one : words) {
@@ -187,7 +227,8 @@ class T9 {
 		//System.out.println();
 
 		ArrayList<String> al = new ArrayList<>();
-		BinarySearchST<Integer, ArrayList<String>> bst = new BinarySearchST<>();
+		BinarySearchST<Integer, ArrayList<String>> bst
+		    = new BinarySearchST<>();
 		MaxPQ<Integer> maxpq = new MaxPQ<>();
 		for (String each : words) {
 			if (tst.contains(each)) {
@@ -236,9 +277,16 @@ class T9 {
 		return al;
 	}
 
-	// final output
-	// Don't modify this method.
-	public Iterable<String> t9(String t9Signature, int k) {
+	/**
+	 * { function_description }.
+	 *
+	 * @param      t9Signature  The t 9 signature
+	 * @param      k            { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public Iterable<String> t9(
+	    final String t9Signature, final int k) {
 		return getSuggestions(potentialWords(t9Signature), k);
 	}
 }
