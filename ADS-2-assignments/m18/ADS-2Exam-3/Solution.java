@@ -199,6 +199,7 @@ class T9 {
 			System.out.println(arr2);
 			for(String a : arr2) {
 				al.add(a);
+				System.out.println(i);
 				i++;
 				if(i >= k) break;
 				
