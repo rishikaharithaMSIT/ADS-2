@@ -153,7 +153,10 @@ class T9 {
 				}
 			}
 			if(num.equals(t9Signature)) {
-				list.add(each);
+				if(tst.contains(each)) {
+					list.add(each);
+				}
+				
 			}
 		} 
 		return list;
