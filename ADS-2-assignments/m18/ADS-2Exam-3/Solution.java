@@ -198,7 +198,7 @@ class T9 {
 			for(String a : arr2) {
 				al.add(a);
 				i++;
-				if(i == k) break;
+				if(i >= k) break;
 				
 			}	
 
