@@ -132,7 +132,7 @@ class T9 {
 			bst.put(word, tst.get(word));
 		}
 		for(int i =0;i<k;i++) {
-			System.out.println(bst.max());
+			System.out.println(bst.max() + " max");
 			list.add(bst.max());
 			bst.deleteMax();
 		}
