@@ -87,16 +87,17 @@ public class Solution {
 
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
-		// your code goes here            
-            In in = new In(file);
-            String[] dictionary = in.readAllStrings();
-            for(int i =0;i< dictionary.length;i++){
-            	if(st.contains(dictionary[i])) {
-            		st.put(dictionary[i], st.get(dictionary[i])+1);
-            	} else {
-            		st.put(dictionary[i] , 1);
-            	}
-            }
+		// your code goes here
+		In in = new In(file);
+		String[] dictionary = in.readAllStrings();
+		for (int i = 0; i < dictionary.length; i++) {
+			String word = dictionary[i].toLowerCase();
+			if (st.contains(word )) {
+				st.put(word , st.get(word ) + 1);
+			} else {
+				st.put(word  , 1);
+			}
+		}
 		return st;
 	}
 
