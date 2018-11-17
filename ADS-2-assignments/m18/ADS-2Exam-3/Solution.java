@@ -87,7 +87,10 @@ public class Solution {
 
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
-		// your code goes here
+		// your code goes here            
+            In in = new In(file);
+            String[] dictionary = in.readAllStrings();
+            System.out.println(dictionary);
 		return st;
 	}
 
