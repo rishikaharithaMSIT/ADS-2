@@ -166,7 +166,10 @@ class T9 {
 		BinarySearchST<Integer, ArrayList<String>> bst = new BinarySearchST<>();
 		MaxPQ<Integer> maxpq = new MaxPQ<>();
 		for(String each : words) {
-			maxpq.insert(tst.get(each));
+			if(tst.contains(each)) {
+				maxpq.insert(tst.get(each));
+			}
+			
 		}
 		for(String each : words) {
 			int freq = tst.get(each);
