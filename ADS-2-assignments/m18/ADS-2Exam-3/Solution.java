@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Solution {
 
@@ -139,7 +140,7 @@ class T9 {
 				}
 			}
 		}
-
+		Collections.sort(al);
 		return al;
 	}
 
