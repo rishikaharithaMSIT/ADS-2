@@ -197,18 +197,19 @@ class T9 {
 			int m = maxpq.delMax();
 			ArrayList<String> arr2 = bst.get(m);
 			System.out.println(arr2);
-			for(String a : arr2) {
-				al.add(a);
-
+			for(int j =0;j<arr2.size();j++) {
+				al.add(arr2.get(j));
 				i++;
 				System.out.println(i + "-"+ k);
 				if(i >= k) break;
+			}
+				
 				
 			}	
 
 			
 			
-		}
+		
 
 		Collections.sort(al);
 		//System.out.println(al.size() + " - " + k);
