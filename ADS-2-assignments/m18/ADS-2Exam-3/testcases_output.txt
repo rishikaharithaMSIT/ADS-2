@@ -314,10 +314,29 @@ card
 care
 case
 happy
-Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:192)
-	at T9.t9(Solution.java:209)
-	at Solution.main(Solution.java:71)
+sales
+bone
+come
+poker
+roles
+real
+maps
+itor
+paces
+adds
+beer
+bffs
+jane
+jane
+kane
+lane
+lane
+chef
+ages
+aids
+bids
+paper
+pases
+keep
 ----------------------------------------
 

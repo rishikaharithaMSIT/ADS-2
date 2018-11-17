@@ -189,13 +189,15 @@ class T9 {
 		int i =0;
 
 		while(true) {
+			if(maxpq.isEmpty()) break;
 			int m = maxpq.delMax();
 			ArrayList<String> arr2 = bst.get(m);
 			for(String a : arr2) {
 				al.add(a);
 			}
 			i = i + arr2.size();
-			if(maxpq.isEmpty()) break;
+
+			
 			if(i == k) break;
 		}
 

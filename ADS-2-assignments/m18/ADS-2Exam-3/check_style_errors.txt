@@ -434,16 +434,17 @@ Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:176:27: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:189:24: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:191:22: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:194:28: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:198: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:198:27: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:199: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:199:27: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:208:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:208:36: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:208:56: Parameter k should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:192: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:192:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:195:28: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:200: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:201: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:201:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:210:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:210:36: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\Solution.java:210:56: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 67 errors.
+Checkstyle ends with 68 errors.
 Starting audit...
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\Users\ravit\Desktop\MSIT\ADS-2\ADS-2-assignments\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]
