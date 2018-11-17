@@ -94,7 +94,7 @@ public final class Solution {
 	}
 
 	// Don't modify this method.
-	public static String[] toReadFile(String file) {
+	public static String[] toReadFile(final String file) {
 		In in = new In(file);
 		return in.readAllStrings();
 	}
@@ -130,7 +130,7 @@ class T9 {
 	 *
 	 * @param      st    { parameter_description }
 	 */
-	public T9(BinarySearchST<String, Integer> st) {
+	public T9(final BinarySearchST<String, Integer> st) {
 		// your code goes here
 		tst = new TST<>();
 		for (String each : st.keys()) {
@@ -145,7 +145,7 @@ class T9 {
 	 *
 	 * @return     All words.
 	 */
-	public Iterable<String> getAllWords(String prefix) {
+	public Iterable<String> getAllWords(final String prefix) {
 		// your code goes here
 		return tst.keysWithPrefix(prefix);
 	}
@@ -156,7 +156,7 @@ class T9 {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	public Iterable<String> potentialWords(String t9Signature) {
+	public Iterable<String> potentialWords(final String t9Signature) {
 		// your code goes here
 		// String[] nums = t9Signature.split("");
 		ArrayList<String> list = new ArrayList<>();
