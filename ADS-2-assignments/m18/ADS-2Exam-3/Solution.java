@@ -203,7 +203,7 @@ class T9 {
 				System.out.println(i + "-"+ k);
 				if(i >= k) break;
 			}
-				
+			if(i >= k) break;	
 				
 			}	
 
