@@ -142,7 +142,7 @@ class T9 {
      *
      * @param      st    { parameter_description }
      */
-    public T9(final BinarySearchST<String, Integer> st) {
+    protected T9(final BinarySearchST<String, Integer> st) {
         // your code goes here
         tst = new TST<>();
         for (String each : st.keys()) {
@@ -266,7 +266,9 @@ class T9 {
         int i = 0;
 
         while (true) {
-            if (maxpq.isEmpty()) break;
+            if (maxpq.isEmpty()) {
+                break;
+            }
             int m = maxpq.delMax();
             ArrayList<String> arr2 = bst.get(m);
             //System.out.println(arr2);
