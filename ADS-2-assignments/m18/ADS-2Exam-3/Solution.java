@@ -205,6 +205,7 @@ class T9 {
 		}
 
 		Collections.sort(al);
+		System.out.println(al.size());
 		return al;
 	}
 
