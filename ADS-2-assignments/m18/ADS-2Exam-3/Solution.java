@@ -90,7 +90,7 @@ public class Solution {
 		// your code goes here            
             In in = new In(file);
             String[] dictionary = in.readAllStrings();
-            System.out.println(dictionary);
+            System.out.println(dictionary[0]);
 		return st;
 	}
 

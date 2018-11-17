@@ -10,7 +10,7 @@ Expected Output:
 149
 
 Your Output: 
-[Ljava.lang.String;@d041cf
+Go
 null
 null
 null
@@ -58,7 +58,7 @@ messagesome
 going
 
 Your Output: 
-[Ljava.lang.String;@129a8472
+Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:26)
 ----------------------------------------
@@ -128,7 +128,7 @@ fine
 seeking
 
 Your Output: 
-[Ljava.lang.String;@129a8472
+Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:38)
 ----------------------------------------
@@ -141,7 +141,7 @@ right
 words
 
 Your Output: 
-[Ljava.lang.String;@129a8472
+Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:57)
 ----------------------------------------
@@ -195,7 +195,7 @@ paper
 keep
 
 Your Output: 
-[Ljava.lang.String;@129a8472
+Go
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:70)
 ----------------------------------------
