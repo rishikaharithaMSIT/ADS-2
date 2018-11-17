@@ -129,11 +129,7 @@ class T9 {
 		ArrayList<String> list = new ArrayList<String>();
 		BinarySearchST<String, Integer> bst = new BinarySearchST<>();
 		for (String word : words) {
-			if (bst.contains(word )) {
-				bst.put(word , bst.get(word) + 1);
-			} else {
-				bst.put(word, 1);
-			}
+			bst.put(word, tst.get(word));
 		}
 		for(int i =0;i<k;i++) {
 			list.add(bst.max());
