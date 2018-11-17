@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Arrays;
 
 public class Solution {
 
@@ -195,6 +196,7 @@ class T9 {
 			if(maxpq.isEmpty()) break;
 			int m = maxpq.delMax();
 			ArrayList<String> arr2 = bst.get(m);
+			System.out.println(arr2);
 			for(String a : arr2) {
 				al.add(a);
 				i++;
