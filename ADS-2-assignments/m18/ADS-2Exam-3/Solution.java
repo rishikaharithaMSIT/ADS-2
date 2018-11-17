@@ -201,7 +201,7 @@ class T9 {
 			i = i + arr2.size();
 
 			
-			if(i == k) break;
+			if(i == k-1) break;
 		}
 
 		Collections.sort(al);
