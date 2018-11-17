@@ -195,6 +195,7 @@ class T9 {
 				al.add(a);
 			}
 			i = i + arr2.size();
+			if(maxpq.isEmpty()) break;
 			if(i == k) break;
 		}
 
