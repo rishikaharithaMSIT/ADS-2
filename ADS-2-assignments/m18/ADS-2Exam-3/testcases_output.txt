@@ -169,10 +169,6 @@ right
 words
 
 Your Output: 
-words max
-within max
-rights max
-right max
 words
 within
 rights
@@ -230,7 +226,7 @@ keep
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at T9.getSuggestions(Solution.java:131)
-	at T9.t9(Solution.java:149)
+	at T9.t9(Solution.java:144)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 
