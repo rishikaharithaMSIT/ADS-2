@@ -121,6 +121,10 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+		for(String each: tst.keys()) {
+			System.out.println(each);
+			break;
+		}
 		return null;
 	}
 
